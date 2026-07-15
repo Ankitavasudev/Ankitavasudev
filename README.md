@@ -261,10 +261,23 @@ timeline
 
 <div align="center">
 
-<!-- Aesthetic footer - different from banner -->
-<img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=1200&h=200&fit=crop&auto=format&q=80" width="100%" style="border-radius: 20px 20px 0 0; box-shadow: 0 -10px 30px rgba(0,0,0,0.5);" alt="Tech Footer"/>
+<!-- Footer with overlay effect -->
+<div style="position: relative; width: 100%; height: 300px; overflow: hidden; border-radius: 20px 20px 0 0;">
+  
+  <!-- Pinterest butterfly overlay as background -->
+  <img src="https://i.pinimg.com/736x/6a/c1/21/6ac1218e3d181e44f8651ad18541af85.jpg" width="100%" style="position: absolute; top: 0; left: 0; object-fit: cover; filter: brightness(0.7);" alt="Butterfly Overlay"/>
+  
+  <!-- User profile photo as overlay -->
+  <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center;">
+    <img src="ankita-profile.png" width="150" style="border-radius: 50%; border: 4px solid rgba(255,255,255,0.8); box-shadow: 0 0 30px rgba(255,255,255,0.4);" alt="Ankita Salaria"/>
+    <p style="color: #fff; font-size: 16px; text-shadow: 2px 2px 8px rgba(0,0,0,0.8); margin-top: 15px; letter-spacing: 3px;">
+      ✦ Thanks for visiting ✦
+    </p>
+  </div>
+  
+</div>
 
-<h3 style="color: #4A90D9; margin-top: -80px; position: relative;">Thanks for visiting! ⭐</h3>
+<h3 style="color: #4A90D9; margin-top: 20px;">Ankita Salaria</h3>
 
 <p>
   <img src="https://readme-typing-svg.demolab.com?font=Permanent+Marker&duration=2000&pause=1000&color=4A90D9&center=true&vCenter=true&multiline=true&repeat=true&width=500&height=60&lines=Keep+Coding+%F0%9F%9A%80;Keep+Learning+%F0%9F%93%9A;Keep+Growing+%F0%9F%8C%31" alt="Typing SVG" />
@@ -274,7 +287,7 @@ timeline
 
 <p><i>Last updated: <a href="https://github.com/Ankitavasudev/Ankitavasudev/commits"><img src="https://img.shields.io/github/last-commit/Ankitavasudev/Ankitavasudev?style=flat-square&color=4A90D9" alt="Last Commit"/></a></i></p>
 
-<p>Made with ❤️ and ☕ | Inspired by <a href="https://in.pinterest.com/pin/24629129208571774/">Pinterest Aesthetic</a></p>
+<p>Made with ❤️ and ☕ | Inspired by <a href="https://pin.it/3yTtMAlyU">Pinterest Aesthetic</a></p>
 
 </div>
 
