@@ -1,59 +1,48 @@
 ﻿<div align="center">
 
-<!-- ===== ANIMATED VIDEO-LIKE BANNER ===== -->
-<!-- Screen recording GIF as banner -->
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" alt="Animated Banner"/>
-
-<!-- Alternative: Use your own GIF -->
-<!-- Replace the URL below with your screen recording GIF -->
-<!-- <img src="https://your- gif-url.gif" width="100%" alt="My Coding Screen"/> -->
-
-</div>
-
----
-
-<!-- ===== PROFILE HEADER WITH ANIMATION ===== -->
-<div align="center">
-
-<!-- Animated Name -->
-<img src="https://readme-typing-svg.demolab.com?font=Permanent+Marker&weight=700&size=40&duration=2000&pause=1000&color=4A90D9&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=80&lines=%F0%9F%9A%80+Ankita+Salaria;CS+Student+%7C+AI%2FML+%7C+Open+Source" alt="Animated Name"/>
-
-</div>
-
----
-
-<!-- ===== INTRO VIDEO SECTION ===== -->
-### 🎬 Welcome to My World
-
-<div align="center">
-
-<!-- YouTube Video Embed -->
-<!-- Replace VIDEO_ID with your actual YouTube video ID -->
-<a href="https://youtu.be/your-video-id">
-  <img src="https://img.shields.io/badge/▶_Watch_My_Intro-FF0000?style=for-the-badge&logo=youtube&logoColor=white&logoWidth=30" alt="Watch Intro"/>
+<!-- ===== AESTHETIC STUDY BANNER (Pinterest Style) ===== -->
+<!-- Cinematic study aesthetic banner -->
+<a href="https://in.pinterest.com/pin/24629129208571774/">
+  <img src="https://images.unsplash.com-1497032628072-848268e09c17?w=1200&h=300&fit=crop&auto=format" width="100%" alt="Study Aesthetic Banner - Click to watch video"/>
 </a>
 
-<!-- Or embed video directly -->
-<!-- 
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; border-radius: 12px;">
-  <iframe src="https://www.youtube.com/embed/your-video-id" 
-          style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none;" 
-          allowfullscreen>
-  </iframe>
-</div>
--->
+<!-- Overlay text on banner -->
+<img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=600&size=28&duration=3000&pause=1000&color=FFFFFF&center=true&vCenter=true&multiline=true&repeat=true&width=800&height=80&lines=%F0%9F%8E%AC+Click+to+Watch+My+Aesthetic+Intro+%E2%9E%A1%EF%B8%8F;Coding+%E2%9D%A4%EF%B8%8F+Coffee+%E2%98%95+%E2%9B%85" alt="Click to Watch"/>
 
 </div>
 
 ---
 
-<!-- ===== SCREEN RECORDING GIF ===== -->
-### 💻 My Coding Setup in Action
-
+<!-- ===== CINEMATIC INTRO SECTION ===== -->
 <div align="center">
 
-<!-- Animated GIF showing your screen -->
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="80%" alt="Coding Setup"/>
+<!-- Profile Image with glow effect -->
+<img src="https://avatars.githubusercontent.com/u/255383093?v=4" width="150" style="border-radius: 50%; border: 4px solid #4A90D9; box-shadow: 0 0 20px #4A90D9;" alt="Ankita Salaria"/>
+
+<!-- Name with gradient -->
+<h1 style="background: linear-gradient(90deg, #4A90D9, #9B59B6, #E74C3C); -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-size: 40px;">
+  Ankita Salaria
+</h1>
+
+<!-- Tagline -->
+<p style="font-size: 18px; color: #8B949E;">
+  <i>"Turning caffeine into code, one commit at a time"</i>
+</p>
+
+</div>
+
+---
+
+<!-- ===== WATCH VIDEO BUTTON ===== -->
+<div align="center">
+
+<!-- Pinterest Video Link -->
+<a href="https://in.pinterest.com/pin/24629129208571774/">
+  <img src="https://img.shields.io/badge/▶️_Watch_Cinematic_Intro-FF0000?style=for-the-badge&logo=pinterest&logoColor=white&logoWidth=30&fontSize=16" alt="Watch Video"/>
+</a>
+<a href="https://github.com/Ankitavasudev">
+  <img src="https://img.shields.io/badge/⭐_Visit_Profile-4A90D9?style=for-the-badge&logo=github&logoColor=white&logoWidth=30&fontSize=16" alt="Visit Profile"/>
+</a>
 
 </div>
 
@@ -62,7 +51,7 @@
 <!-- ===== TYPING ANIMATION ===== -->
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=4A90D9&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=100&lines=Welcome+to+my+GitHub!+%F0%9F%91%8B;Turning+ideas+into+code+%F0%9F%92%A1;Building+the+future+%F0%9F%9A%80" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=4A90D9&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=100&lines=CS+Student+%7C+AI%2FML+Enthusiast+%F0%9F%92%A1;Building+AI+Applications+%F0%9F%9A%80;Open+Source+Contributor+%E2%9C%A8" alt="Typing SVG" />
 
 </div>
 
@@ -252,6 +241,9 @@ timeline
 
 <div align="center">
 
+<a href="https://in.pinterest.com/pin/24629129208571774/">
+  <img src="https://img.shields.io/badge/Pinterest-E60023?style=for-the-badge&logo=pinterest&logoColor=white&logoWidth=30" alt="Pinterest"/>
+</a>
 <a href="https://linkedin.com/in/ankita-salaria">
   <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&logoWidth=30" alt="LinkedIn"/>
 </a>
@@ -263,9 +255,6 @@ timeline
 </a>
 <a href="https://instagram.com/your-handle">
   <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white&logoWidth=30" alt="Instagram"/>
-</a>
-<a href="https://discord.gg/your-invite">
-  <img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white&logoWidth=30" alt="Discord"/>
 </a>
 
 </div>
@@ -288,17 +277,17 @@ timeline
 
 ---
 
-<!-- ===== ANIMATED FOOTER ===== -->
+<!-- ===== AESTHETIC FOOTER ===== -->
 <div align="center">
 
-<!-- Waving Animation -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,50:4A90D9,100:0D1117&height=100&section=footer"/>
+<!-- Pinterest Style Board Footer -->
+<img src="https://images.unsplash.com-1497032628072-848268e09c17?w=1200&h=100&fit=crop&auto=format" width="100%" alt="Aesthetic Footer"/>
 
 <!-- Thank You Message -->
-<h3>Thanks for visiting! ⭐</h3>
+<h3 style="color: #4A90D9;">Thanks for visiting! ⭐</h3>
 
 <p>
-  <img src="https://readme-typing-svg.demolab.com?font=Permanent+Marker&duration=2000&pause=1000&color=4A90D9&center=true&vCenter=true&multiline=true&repeat=true&width=500&height=60&lines=Keep+Coding+%F0%9F%9A%80;Keep+Learning+%F0%9F%93%9A;Keep+Growing+%F0%9F%8C%31;Keep+Shining+%E2%9C%A8" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Permanent+Marker&duration=2000&pause=1000&color=4A90D9&center=true&vCenter=true&multiline=true&repeat=true&width=500&height=60&lines=Keep+Coding+%F0%9F%9A%80;Keep+Learning+%F0%9F%93%9A;Keep+Growing+%F0%9F%8C%31" alt="Typing SVG" />
 </p>
 
 <!-- Visitor Counter -->
@@ -308,6 +297,6 @@ timeline
 <p><i>Last updated: <a href="https://github.com/Ankitavasudev/Ankitavasudev/commits"><img src="https://img.shields.io/github/last-commit/Ankitavasudev/Ankitavasudev?style=flat-square&color=4A90D9" alt="Last Commit"/></a></i></p>
 
 <!-- Made with Love -->
-<p>Made with ❤️ and ☕</p>
+<p>Made with ❤️ and ☕ | Inspired by <a href="https://in.pinterest.com/pin/24629129208571774/">Pinterest Aesthetic</a></p>
 
 </div>
