@@ -1,7 +1,7 @@
 ﻿<div align="center">
 
-<!-- ===== CINEMATIC STUDY BANNER ===== -->
-<img src="https://images.unsplash.com/photo-1497032628072-848268e09c17?w=1200&h=400&fit=crop&auto=format&q=80" width="100%" style="border-radius: 0 0 20px 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.5);" alt="Study Aesthetic Banner"/>
+<!-- ===== CINEMATIC STUDY BANNER (GIF) ===== -->
+<img src="banner.gif" width="100%" style="border-radius: 0 0 20px 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.5);" alt="Study Aesthetic Banner"/>
 
 <!-- Aesthetic Name Overlay -->
 <div style="position: relative; margin-top: -120px; margin-bottom: 50px;">
@@ -261,7 +261,8 @@ timeline
 
 <div align="center">
 
-<img src="https://images.unsplash.com/photo-1497032628072-848268e09c17?w=1200&h=150&fit=crop&auto=format&q=80" width="100%" style="border-radius: 20px 20px 0 0; box-shadow: 0 -10px 30px rgba(0,0,0,0.5);" alt="Aesthetic Footer"/>
+<!-- Aesthetic footer -->
+<img src="banner.gif" width="100%" style="border-radius: 20px 20px 0 0; box-shadow: 0 -10px 30px rgba(0,0,0,0.5);" alt="Aesthetic Footer"/>
 
 <h3 style="color: #4A90D9; margin-top: -80px; position: relative;">Thanks for visiting! ⭐</h3>
 
