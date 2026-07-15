@@ -261,8 +261,8 @@ timeline
 
 <div align="center">
 
-<!-- Aesthetic footer -->
-<img src="banner.gif" width="100%" style="border-radius: 20px 20px 0 0; box-shadow: 0 -10px 30px rgba(0,0,0,0.5);" alt="Aesthetic Footer"/>
+<!-- Aesthetic footer - different from banner -->
+<img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=1200&h=200&fit=crop&auto=format&q=80" width="100%" style="border-radius: 20px 20px 0 0; box-shadow: 0 -10px 30px rgba(0,0,0,0.5);" alt="Tech Footer"/>
 
 <h3 style="color: #4A90D9; margin-top: -80px; position: relative;">Thanks for visiting! ⭐</h3>
 
