@@ -3,9 +3,14 @@
 <!-- ===== CINEMATIC STUDY BANNER ===== -->
 <img src="https://images.unsplash.com/photo-1497032628072-848268e09c17?w=1200&h=400&fit=crop&auto=format&q=80" width="100%" style="border-radius: 0 0 20px 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.5);" alt="Study Aesthetic Banner"/>
 
-<!-- Animated Text -->
-<img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=600&size=32&duration=2500&pause=800&color=FFFFFF&center=true&vCenter=true&multiline=true&repeat=true&width=900&height=100&lines=%F0%9F%8E%AC+Welcome+to+My+Coding+Universe;%F0%9F%92%A1+Where+Ideas+Become+Code+%E2%9C%A8" alt="Welcome Text" style="position: relative; margin-top: -80px;"/>
-
+<!-- Aesthetic Name Overlay -->
+<div style="position: relative; margin-top: -120px; margin-bottom: 50px;">
+  <h1 style="font-family: 'Georgia', serif; font-size: 56px; color: #fff; text-shadow: 2px 2px 8px rgba(0,0,0,0.7); letter-spacing: 4px; font-weight: 300;">
+    Ankita Salaria
+  </h1>
+  <p style="font-family: 'Georgia', serif; font-size: 18px; color: #e0d4c8; letter-spacing: 8px; text-transform: uppercase; text-shadow: 1px 1px 4px rgba(0,0,0,0.6);">
+    ✦ coder · creator · dreamer ✦
+  </p>
 </div>
 
 ---
