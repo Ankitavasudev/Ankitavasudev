@@ -261,21 +261,8 @@ timeline
 
 <div align="center">
 
-<!-- Footer with overlay effect -->
-<div style="position: relative; width: 100%; height: 300px; overflow: hidden; border-radius: 20px 20px 0 0;">
-  
-  <!-- Pinterest butterfly overlay as background -->
-  <img src="https://i.pinimg.com/736x/6a/c1/21/6ac1218e3d181e44f8651ad18541af85.jpg" width="100%" style="position: absolute; top: 0; left: 0; object-fit: cover; filter: brightness(0.7);" alt="Butterfly Overlay"/>
-  
-  <!-- User profile photo as overlay -->
-  <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center;">
-    <img src="ankita-profile.png" width="150" style="border-radius: 50%; border: 4px solid rgba(255,255,255,0.8); box-shadow: 0 0 30px rgba(255,255,255,0.4);" alt="Ankita Salaria"/>
-    <p style="color: #fff; font-size: 16px; text-shadow: 2px 2px 8px rgba(0,0,0,0.8); margin-top: 15px; letter-spacing: 3px;">
-      ✦ Thanks for visiting ✦
-    </p>
-  </div>
-  
-</div>
+<!-- Footer with merged banner -->
+<img src="footer-banner.png" width="100%" style="border-radius: 20px 20px 0 0; box-shadow: 0 -10px 30px rgba(0,0,0,0.5);" alt="Footer Banner"/>
 
 <h3 style="color: #4A90D9; margin-top: 20px;">Ankita Salaria</h3>
 
