@@ -1,33 +1,74 @@
 ﻿<div align="center">
 
-<!-- ===== ANIMATED GRADIENT HEADER ===== -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,50:4A90D9,100:0D1117&height=200&section=header&text=Ankita%20Salaria&fontSize=80&fontColor=ffffff&fontAlignY=35&desc=CS%20Student%20%7C%20AI%2FML%20Enthusiast%20%7C%20Open%20Source&descSize=18&descAlignY=55&animation=twinkling"/>
+<!-- ===== ANIMATED VIDEO-LIKE BANNER ===== -->
+<!-- Screen recording GIF as banner -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" alt="Animated Banner"/>
+
+<!-- Alternative: Use your own GIF -->
+<!-- Replace the URL below with your screen recording GIF -->
+<!-- <img src="https://your- gif-url.gif" width="100%" alt="My Coding Screen"/> -->
 
 </div>
 
 ---
 
-<!-- ===== TYPING SVG ANIMATION ===== -->
+<!-- ===== PROFILE HEADER WITH ANIMATION ===== -->
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=600&size=24&duration=3000&pause=1000&color=4A90D9&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=100&lines=Welcome+to+my+digital+space+%F0%9F%91%8B;Turning+coffee+into+code+since+2024+%E2%98%95;Building+the+future+one+commit+at+a+time+%F0%9F%9A%80" alt="Typing SVG" />
+<!-- Animated Name -->
+<img src="https://readme-typing-svg.demolab.com?font=Permanent+Marker&weight=700&size=40&duration=2000&pause=1000&color=4A90D9&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=80&lines=%F0%9F%9A%80+Ankita+Salaria;CS+Student+%7C+AI%2FML+%7C+Open+Source" alt="Animated Name"/>
 
 </div>
 
 ---
 
-<!-- ===== STATUS CARDS ===== -->
+<!-- ===== INTRO VIDEO SECTION ===== -->
+### 🎬 Welcome to My World
+
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=Ankitavasudev&show_icons=true&theme=radical&hide_border=true&count_private=true&include_all_commits=true" width="48%" />
-&nbsp;
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Ankitavasudev&theme=radical&hide_border=true" width="48%" />
+<!-- YouTube Video Embed -->
+<!-- Replace VIDEO_ID with your actual YouTube video ID -->
+<a href="https://youtu.be/your-video-id">
+  <img src="https://img.shields.io/badge/▶_Watch_My_Intro-FF0000?style=for-the-badge&logo=youtube&logoColor=white&logoWidth=30" alt="Watch Intro"/>
+</a>
+
+<!-- Or embed video directly -->
+<!-- 
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; border-radius: 12px;">
+  <iframe src="https://www.youtube.com/embed/your-video-id" 
+          style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none;" 
+          allowfullscreen>
+  </iframe>
+</div>
+-->
 
 </div>
 
 ---
 
-<!-- ===== ABOUT SECTION ===== -->
+<!-- ===== SCREEN RECORDING GIF ===== -->
+### 💻 My Coding Setup in Action
+
+<div align="center">
+
+<!-- Animated GIF showing your screen -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="80%" alt="Coding Setup"/>
+
+</div>
+
+---
+
+<!-- ===== TYPING ANIMATION ===== -->
+<div align="center">
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=4A90D9&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=100&lines=Welcome+to+my+GitHub!+%F0%9F%91%8B;Turning+ideas+into+code+%F0%9F%92%A1;Building+the+future+%F0%9F%9A%80" alt="Typing SVG" />
+
+</div>
+
+---
+
+<!-- ===== ABOUT ME ===== -->
 <table>
 <tr>
 <td width="50%">
@@ -98,36 +139,20 @@ philosophy: "Write code that humans can read"
 
 ---
 
-<!-- ===== FEATURED PROJECTS ===== -->
-### 🌟 Featured Projects
+<!-- ===== GITHUB STATS ===== -->
+### 📊 GitHub Analytics
 
 <div align="center">
 
-<!-- Project 1 -->
-<a href="https://github.com/Ankitavasudev/project1">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Ankitavasudev&repo=project1&theme=radical&hide_border=true" alt="Project 1"/>
-</a>
-
-<!-- Project 2 -->
-<a href="https://github.com/Ankitavasudev/project2">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Ankitavasudev&repo=project2&theme=radical&hide_border=true" alt="Project 2"/>
-</a>
-
-<!-- Project 3 -->
-<a href="https://github.com/Ankitavasudev/project3">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Ankitavasudev&repo=project3&theme=radical&hide_border=true" alt="Project 3"/>
-</a>
+<img src="https://github-readme-stats.vercel.app/api?username=Ankitavasudev&show_icons=true&theme=radical&hide_border=true&count_private=true&include_all_commits=true" width="48%" />
+&nbsp;
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=Ankitavasudev&theme=radical&hide_border=true" width="48%" />
 
 </div>
 
----
-
-<!-- ===== CONTRIBUTION GRAPH ===== -->
-### 📈 Contribution Activity
-
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Ankitavasudev&bg_color=0D1117&color=4A90D9&line=4A90D9&point=FFFFFF&area=true&area_color=4A90D9&hide_border=true" width="95%" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ankitavasudev&layout=compact&theme=radical&hide_border=true&langs_count=8" width="40%" />
 
 </div>
 
@@ -144,12 +169,12 @@ philosophy: "Write code that humans can read"
 
 ---
 
-<!-- ===== TOP LANGUAGES ===== -->
-### 💻 Language Proficiency
+<!-- ===== CONTRIBUTION GRAPH ===== -->
+### 📈 Contribution Activity
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ankitavasudev&layout=compact&theme=radical&hide_border=true&langs_count=8" width="40%" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Ankitavasudev&bg_color=0D1117&color=4A90D9&line=4A90D9&point=FFFFFF&area=true&area_color=4A90D9&hide_border=true" width="95%" />
 
 </div>
 
@@ -209,17 +234,6 @@ timeline
 
 ---
 
-<!-- ===== GITHUB STREAK ===== -->
-### 🔥 GitHub Streak
-
-<div align="center">
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Ankitavasudev&theme=radical&hide_border=true&background=0D1117" width="70%" />
-
-</div>
-
----
-
 <!-- ===== RANDOM DEV QUOTE ===== -->
 ### 💡 Daily Dev Wisdom
 
@@ -271,14 +285,6 @@ timeline
 </a>
 
 </div>
-
----
-
-<!-- ===== ACTIVITY GRAPH ===== -->
-### 📊 My Coding Journey
-
-<!-- Paste your activity graph SVG here -->
-<!-- Generate from: https://github-contributions.vercel.app/ -->
 
 ---
 
