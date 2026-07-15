@@ -1,48 +1,36 @@
 ﻿<div align="center">
 
-<!-- ===== AESTHETIC STUDY BANNER (Pinterest Style) ===== -->
-<!-- Cinematic study aesthetic banner -->
-<a href="https://in.pinterest.com/pin/24629129208571774/">
-  <img src="https://images.unsplash.com-1497032628072-848268e09c17?w=1200&h=300&fit=crop&auto=format" width="100%" alt="Study Aesthetic Banner - Click to watch video"/>
-</a>
+<!-- ===== ACTUAL VIDEO BANNER (Screen Recording GIF) ===== -->
+<!-- This will look like a video playing in the banner -->
 
-<!-- Overlay text on banner -->
-<img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=600&size=28&duration=3000&pause=1000&color=FFFFFF&center=true&vCenter=true&multiline=true&repeat=true&width=800&height=80&lines=%F0%9F%8E%AC+Click+to+Watch+My+Aesthetic+Intro+%E2%9E%A1%EF%B8%8F;Coding+%E2%9D%A4%EF%B8%8F+Coffee+%E2%98%95+%E2%9B%85" alt="Click to Watch"/>
+<!-- Option 1: Animated GIF Banner (looks like video) -->
+<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExaHZ6eG10eDR3cmt6eW10eDR3cmt6eW10eDR3cmt6/giphy.gif" width="100%" alt="Coding Video Banner"/>
+
+<!-- Option 2: Use your own GIF - Replace URL below -->
+<!-- <img src="YOUR_GIF_URL_HERE.gif" width="100%" alt="My Coding Video"/> -->
+
+<!-- Option 3: Screen recording from Pin It -->
+<!-- <img src="https://i.pinimg.com/originals/YOUR_PIN_ID.gif" width="100%" alt="Video Banner"/> -->
 
 </div>
 
 ---
 
-<!-- ===== CINEMATIC INTRO SECTION ===== -->
+<!-- ===== PROFILE HEADER ===== -->
 <div align="center">
 
-<!-- Profile Image with glow effect -->
-<img src="https://avatars.githubusercontent.com/u/255383093?v=4" width="150" style="border-radius: 50%; border: 4px solid #4A90D9; box-shadow: 0 0 20px #4A90D9;" alt="Ankita Salaria"/>
+<!-- Profile Image with glow -->
+<img src="https://avatars.githubusercontent.com/u/255383093?v=4" width="150" style="border-radius: 50%; border: 4px solid #4A90D9; box-shadow: 0 0 30px #4A90D9;" alt="Ankita Salaria"/>
 
-<!-- Name with gradient -->
+<!-- Name -->
 <h1 style="background: linear-gradient(90deg, #4A90D9, #9B59B6, #E74C3C); -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-size: 40px;">
   Ankita Salaria
 </h1>
 
 <!-- Tagline -->
 <p style="font-size: 18px; color: #8B949E;">
-  <i>"Turning caffeine into code, one commit at a time"</i>
+  <i>"Debugging is like being a detective in a crime movie where you are also the murderer"</i>
 </p>
-
-</div>
-
----
-
-<!-- ===== WATCH VIDEO BUTTON ===== -->
-<div align="center">
-
-<!-- Pinterest Video Link -->
-<a href="https://in.pinterest.com/pin/24629129208571774/">
-  <img src="https://img.shields.io/badge/▶️_Watch_Cinematic_Intro-FF0000?style=for-the-badge&logo=pinterest&logoColor=white&logoWidth=30&fontSize=16" alt="Watch Video"/>
-</a>
-<a href="https://github.com/Ankitavasudev">
-  <img src="https://img.shields.io/badge/⭐_Visit_Profile-4A90D9?style=for-the-badge&logo=github&logoColor=white&logoWidth=30&fontSize=16" alt="Visit Profile"/>
-</a>
 
 </div>
 
@@ -277,11 +265,11 @@ timeline
 
 ---
 
-<!-- ===== AESTHETIC FOOTER ===== -->
+<!-- ===== ANIMATED FOOTER ===== -->
 <div align="center">
 
-<!-- Pinterest Style Board Footer -->
-<img src="https://images.unsplash.com-1497032628072-848268e09c17?w=1200&h=100&fit=crop&auto=format" width="100%" alt="Aesthetic Footer"/>
+<!-- Waving Animation -->
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,50:4A90D9,100:0D1117&height=100&section=footer"/>
 
 <!-- Thank You Message -->
 <h3 style="color: #4A90D9;">Thanks for visiting! ⭐</h3>
