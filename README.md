@@ -1,137 +1,111 @@
-﻿<div align="center">
-
-<!-- ===== CINEMATIC STUDY BANNER (GIF) ===== -->
-<img src="banner.gif" width="100%" style="border-radius: 0 0 20px 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.5);" alt="Study Aesthetic Banner"/>
-
-<!-- Aesthetic Name Overlay -->
-<div style="position: relative; margin-top: -120px; margin-bottom: 50px;">
-  <h1 style="font-family: 'Georgia', serif; font-size: 56px; color: #fff; text-shadow: 2px 2px 8px rgba(0,0,0,0.7); letter-spacing: 4px; font-weight: 300;">
-    Ankita Salaria
-  </h1>
-  <p style="font-family: 'Georgia', serif; font-size: 18px; color: #e0d4c8; letter-spacing: 8px; text-transform: uppercase; text-shadow: 1px 1px 4px rgba(0,0,0,0.6);">
-    coder · creator · dreamer
-  </p>
-</div>
-
----
-
 <div align="center">
 
-<img src="https://avatars.githubusercontent.com/u/255383093?v=4" width="180" style="border-radius: 50%; border: 5px solid #4A90D9; box-shadow: 0 0 40px #4A90D9, 0 0 80px rgba(74,144,217,0.5);" alt="Ankita Salaria"/>
+# Ankita Salaria
 
-<h1 style="background: linear-gradient(90deg, #4A90D9, #9B59B6, #E74C3C, #4A90D9); background-size: 200% auto; animation: gradient 3s ease infinite; -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-size: 48px; font-weight: bold;">
-  Ankita Salaria
-</h1>
+### CS Student | Cloud-Native Enthusiast | Open Source Contributor
 
-<p style="font-size: 20px; color: #8B949E; font-style: italic;">
-  <i>"Turning caffeine into code, one commit at a time"</i>
-</p>
-
-<div style="margin-top: 20px;">
-<a href="https://linkedin.com/in/ankitasalaria21">
-  <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=social&logo=linkedin" alt="LinkedIn"/>
-</a>
-<a href="https://github.com/Ankitavasudev">
-  <img src="https://img.shields.io/badge/GitHub-100000?style=social&logo=github" alt="GitHub"/>
-</a>
-</div>
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/ankitasalaria)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Ankitavasudev)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ankitasalaria21@gmail.com)
 
 </div>
 
 ---
 
-<div align="center">
+## About Me
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=1000&color=4A90D9&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=100&lines=CS+Student+%7C+AI%2FML+Developer;Open+Source+Contributor+@penpot;GSoC+2026+Aspirant" alt="Typing SVG" />
-
-</div>
-
----
-
-### 🛠️ Tech Stack
-
-<div align="center">
-
-<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white&logoWidth=30" alt="Python"/>
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black&logoWidth=30" alt="JavaScript"/>
-<img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black&logoWidth=30" alt="React"/>
-<img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white&logoWidth=30" alt="FastAPI"/>
-<img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white&logoWidth=30" alt="TensorFlow"/>
-<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white&logoWidth=30" alt="Docker"/>
-<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white&logoWidth=30" alt="Git"/>
-<img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black&logoWidth=30" alt="Linux"/>
-
-</div>
-
----
-
-### 📂 Projects
-
-<table>
-<tr>
-<td width="50%">
-
-#### 🎮 Cosmic Odyssey
-3D solar system exploration game
-- Three.js, Vite, WebGL
-- [GitHub](https://github.com/Ankitavasudev/SolarSystem)
-
-</td>
-<td width="50%">
-
-#### 🪞 MoodMirror
-AI sentiment analysis platform
-- FastAPI, React, TensorFlow
-- [GitHub](https://github.com/Ankitavasudev/effective-dollop)
-
-</td>
-</tr>
-<tr>
-<td width="50%">
-
-#### 😄 Giggle
-Fun joke generator CLI
-- Node.js, JavaScript
-- [GitHub](https://github.com/Ankitavasudev/giggle)
-
-</td>
-<td width="50%">
-
-#### 🐍 Py.repo
-Python projects collection
-- Python
-- [GitHub](https://github.com/Ankitavasudev/Py.repo)
-
-</td>
-</tr>
-</table>
-
----
-
-### 📊 GitHub Stats
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=Ankitavasudev&show_icons=true&theme=radical&hide_border=true" width="48%" />
-&nbsp;
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ankitavasudev&layout=compact&theme=radical&hide_border=true&langs_count=8" width="48%" />
-
-</div>
-
----
-
-<div align="center">
-
-<img src="footer-banner.png" width="100%" style="border-radius: 20px 20px 0 0; box-shadow: 0 -10px 30px rgba(0,0,0,0.5);" alt="Footer Banner"/>
-
-<p>Made with ❤️ and ☕</p>
-
-</div>
-
-<style>
-@keyframes gradient {
-  0% { background-position: 0% 50%; }
-  50% { background-position: 100% 50%; }
-  100% { background-position: 0% 50%; }
+```go
+type Developer struct {
+    Name      string   // Ankita Salaria
+    Role      string   // CS Student & Open Source Contributor
+    Focus     string   // Cloud-Native | Kubernetes | AI/ML
+    Languages []string // Go, Python, JavaScript, TypeScript
+    Interests []string // CNCF, Observability, Edge Computing, AI
+    Goal      string   // LFX Mentorship Fall 2026
 }
-</style>
+```
+
+---
+
+## Tech Stack
+
+| Category | Technologies |
+|----------|-------------|
+| **Languages** | Go, Python, JavaScript, TypeScript, C++ |
+| **Cloud-Native** | Kubernetes, Docker, Helm, Prometheus, Grafana |
+| **Observability** | OpenTelemetry, Jaeger, ELK Stack |
+| **AI/ML** | YOLOv8, ResNet50, TensorFlow, PyTorch |
+| **DevOps** | GitHub Actions, CI/CD, Terraform |
+| **Databases** | PostgreSQL, MongoDB, Redis |
+
+---
+
+## Featured Projects
+
+### Cloud-Native Tools
+
+| Project | Description | Tech |
+|---------|-------------|------|
+| [**k8s-health-monitor**](https://github.com/Ankitavasudev/k8s-health-monitor) | Real-time Kubernetes cluster health checker with rich terminal UI | Go, Rich, kubectl |
+| [**go-task-cli**](https://github.com/Ankitavasudev/go-task-cli) | Minimal task manager CLI with cobra | Go, Cobra |
+
+### AI-Powered Platforms
+
+| Project | Description | Tech |
+|---------|-------------|------|
+| [**WildScope AI**](https://wildscope-3006dv9j1-ankitasalaria21-7312s-projects.vercel.app) | Wildlife detection & analytics platform | React, AI, Vercel |
+| [**CodeLens AI**](https://github.com/Ankitavasudev/CodeLens-AI) | AI code review platform | JavaScript, Python |
+| [**DevPulse**](https://github.com/Ankitavasudev/DevPulse) | Developer activity tracker | JavaScript |
+| [**VoxNote**](https://github.com/Ankitavasudev/VoxNote) | Voice-to-notes platform | JavaScript |
+| [**NexusBoard**](https://github.com/Ankitavasudev/NexusBoard) | Collaborative dashboard | JavaScript |
+
+---
+
+## Open Source Contributions
+
+```
+PRs Merged: 4+
+Repos Contributed: k8s-health-monitor, go-task-cli
+Focus Areas: Cloud-Native, Kubernetes, Go CLI Tools
+```
+
+### Recent Activity
+- feat: Add Docker support for containerized deployment (k8s-health-monitor)
+- test: Add comprehensive unit tests (k8s-health-monitor)
+- ci: Add GitHub Actions CI/CD pipeline (k8s-health-monitor)
+- feat: Add stats command (go-task-cli)
+
+---
+
+## LFX Mentorship Goals
+
+**Target:** Fall 2026 (Sep 7 - Nov 27)
+
+**Preferred Projects:**
+- Kubernetes ecosystem (Karmada, KubeEdge, OpenYurt)
+- Observability (OpenTelemetry, Jaeger, Prometheus)
+- Cloud-Native Security (Kubescape, Kyverno)
+
+**Available Skills:**
+- Go programming (CLI tools, Kubernetes operators)
+- Python (AI/ML, scripting, testing)
+- Docker & Kubernetes (deployment, monitoring)
+- CI/CD (GitHub Actions, pipelines)
+
+---
+
+<div align="center">
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Ankitavasudev&show_icons=true&theme=radical&hide_border=true)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Ankitavasudev&layout=compact&theme=radical&hide_border=true)
+
+</div>
+
+---
+
+<div align="center">
+
+*"Building cloud-native tools that make infrastructure observable, secure, and intelligent."*
+
+</div>
