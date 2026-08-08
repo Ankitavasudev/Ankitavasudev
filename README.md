@@ -2,11 +2,11 @@
 
 # Ankita Salaria
 
-### CS Student | Cloud-Native Enthusiast | Open Source Contributor
+### CS Student | Aspiring Open Source Contributor
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/ankitasalaria)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Ankitavasudev)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ankitasalaria21@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/ankitasalaria)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Ankitavasudev)
+[![Email](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:ankitasalaria21@gmail.com)
 
 </div>
 
@@ -14,91 +14,102 @@
 
 ## About Me
 
-```go
-type Developer struct {
-    Name      string   // Ankita Salaria
-    Role      string   // CS Student & Open Source Contributor
-    Focus     string   // Cloud-Native | Kubernetes | AI/ML
-    Languages []string // Go, Python, JavaScript, TypeScript
-    Interests []string // CNCF, Observability, Edge Computing, AI
-    Goal      string   // LFX Mentorship Fall 2026
+CS student passionate about cloud-native technologies and open source. Currently learning Kubernetes internals and contributing to CNCF projects.
+
+`go
+type Me struct {
+    Name       string // Ankita Salaria
+    Learning   string // Go, Kubernetes, Observability
+    Building   string // CLI tools for cloud-native infrastructure
+    Goal       string // LFX Mentorship Fall 2026
+    Currently  string // Contributing to Jaeger & Prometheus
 }
-```
+`
 
 ---
 
-## Tech Stack
+## Skills (In Progress)
 
-| Category | Technologies |
-|----------|-------------|
-| **Languages** | Go, Python, JavaScript, TypeScript, C++ |
-| **Cloud-Native** | Kubernetes, Docker, Helm, Prometheus, Grafana |
-| **Observability** | OpenTelemetry, Jaeger, ELK Stack |
-| **AI/ML** | YOLOv8, ResNet50, TensorFlow, PyTorch |
-| **DevOps** | GitHub Actions, CI/CD, Terraform |
-| **Databases** | PostgreSQL, MongoDB, Redis |
+| Category | What I Know | Learning |
+|----------|-------------|----------|
+| **Go** | CLI tools, structs, interfaces | Kubernetes operators, controllers |
+| **Python** | Scripting, testing, automation | ML pipelines, data processing |
+| **Kubernetes** | kubectl, pods, deployments, services | CRDs, operators, RBAC |
+| **Docker** | Dockerfiles, compose, multi-stage | Security scanning, optimization |
+| **CI/CD** | GitHub Actions basics | Pipeline design, matrix builds |
+| **Linux** | Command line, bash scripting | System calls, kernel basics |
 
 ---
 
-## Featured Projects
+## Projects
 
-### Cloud-Native Tools
+### k8s-health-monitor
+Kubernetes cluster health checker with security scanning, PVC analysis, and RBAC audit.
 
-| Project | Description | Tech |
-|---------|-------------|------|
-| [**k8s-health-monitor**](https://github.com/Ankitavasudev/k8s-health-monitor) | Real-time Kubernetes cluster health checker with rich terminal UI | Go, Rich, kubectl |
-| [**go-task-cli**](https://github.com/Ankitavasudev/go-task-cli) | Minimal task manager CLI with cobra | Go, Cobra |
+`
+Language: Python + Go
+Features: Security scanner, resource quotas, network policies, recommendations
+Status: v3.0 with 4 merged PRs
+`
+[GitHub](https://github.com/Ankitavasudev/k8s-health-monitor)
 
-### AI-Powered Platforms
+### go-task-cli
+Task manager CLI with file persistence, priorities, due dates, and tags.
 
-| Project | Description | Tech |
-|---------|-------------|------|
-| [**WildScope AI**](https://wildscope-3006dv9j1-ankitasalaria21-7312s-projects.vercel.app) | Wildlife detection & analytics platform | React, AI, Vercel |
-| [**CodeLens AI**](https://github.com/Ankitavasudev/CodeLens-AI) | AI code review platform | JavaScript, Python |
-| [**DevPulse**](https://github.com/Ankitavasudev/DevPulse) | Developer activity tracker | JavaScript |
-| [**VoxNote**](https://github.com/Ankitavasudev/VoxNote) | Voice-to-notes platform | JavaScript |
-| [**NexusBoard**](https://github.com/Ankitavasudev/NexusBoard) | Collaborative dashboard | JavaScript |
+`
+Language: Go (cobra)
+Features: JSON persistence, priority levels, due dates, search, export
+Status: v2.0 with 2 merged PRs
+`
+[GitHub](https://github.com/Ankitavasudev/go-task-cli)
+
+### container-lint
+Dockerfile and docker-compose.yml linter with security checks.
+
+`
+Language: Python
+Features: Dockerfile rules, docker-compose validation, security checks
+Status: v1.0
+`
+[GitHub](https://github.com/Ankitavasudev/container-lint)
 
 ---
 
 ## Open Source Contributions
 
-```
-PRs Merged: 4+
-Repos Contributed: k8s-health-monitor, go-task-cli
-Focus Areas: Cloud-Native, Kubernetes, Go CLI Tools
-```
-
-### Recent Activity
-- feat: Add Docker support for containerized deployment (k8s-health-monitor)
-- test: Add comprehensive unit tests (k8s-health-monitor)
-- ci: Add GitHub Actions CI/CD pipeline (k8s-health-monitor)
-- feat: Add stats command (go-task-cli)
+| Project | PR | Status |
+|---------|-----|--------|
+| [jaegertracing/jaeger](https://github.com/jaegertracing/jaeger/pull/9267) | docs: Add Docker and Go Report Card badges | Open |
+| [prometheus/prometheus](https://github.com/prometheus/prometheus/pull/19372) | docs: Add Docker and Go Report Card badges | Open |
+| k8s-health-monitor | 4 PRs (Docker, Tests, CI, v3.0 upgrade) | Merged |
+| go-task-cli | 2 PRs (Stats, Advanced features) | Merged |
 
 ---
 
-## LFX Mentorship Goals
+## LFX Mentorship
 
 **Target:** Fall 2026 (Sep 7 - Nov 27)
 
-**Preferred Projects:**
-- Kubernetes ecosystem (Karmada, KubeEdge, OpenYurt)
-- Observability (OpenTelemetry, Jaeger, Prometheus)
-- Cloud-Native Security (Kubescape, Kyverno)
+**Why LFX?**
+I want to contribute to production-grade cloud-native projects under experienced mentors. My goal is to learn Kubernetes internals, observability patterns, and open source best practices.
 
-**Available Skills:**
-- Go programming (CLI tools, Kubernetes operators)
-- Python (AI/ML, scripting, testing)
-- Docker & Kubernetes (deployment, monitoring)
-- CI/CD (GitHub Actions, pipelines)
+**What I Bring:**
+- Go programming (CLI tools, data structures)
+- Python (automation, testing)
+- Docker & basic Kubernetes knowledge
+- Eagerness to learn and contribute
+
+**What I Want to Learn:**
+- Kubernetes operator development
+- Distributed systems architecture
+- Observability (OpenTelemetry, tracing)
+- Open source community practices
 
 ---
 
 <div align="center">
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Ankitavasudev&show_icons=true&theme=radical&hide_border=true)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Ankitavasudev&layout=compact&theme=radical&hide_border=true)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Ankitavasudev&show_icons=true&theme=radical&hide_border=true&count_private=true)
 
 </div>
 
@@ -106,6 +117,6 @@ Focus Areas: Cloud-Native, Kubernetes, Go CLI Tools
 
 <div align="center">
 
-*"Building cloud-native tools that make infrastructure observable, secure, and intelligent."*
+*"Learning cloud-native technologies, one commit at a time."*
 
 </div>
