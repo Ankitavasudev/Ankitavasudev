@@ -1,12 +1,11 @@
 <div align="center">
 
-# Ankita Salaria
+# Hi, I'm Ankita Salaria 👋
 
-### CS Student | Aspiring Open Source Contributor
+**CS Student | Open Source Contributor | Building with Go, Python & Kubernetes**
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/ankitasalaria)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Ankitavasudev)
-[![Email](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:ankitasalaria21@gmail.com)
+[![GitHub](https://img.shields.io/badge/-Ankitavasudev-181717?style=flat&logo=github)](https://github.com/Ankitavasudev)
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat&logo=linkedin)](https://linkedin.com/in/ankita-salaria)
 
 </div>
 
@@ -14,102 +13,122 @@
 
 ## About Me
 
-CS student passionate about cloud-native technologies and open source. Currently learning Kubernetes internals and contributing to CNCF projects.
+CS student passionate about cloud-native technologies and open source. Currently exploring Kubernetes ecosystems, building developer tools, and contributing to CNCF projects. Interested in how distributed systems work and how to make them more observable.
 
-`go
-type Me struct {
-    Name       string // Ankita Salaria
-    Learning   string // Go, Kubernetes, Observability
-    Building   string // CLI tools for cloud-native infrastructure
-    Goal       string // LFX Mentorship Fall 2026
-    Currently  string // Contributing to Jaeger & Prometheus
-}
-`
+- 🔭 Working on **Kubernetes tools** and **developer CLI utilities**
+- 🌱 Learning **Go**, **Kubernetes internals**, and **observability**
+- 👯 Looking to collaborate on **CNCF projects** and **cloud-native tooling**
+- 💬 Ask me about **Go**, **Python**, **Kubernetes**, or **open source contribution**
+- 📫 Reach me: **ankitasalaria21@gmail.com**
 
 ---
 
-## Skills (In Progress)
+## Tech Stack
 
-| Category | What I Know | Learning |
-|----------|-------------|----------|
-| **Go** | CLI tools, structs, interfaces | Kubernetes operators, controllers |
-| **Python** | Scripting, testing, automation | ML pipelines, data processing |
-| **Kubernetes** | kubectl, pods, deployments, services | CRDs, operators, RBAC |
-| **Docker** | Dockerfiles, compose, multi-stage | Security scanning, optimization |
-| **CI/CD** | GitHub Actions basics | Pipeline design, matrix builds |
-| **Linux** | Command line, bash scripting | System calls, kernel basics |
+<div align="center">
+
+![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
+
+</div>
 
 ---
 
-## Projects
+## GitHub Stats
 
-### k8s-health-monitor
-Kubernetes cluster health checker with security scanning, PVC analysis, and RBAC audit.
+<div align="center">
 
-`
-Language: Python + Go
-Features: Security scanner, resource quotas, network policies, recommendations
-Status: v3.0 with 4 merged PRs
-`
-[GitHub](https://github.com/Ankitavasudev/k8s-health-monitor)
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=Ankitavasudev&show_icons=true&theme=radical&hide_border=true&count_private=true" />
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ankitavasudev&layout=compact&theme=radical&hide_border=true" />
 
-### go-task-cli
-Task manager CLI with file persistence, priorities, due dates, and tags.
+</div>
 
-`
-Language: Go (cobra)
-Features: JSON persistence, priority levels, due dates, search, export
-Status: v2.0 with 2 merged PRs
-`
-[GitHub](https://github.com/Ankitavasudev/go-task-cli)
+<div align="center">
 
-### container-lint
-Dockerfile and docker-compose.yml linter with security checks.
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Ankitavasudev&theme=radical&hide_border=true)
 
-`
-Language: Python
-Features: Dockerfile rules, docker-compose validation, security checks
-Status: v1.0
-`
-[GitHub](https://github.com/Ankitavasudev/container-lint)
+</div>
+
+---
+
+## Featured Projects
+
+<table>
+<tr>
+<td width="50%">
+
+### 🛠️ K8s Health Monitor
+Advanced Kubernetes cluster health checker with security scanning, resource visualization, and namespace comparison.
+
+`Python` `Kubernetes` `Rich` `CLI`
+
+[![CI](https://github.com/Ankitavasudev/k8s-health-monitor/actions/workflows/ci.yml/badge.svg)](https://github.com/Ankitavasudev/k8s-health-monitor/actions)
+
+</td>
+<td width="50%">
+
+### 📋 Go Task CLI
+Feature-rich task manager built in Go with CSV import/export, scheduling, and webhook notifications.
+
+`Go` `CLI` `CSV` `Scheduler`
+
+[![CI](https://github.com/Ankitavasudev/go-task-cli/actions/workflows/ci.yml/badge.svg)](https://github.com/Ankitavasudev/go-task-cli/actions)
+
+</td>
+</tr>
+<tr>
+<td>
+
+### 🔍 K8s Pod Analyzer
+Kubernetes pod log analyzer with JSON/CSV output, filter flags, and report generation.
+
+`Go` `Kubernetes` `JSON` `CSV`
+
+[![CI](https://github.com/Ankitavasudev/k8s-pod-analyzer/actions/workflows/ci.yml/badge.svg)](https://github.com/Ankitavasudev/k8s-pod-analyzer/actions)
+
+</td>
+<td>
+
+### 🐳 Container Lint
+Advanced Dockerfile linting with 15+ rules, security scanning, and complexity analysis.
+
+`Python` `Docker` `Security` `CI/CD`
+
+[![CI](https://github.com/Ankitavasudev/container-lint/actions/workflows/ci.yml/badge.svg)](https://github.com/Ankitavasudev/container-lint/actions)
+
+</td>
+</tr>
+</table>
 
 ---
 
 ## Open Source Contributions
 
-| Project | PR | Status |
-|---------|-----|--------|
-| [jaegertracing/jaeger](https://github.com/jaegertracing/jaeger/pull/9267) | docs: Add Docker and Go Report Card badges | Open |
-| [prometheus/prometheus](https://github.com/prometheus/prometheus/pull/19372) | docs: Add Docker and Go Report Card badges | Open |
-| k8s-health-monitor | 4 PRs (Docker, Tests, CI, v3.0 upgrade) | Merged |
-| go-task-cli | 2 PRs (Stats, Advanced features) | Merged |
+<div align="center">
+
+[![kubernetes](https://img.shields.io/badge/kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)](https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+author%3AAnkitavasudev)
+[![containerd](https://img.shields.io/badge/containerd-2496ED?style=for-the-badge&logo=containerd&logoColor=white)](https://github.com/containerd/containerd/pulls?q=is%3Apr+author%3AAnkitavasudev)
+[![prometheus](https://img.shields.io/badge/prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)](https://github.com/prometheus/prometheus/pulls?q=is%3Apr+author%3AAnkitavasudev)
+[![helm](https://img.shields.io/badge/helm-0F1689?style=for-the-badge&logo=helm&logoColor=white)](https://github.com/helm/helm/pulls?q=is%3Apr+author%3AAnkitavasudev)
+[![jaeger](https://img.shields.io/badge/jaeger-60D0A0?style=for-the-badge&logo=jaegertracing&logoColor=white)](https://github.com/jaegertracing/jaeger/pulls?q=is%3Apr+author%3AAnkitavasudev)
+
+</div>
 
 ---
 
-## LFX Mentorship
-
-**Target:** Fall 2026 (Sep 7 - Nov 27)
-
-**Why LFX?**
-I want to contribute to production-grade cloud-native projects under experienced mentors. My goal is to learn Kubernetes internals, observability patterns, and open source best practices.
-
-**What I Bring:**
-- Go programming (CLI tools, data structures)
-- Python (automation, testing)
-- Docker & basic Kubernetes knowledge
-- Eagerness to learn and contribute
-
-**What I Want to Learn:**
-- Kubernetes operator development
-- Distributed systems architecture
-- Observability (OpenTelemetry, tracing)
-- Open source community practices
-
----
+## Activity
 
 <div align="center">
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Ankitavasudev&show_icons=true&theme=radical&hide_border=true&count_private=true)
+[![Ankitavasudev's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=Ankitavasudev&theme=redical&hide_border=true&color=4A90D9&line=4A90D9&point=4A90D9&area=true&area_color=4A90D9)]
 
 </div>
 
@@ -117,6 +136,6 @@ I want to contribute to production-grade cloud-native projects under experienced
 
 <div align="center">
 
-*"Learning cloud-native technologies, one commit at a time."*
+![Profile Views](https://komarev.com/ghpvc/?username=Ankitavasudev&color=blueviolet&style=for-the-badge&label=PROFILE+VIEWS)
 
 </div>
