@@ -1,11 +1,14 @@
 <div align="center">
 
-# Hi, I'm Ankita Salaria 👋
+### Hi there, I'm Ankita Salaria <img src="https://raw.githubusercontent.com/kauecachoeiro/kauecachoeiro/main/wave.gif" width="30px">
 
-**CS Student | Open Source Contributor | Building with Go, Python & Kubernetes**
+<div>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=4A90D9&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=100&lines=CS+Student+%7C+Open+Source+Contributor;Building+with+Go+%26+Kubernetes;Cloud+Native+Enthusiast" alt="typing svg" />
+</div>
 
-[![GitHub](https://img.shields.io/badge/-Ankitavasudev-181717?style=flat&logo=github)](https://github.com/Ankitavasudev)
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat&logo=linkedin)](https://linkedin.com/in/ankita-salaria)
+[![GitHub](https://img.shields.io/badge/-Ankitavasudev-181717?style=for-the-badge&logo=github)](https://github.com/Ankitavasudev)
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/ankita-salaria)
+[![Email](https://img.shields.io/badge/-Email-D14836?style=for-the-badge&logo=maildotru&logoColor=white)](mailto:ankitasalaria21@gmail.com)
 
 </div>
 
@@ -13,13 +16,15 @@
 
 ## About Me
 
-CS student passionate about cloud-native technologies and open source. Currently exploring Kubernetes ecosystems, building developer tools, and contributing to CNCF projects. Interested in how distributed systems work and how to make them more observable.
+```
+? CS Student exploring the world of cloud-native technologies
+? Building developer tools that make Kubernetes easier to work with
+? Contributing to CNCF projects (kubernetes, containerd, helm, prometheus, jaeger)
+? Learning Go, Kubernetes internals, and distributed systems
+? Currently: Preparing for LFX Mentorship Fall 2026
+```
 
-- 🔭 Working on **Kubernetes tools** and **developer CLI utilities**
-- 🌱 Learning **Go**, **Kubernetes internals**, and **observability**
-- 👯 Looking to collaborate on **CNCF projects** and **cloud-native tooling**
-- 💬 Ask me about **Go**, **Python**, **Kubernetes**, or **open source contribution**
-- 📫 Reach me: **ankitasalaria21@gmail.com**
+**Fun fact:** I believe good developer tools should save time, not add complexity.
 
 ---
 
@@ -46,14 +51,30 @@ CS student passionate about cloud-native technologies and open source. Currently
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=Ankitavasudev&show_icons=true&theme=radical&hide_border=true&count_private=true" />
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ankitavasudev&layout=compact&theme=radical&hide_border=true" />
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=Ankitavasudev&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" />
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ankitavasudev&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" />
 
 </div>
 
 <div align="center">
 
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Ankitavasudev&theme=radical&hide_border=true)
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Ankitavasudev&theme=tokyonight&hide_border=true)
+
+</div>
+
+<div align="center">
+
+![GitHub Trophies](https://github-profile-trophy.vercel.app/?username=Ankitavasudev&theme=tokyonight&no-frame=true&column=7&margin-w=10)
+
+</div>
+
+---
+
+## Activity
+
+<div align="center">
+
+[![Ankitavasudev's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=Ankitavasudev&theme=tokyonight&hide_border=true&color=4A90D9&line=4A90D9&point=4A90D9&area=true&area_color=4A90D9)]
 
 </div>
 
@@ -65,8 +86,8 @@ CS student passionate about cloud-native technologies and open source. Currently
 <tr>
 <td width="50%">
 
-### 🛠️ K8s Health Monitor
-Advanced Kubernetes cluster health checker with security scanning, resource visualization, and namespace comparison.
+### K8s Health Monitor
+Advanced Kubernetes cluster health checker with security scanning, resource visualization, and Prometheus metrics export.
 
 `Python` `Kubernetes` `Rich` `CLI`
 
@@ -75,8 +96,8 @@ Advanced Kubernetes cluster health checker with security scanning, resource visu
 </td>
 <td width="50%">
 
-### 📋 Go Task CLI
-Feature-rich task manager built in Go with CSV import/export, scheduling, and webhook notifications.
+### Go Task CLI
+Feature-rich task manager with CSV import/export, scheduling, search, and webhook notifications.
 
 `Go` `CLI` `CSV` `Scheduler`
 
@@ -87,8 +108,8 @@ Feature-rich task manager built in Go with CSV import/export, scheduling, and we
 <tr>
 <td>
 
-### 🔍 K8s Pod Analyzer
-Kubernetes pod log analyzer with JSON/CSV output, filter flags, and report generation.
+### K8s Pod Analyzer
+Kubernetes pod log analyzer with filtering, JSON/CSV output, and report generation.
 
 `Go` `Kubernetes` `JSON` `CSV`
 
@@ -97,8 +118,8 @@ Kubernetes pod log analyzer with JSON/CSV output, filter flags, and report gener
 </td>
 <td>
 
-### 🐳 Container Lint
-Advanced Dockerfile linting with 15+ rules, security scanning, and complexity analysis.
+### Container Lint
+Advanced Dockerfile linting with 15+ rules, security scanning, and HTML reports.
 
 `Python` `Docker` `Security` `CI/CD`
 
@@ -124,11 +145,14 @@ Advanced Dockerfile linting with 15+ rules, security scanning, and complexity an
 
 ---
 
-## Activity
+## What I'm Currently Learning
 
 <div align="center">
 
-[![Ankitavasudev's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=Ankitavasudev&theme=redical&hide_border=true&color=4A90D9&line=4A90D9&point=4A90D9&area=true&area_color=4A90D9)]
+![Kubernetes](https://img.shields.io/badge/Kubernetes-%23326CE5.svg?style=for-the-badge&logo=kubernetes&logoColor=white)
+![Go](https://img.shields.io/badge/Go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white)
+![Observability](https://img.shields.io/badge/Observability-%23FF6B6B.svg?style=for-the-badge&logo=open-telemetry&logoColor=white)
+![Distributed Systems](https://img.shields.io/badge/Distributed-Systems-%239B59B6.svg?style=for-the-badge&logo=docker&logoColor=white)
 
 </div>
 
@@ -136,6 +160,6 @@ Advanced Dockerfile linting with 15+ rules, security scanning, and complexity an
 
 <div align="center">
 
-![Profile Views](https://komarev.com/ghpvc/?username=Ankitavasudev&color=blueviolet&style=for-the-badge&label=PROFILE+VIEWS)
+![Profile Views](https://komarev.com/ghpvc/?username=Ankitavasudev&color=4A90D9&style=for-the-badge&label=PROFILE+VIEWS)
 
 </div>
