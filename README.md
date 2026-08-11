@@ -27,7 +27,7 @@
 type Ankita struct {
     Role       string = "CS Student & Open Source Contributor"
     Focus      string = "Cloud Native / Kubernetes / Go"
-    CNCF       []string = {"kubernetes", "containerd", "prometheus", "jaeger", "helm"}
+    CNCF       []string = {"kubernetes", "containerd", "prometheus", "jaeger", "helm", "kubeedge"}
     Languages  []string = {"Go", "Python", "JavaScript", "Bash"}
     Interests  []string = {"Distributed Systems", "Observability", "DevOps"}
     FunFact    string   = "I believe good developer tools should save time, not add complexity"
