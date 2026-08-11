@@ -1,6 +1,6 @@
 <div align="center">
 
-### Hi there, I'm Ankita Salaria <img src="https://raw.githubusercontent.com/kauecachoeiro/kauecachoeiro/main/wave.gif" width="30px">
+### Hi, I'm Ankita Salaria <img src="https://raw.githubusercontent.com/kauecachoeiro/kauecachoeiro/main/wave.gif" width="30px">
 
 <div>
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=4A90D9&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=100&lines=CS+Student+%7C+Open+Source+Contributor;Building+with+Go+%26+Kubernetes;Cloud+Native+Enthusiast" alt="typing svg" />
@@ -8,8 +8,14 @@
 
 [![GitHub](https://img.shields.io/badge/-Ankitavasudev-181717?style=for-the-badge&logo=github)](https://github.com/Ankitavasudev)
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/ankitasalaria21)
-[![Email](https://img.shields.io/badge/-Email-D14836?style=for-the-badge&logo=maildotru&logoColor=white)
-[![Instagram](https://img.shields.io/badge/-Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/notso_akkki)](mailto:ankitasalaria21@gmail.com)
+[![Instagram](https://img.shields.io/badge/-Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/notso_akkki)
+
+<details>
+<summary>ðŸ“§ Contact Me</summary>
+
+[![Email](https://img.shields.io/badge/-Email-D14836?style=for-the-badge&logo=maildotru&logoColor=white)](mailto:ankitasalaria21@gmail.com)
+
+</details>
 
 </div>
 
@@ -18,14 +24,11 @@
 ## About Me
 
 ```
-? CS Student exploring the world of cloud-native technologies
-? Building developer tools that make Kubernetes easier to work with
-? Contributing to CNCF projects (kubernetes, containerd, helm, prometheus, jaeger)
-? Learning Go, Kubernetes internals, and distributed systems
-? Building cool stuff with Go and Kubernetes
+CS Student exploring cloud-native technologies
+Building developer tools that make Kubernetes easier
+Contributing to CNCF projects (kubernetes, containerd, prometheus, jaeger)
+Learning Go, Kubernetes internals, and distributed systems
 ```
-
-**Fun fact:** I believe good developer tools should save time, not add complexity.
 
 ---
 
@@ -141,19 +144,6 @@ Advanced Dockerfile linting with 15+ rules, security scanning, and HTML reports.
 [![prometheus](https://img.shields.io/badge/prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)](https://github.com/prometheus/prometheus/pulls?q=is%3Apr+author%3AAnkitavasudev)
 [![helm](https://img.shields.io/badge/helm-0F1689?style=for-the-badge&logo=helm&logoColor=white)](https://github.com/helm/helm/pulls?q=is%3Apr+author%3AAnkitavasudev)
 [![jaeger](https://img.shields.io/badge/jaeger-60D0A0?style=for-the-badge&logo=jaegertracing&logoColor=white)](https://github.com/jaegertracing/jaeger/pulls?q=is%3Apr+author%3AAnkitavasudev)
-
-</div>
-
----
-
-## What I'm Currently Learning
-
-<div align="center">
-
-![Kubernetes](https://img.shields.io/badge/Kubernetes-%23326CE5.svg?style=for-the-badge&logo=kubernetes&logoColor=white)
-![Go](https://img.shields.io/badge/Go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white)
-![Observability](https://img.shields.io/badge/Observability-%23FF6B6B.svg?style=for-the-badge&logo=open-telemetry&logoColor=white)
-![Distributed Systems](https://img.shields.io/badge/Distributed-Systems-%239B59B6.svg?style=for-the-badge&logo=docker&logoColor=white)
 
 </div>
 
