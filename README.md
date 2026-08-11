@@ -21,7 +21,7 @@
 ? Building developer tools that make Kubernetes easier to work with
 ? Contributing to CNCF projects (kubernetes, containerd, helm, prometheus, jaeger)
 ? Learning Go, Kubernetes internals, and distributed systems
-? Currently: Preparing for LFX Mentorship Fall 2026
+? Building cool stuff with Go and Kubernetes
 ```
 
 **Fun fact:** I believe good developer tools should save time, not add complexity.
