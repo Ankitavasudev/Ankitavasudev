@@ -7,8 +7,9 @@
 </div>
 
 [![GitHub](https://img.shields.io/badge/-Ankitavasudev-181717?style=for-the-badge&logo=github)](https://github.com/Ankitavasudev)
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/ankita-salaria)
-[![Email](https://img.shields.io/badge/-Email-D14836?style=for-the-badge&logo=maildotru&logoColor=white)](mailto:ankitasalaria21@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/ankitasalaria21)
+[![Email](https://img.shields.io/badge/-Email-D14836?style=for-the-badge&logo=maildotru&logoColor=white)
+[![Instagram](https://img.shields.io/badge/-Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/notso_akkki)](mailto:ankitasalaria21@gmail.com)
 
 </div>
 
