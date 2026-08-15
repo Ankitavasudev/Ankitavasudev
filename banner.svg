@@ -1,13 +1,13 @@
-<svg width="800" height="200" xmlns="http://www.w3.org/2000/svg">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 400">
   <defs>
-    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
-      <stop offset="50%" style="stop-color:#764ba2;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#f093fb;stop-opacity:1" />
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d1117;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#161b22;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0d1117;stop-opacity:1" />
     </linearGradient>
-    <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#00d2ff;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#3a7bd5;stop-opacity:1" />
+    <linearGradient id="pink" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#FF69B4;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FF1493;stop-opacity:1" />
     </linearGradient>
     <filter id="glow">
       <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
@@ -16,74 +16,124 @@
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
+    <filter id="shadow">
+      <feDropShadow dx="2" dy="2" stdDeviation="3" flood-color="#FF69B4" flood-opacity="0.5"/>
+    </filter>
   </defs>
   
   <!-- Background -->
-  <rect width="800" height="200" fill="#0d1117"/>
+  <rect width="1280" height="400" fill="url(#grad1)"/>
   
-  <!-- Animated circles -->
-  <circle cx="100" cy="100" r="80" fill="url(#grad1)" opacity="0.1">
-    <animate attributeName="r" values="80;100;80" dur="4s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="700" cy="100" r="60" fill="url(#grad2)" opacity="0.1">
-    <animate attributeName="r" values="60;80;60" dur="3s" repeatCount="indefinite"/>
-  </circle>
-  
-  <!-- Grid pattern -->
-  <g stroke="#667eea" stroke-width="0.5" opacity="0.2">
-    <line x1="0" y1="50" x2="800" y2="50"/>
-    <line x1="0" y1="100" x2="800" y2="100"/>
-    <line x1="0" y1="150" x2="800" y2="150"/>
-    <line x1="200" y1="0" x2="200" y2="200"/>
-    <line x1="400" y1="0" x2="400" y2="200"/>
-    <line x1="600" y1="0" x2="600" y2="200"/>
+  <!-- Animated stars -->
+  <g id="stars">
+    <circle cx="100" cy="50" r="1" fill="#FF69B4" opacity="0.8">
+      <animate attributeName="opacity" values="0.8;0.2;0.8" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="200" cy="80" r="1.5" fill="#FF1493" opacity="0.6">
+      <animate attributeName="opacity" values="0.6;0.1;0.6" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="300" cy="40" r="1" fill="#FFB6C1" opacity="0.7">
+      <animate attributeName="opacity" values="0.7;0.2;0.7" dur="2.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="400" cy="90" r="1.2" fill="#FF69B4" opacity="0.5">
+      <animate attributeName="opacity" values="0.5;0.1;0.5" dur="4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="500" cy="30" r="1" fill="#FF1493" opacity="0.9">
+      <animate attributeName="opacity" values="0.9;0.3;0.9" dur="1.8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="600" cy="70" r="1.5" fill="#FFB6C1" opacity="0.6">
+      <animate attributeName="opacity" values="0.6;0.1;0.6" dur="3.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="700" cy="45" r="1" fill="#FF69B4" opacity="0.8">
+      <animate attributeName="opacity" values="0.8;0.2;0.8" dur="2.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="800" cy="85" r="1.3" fill="#FF1493" opacity="0.7">
+      <animate attributeName="opacity" values="0.7;0.1;0.7" dur="2.8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="900" cy="35" r="1" fill="#FFB6C1" opacity="0.5">
+      <animate attributeName="opacity" values="0.5;0.1;0.5" dur="3.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1000" cy="75" r="1.4" fill="#FF69B4" opacity="0.9">
+      <animate attributeName="opacity" values="0.9;0.3;0.9" dur="1.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1100" cy="55" r="1" fill="#FF1493" opacity="0.6">
+      <animate attributeName="opacity" values="0.6;0.1;0.6" dur="3.8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1200" cy="65" r="1.2" fill="#FFB6C1" opacity="0.8">
+      <animate attributeName="opacity" values="0.8;0.2;0.8" dur="2.3s" repeatCount="indefinite"/>
+    </circle>
   </g>
   
-  <!-- Floating dots -->
-  <circle cx="150" cy="60" r="3" fill="#667eea">
-    <animate attributeName="cy" values="60;40;60" dur="2s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="350" cy="80" r="2" fill="#764ba2">
-    <animate attributeName="cy" values="80;60;80" dur="2.5s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="550" cy="50" r="4" fill="#f093fb">
-    <animate attributeName="cy" values="50;30;50" dur="3s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="750" cy="70" r="3" fill="#00d2ff">
-    <animate attributeName="cy" values="70;50;70" dur="2s" repeatCount="indefinite"/>
-  </circle>
+  <!-- Floating particles -->
+  <g id="particles">
+    <circle cx="150" cy="200" r="2" fill="#FF69B4" opacity="0.4">
+      <animate attributeName="cy" values="200;180;200" dur="4s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.4;0.8;0.4" dur="4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="350" cy="250" r="1.5" fill="#FF1493" opacity="0.5">
+      <animate attributeName="cy" values="250;230;250" dur="3.5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.5;0.9;0.5" dur="3.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="550" cy="180" r="2.5" fill="#FFB6C1" opacity="0.3">
+      <animate attributeName="cy" values="180;160;180" dur="5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.3;0.7;0.3" dur="5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="750" cy="220" r="1.8" fill="#FF69B4" opacity="0.6">
+      <animate attributeName="cy" values="220;200;220" dur="4.5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.6;1;0.6" dur="4.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="950" cy="190" r="2" fill="#FF1493" opacity="0.4">
+      <animate attributeName="cy" values="190;170;190" dur="3.8s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.4;0.8;0.4" dur="3.8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1150" cy="240" r="1.5" fill="#FFB6C1" opacity="0.5">
+      <animate attributeName="cy" values="240;220;240" dur="4.2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.5;0.9;0.5" dur="4.2s" repeatCount="indefinite"/>
+    </circle>
+  </g>
   
-  <!-- Main text -->
-  <text x="400" y="85" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="42" font-weight="bold" fill="url(#grad1)" filter="url(#glow)">
+  <!-- Animated line -->
+  <line x1="50" y1="300" x2="1230" y2="300" stroke="url(#pink)" stroke-width="1" opacity="0.3">
+    <animate attributeName="opacity" values="0.3;0.6;0.3" dur="3s" repeatCount="indefinite"/>
+  </line>
+  
+  <!-- Name with glow effect -->
+  <text x="640" y="160" text-anchor="middle" font-family="Georgia, serif" font-size="64" font-weight="bold" fill="url(#pink)" filter="url(#glow)">
     Ankita Salaria
+    <animate attributeName="opacity" values="1;0.8;1" dur="2s" repeatCount="indefinite"/>
   </text>
   
   <!-- Subtitle -->
-  <text x="400" y="125" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="18" fill="#8b949e">
-    CS Student • Kubernetes Enthusiast • Open Source Contributor
+  <text x="640" y="210" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="24" fill="#FFB6C1" opacity="0.9">
+    CS Student | Open Source Contributor | Cloud Native Enthusiast
   </text>
   
-  <!-- Tech icons -->
-  <g transform="translate(280, 145)">
-    <rect x="0" y="0" width="24" height="24" rx="4" fill="#00ADD8" opacity="0.8"/>
-    <text x="12" y="16" text-anchor="middle" font-family="monospace" font-size="10" fill="white" font-weight="bold">Go</text>
-    
-    <rect x="35" y="0" width="24" height="24" rx="4" fill="#3776AB" opacity="0.8"/>
-    <text x="47" y="16" text-anchor="middle" font-family="monospace" font-size="10" fill="white" font-weight="bold">Py</text>
-    
-    <rect x="70" y="0" width="24" height="24" rx="4" fill="#326CE5" opacity="0.8"/>
-    <text x="82" y="16" text-anchor="middle" font-family="monospace" font-size="8" fill="white" font-weight="bold">K8s</text>
-    
-    <rect x="105" y="0" width="24" height="24" rx="4" fill="#2496ED" opacity="0.8"/>
-    <text x="117" y="16" text-anchor="middle" font-family="monospace" font-size="8" fill="white" font-weight="bold">Dkr</text>
-    
-    <rect x="140" y="0" width="24" height="24" rx="4" fill="#E6522C" opacity="0.8"/>
-    <text x="152" y="16" text-anchor="middle" font-family="monospace" font-size="7" fill="white" font-weight="bold">Prm</text>
+  <!-- Tech icons row -->
+  <g transform="translate(640, 280)" text-anchor="middle">
+    <text x="-200" y="0" font-family="'Segoe UI', sans-serif" font-size="16" fill="#00ADD8" opacity="0.8">Go</text>
+    <text x="-120" y="0" font-family="'Segoe UI', sans-serif" font-size="16" fill="#3776AB" opacity="0.8">Python</text>
+    <text x="-40" y="0" font-family="'Segoe UI', sans-serif" font-size="16" fill="#326CE5" opacity="0.8">K8s</text>
+    <text x="40" y="0" font-family="'Segoe UI', sans-serif" font-size="16" fill="#2496ED" opacity="0.8">Docker</text>
+    <text x="120" y="0" font-family="'Segoe UI', sans-serif" font-size="16" fill="#E6522C" opacity="0.8">Prometheus</text>
+    <text x="220" y="0" font-family="'Segoe UI', sans-serif" font-size="16" fill="#F46800" opacity="0.8">Grafana</text>
   </g>
   
-  <!-- Bottom accent line -->
-  <rect x="300" y="175" width="200" height="2" fill="url(#grad1)" rx="1">
-    <animate attributeName="width" values="200;300;200" dur="3s" repeatCount="indefinite"/>
-    <animate attributeName="x" values="300;250;300" dur="3s" repeatCount="indefinite"/>
+  <!-- Animated border -->
+  <rect x="20" y="20" width="1240" height="360" rx="15" ry="15" fill="none" stroke="url(#pink)" stroke-width="2" opacity="0.4">
+    <animate attributeName="opacity" values="0.4;0.7;0.4" dur="4s" repeatCount="indefinite"/>
   </rect>
+  
+  <!-- Corner accents -->
+  <circle cx="40" cy="40" r="5" fill="#FF69B4" opacity="0.6">
+    <animate attributeName="r" values="5;8;5" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="1240" cy="40" r="5" fill="#FF1493" opacity="0.6">
+    <animate attributeName="r" values="5;8;5" dur="2.5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="40" cy="360" r="5" fill="#FFB6C1" opacity="0.6">
+    <animate attributeName="r" values="5;8;5" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="1240" cy="360" r="5" fill="#FF69B4" opacity="0.6">
+    <animate attributeName="r" values="5;8;5" dur="2.2s" repeatCount="indefinite"/>
+  </circle>
 </svg>
