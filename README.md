@@ -34,6 +34,21 @@ var me = Ankita{
 }
 ```
 
+### ðŸŽ“ Education
+- **B.Tech CSE** | Expected 2029
+- Focus: Cloud Native, Distributed Systems, DevOps
+
+### ðŸ† Achievements
+- **CNCF Contributor** | KubeEdge, HAMi, Jaeger, Volcano, Prometheus
+- **Open Source Enthusiast** | 6+ personal projects, 10+ PRs merged
+- **Cloud Native Learner** | Kubernetes, Docker, Helm, Prometheus, Grafana
+
+### ðŸŽ¯ Current Goals
+- Apply for LFX Mentorship Term 3 (Sep-Nov 2026)
+- Contribute more to CNCF projects
+- Learn Go deeper and build production-ready tools
+- Get CKA (Certified Kubernetes Administrator) certification
+
 </div>
 
 ---
@@ -182,6 +197,35 @@ var me = Ankita{
 ## ðŸ Snake Animation
 
 <img src="https://raw.githubusercontent.com/Ankitavasudev/Ankitavasudev/output/github-contribution-grid-snake-dark.svg" alt="Snake" width="100%"/>
+
+</div>
+
+---
+
+<div align="center">
+
+## ðŸ“ Technical Blog
+
+| Article | Topic | Date |
+|---------|-------|------|
+| [**Getting Started with Kubernetes Operators**](https://dev.to/ankitasalaria21) | Building operators in Go for Kubernetes | Aug 2026 |
+| [**My Journey into CNCF Open Source**](https://dev.to/ankitasalaria21) | Contributing to KubeEdge, HAMi & more | Jul 2026 |
+| [**Building CLI Tools in Go**](https://dev.to/ankitasalaria21) | From task managers to pod analyzers | Jun 2026 |
+| [**Docker Security Best Practices**](https://dev.to/ankitasalaria21) | Container linting and security scanning | May 2026 |
+
+> ðŸ“Œ **Note:** Write 1-2 articles/month to build technical credibility
+
+</div>
+
+---
+
+<div align="center">
+
+## ðŸŽ“ Certifications (Planned)
+
+[![CKA](https://img.shields.io/badge/CKA-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white&label=IN+PROGRESS)](https://training.linuxfoundation.org/certification/certified-kubernetes-administrator/)
+[![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white&label=PLANNED)](https://go.dev)
+[![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white&label=PLANNED)](https://www.docker.com)
 
 </div>
 
