@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200">
+  <style>
+    .snake { fill: #FF69B4; }
+    .path { stroke: #FF1493; stroke-width: 2; fill: none; }
+  </style>
+  <path class="path" d="M 50 100 Q 150 50 250 100 T 450 100 T 650 100 T 750 100"/>
+  <circle class="snake" cx="50" cy="100" r="8">
+    <animateMotion dur="4s" repeatCount="indefinite" path="M 50 100 Q 150 50 250 100 T 450 100 T 650 100 T 750 100"/>
+  </circle>
+</svg>
