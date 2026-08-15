@@ -1,250 +1,92 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:d1117,50:FF69B4,100:FF1493&height=200&section=header&text=Ankita+Salaria&fontSize=40&fontColor=ffffff&animation=fadeIn" alt="Banner"/>
+<h1>Hey ðŸ‘‹ I'm Ankita Salaria</h1>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=FF69B4&center=true&vCenter=true&multiline=true&repeat=true&width=500&height=80&lines=Hey+there+ðŸ‘‹+I'm+Ankita;Open+Source+Contributor+%7C+K8s+Enthusiast" alt="Typing SVG"/>
+<p>CS Student | Open Source Contributor | Cloud Native Enthusiast</p>
 
-[![Profile Views](https://komarev.com/ghpvc/?username=Ankitavasudev&color=FF69B4&style=for-the-badge&label=PROFILE+VIEWS)](https://komarev.com/ghpvc/?username=Ankitavasudev)
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/ankitasalaria21)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ankitasalaria21@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Ankitavasudev)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/ankitasalaria21)
+[![Email](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:ankitasalaria21@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Ankitavasudev)
 
 </div>
 
 ---
-
-<div align="center">
 
 ## ðŸ‘¨â€ðŸ’» About Me
 
-```go
-type Ankita struct {
-    Role       string
-    Focus      []string
-    Passion    string
-    FunFact    string
-}
-
-var me = Ankita{
-    Role:    "CS Student & Open Source Contributor",
-    Focus:   []string{"Kubernetes", "Go", "Prometheus", "Grafana", "Cloud Native"},
-    Passion: "Building tools that solve real problems",
-    FunFact: "I believe good tools should save time, not add complexity",
-}
-```
-
-### ðŸŽ“ Education
-- **B.Tech CSE** | Expected 2029
-- Focus: Cloud Native, Distributed Systems, DevOps
-
-### ðŸ† Achievements
-- **CNCF Contributor** | KubeEdge, HAMi, Jaeger, Volcano, Prometheus
-- **Open Source Enthusiast** | 6+ personal projects, 10+ PRs merged
-- **Cloud Native Learner** | Kubernetes, Docker, Helm, Prometheus, Grafana
-
-### ðŸŽ¯ Current Goals
-- Apply for LFX Mentorship Term 3 (Sep-Nov 2026)
-- Contribute more to CNCF projects
-- Learn Go deeper and build production-ready tools
-- Get CKA (Certified Kubernetes Administrator) certification
-
-</div>
+- ðŸŽ“ **B.Tech CSE** | Expected 2029
+- ðŸ”§ **Focus:** Kubernetes, Go, Prometheus, Grafana
+- ðŸŒ± **Learning:** Cloud Native, Distributed Systems, DevOps
+- ðŸ’¡ **Passion:** Building tools that solve real problems
+- ðŸŽ¯ **Goal:** LFX Mentorship Term 3 (Sep-Nov 2026)
 
 ---
-
-<div align="center">
 
 ## ðŸ› ï¸ Tech Stack
 
-[![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)](https://go.dev)
-[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
-[![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=white)](https://en.wikipedia.org/wiki/C_(programming_language))
-[![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)](https://cplusplus.com)
-[![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)](https://www.gnu.org/software/bash/)
-[![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)](https://kubernetes.io)
-[![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://docker.com)
-[![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)](https://prometheus.io)
-[![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)](https://grafana.com)
-[![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)](https://git-scm.com)
-[![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)](https://linux.org)
-
-</div>
+| Category | Technologies |
+|----------|--------------|
+| **Languages** | ![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=white) ![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white) ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white) |
+| **Cloud Native** | ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![Helm](https://img.shields.io/badge/Helm-0F1689?style=flat-square&logo=helm&logoColor=white) |
+| **Monitoring** | ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white) ![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white) |
+| **Tools** | ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black) ![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white) |
 
 ---
-
-<div align="center">
 
 ## ðŸ“Š GitHub Stats
 
-<img src="https://github-readme-stats.vercel.app/api?username=Ankitavasudev&show_icons=true&theme=rose-pine&bg_color=0d1117&title_color=FF69B4&icon_color=FF69B4&text_color=FFB6C1&border_color=FF69B4&hide_border=false&include_all_commits=true&count_private=true" width="49%" alt="Stats"/>
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ankitavasudev&layout=compact&theme=rose-pine&bg_color=0d1117&title_color=FF69B4&text_color=FFB6C1&border_color=FF69B4&langs_count=8&hide=html,scss" width="49%" alt="Languages"/>
-
-</div>
-
----
-
-<div align="center">
-
-## ðŸ”¥ Streak Stats
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Ankitavasudev&theme=rose-pine&background=0d1117&ring=FF69B4&fire=FF1493&currStreakLabel=FF69B4&sideLabels=FF69B4&currStreakNum=FFB6C1&sideNums=FFB6C1&dates=FFB6C1" width="65%" alt="Streak"/>
-
-</div>
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Ankitavasudev&show_icons=true&theme=radical&hide_border=true&count_private=true" height="160" alt="Stats"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ankitavasudev&layout=compact&theme=radical&hide_border=true" height="160" alt="Languages"/>
+</p>
 
 ---
 
-<div align="center">
+## ðŸ”¥ Streak
 
-## ðŸ† Trophies
-
-<img src="https://github-profile-trophy.vercel.app/?username=Ankitavasudev&theme=rose-pine&bg_color=0d1117&no-frame=true&column=7&margin-w=10" alt="Trophies"/>
-
-</div>
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Ankitavasudev&theme=radical" width="600" alt="Streak"/>
+</p>
 
 ---
 
-<div align="center">
+## ðŸŽ¯ Projects
 
-## ðŸ“ˆ Contribution Graph
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Ankitavasudev&bg_color=0d1117&color=FF69B4&line=FF1493&point=FFB6C1&area=true&area_color=FF69B4&hide_border=true" width="100%" alt="Activity Graph"/>
-
-</div>
-
----
-
-<div align="center">
-
-## ðŸŽ¯ Personal Projects
-
-| Project | Description | Skills |
-|---------|-------------|--------|
-| [**k8s-pod-analyzer**](https://github.com/Ankitavasudev/k8s-pod-analyzer) | Kubernetes pod log analyzer & performance profiler CLI | Go, K8s API |
-| [**k8s-health-monitor**](https://github.com/Ankitavasudev/k8s-health-monitor) | Real-time cluster health checks with rich terminal output | Python, Docker |
-| [**k8s-pod-recommender**](https://github.com/Ankitavasudev/k8s-pod-recommender) | Operator that recommends optimal CPU/memory limits | Go, K8s Operators |
-| [**container-lint**](https://github.com/Ankitavasudev/container-lint) | Dockerfile & docker-compose linter with security checks | Python, Docker |
-| [**go-task-cli**](https://github.com/Ankitavasudev/go-task-cli) | Minimal task manager CLI built in Go | Go, CLI |
-| [**CodeLens-AI**](https://github.com/Ankitavasudev/CodeLens-AI) | AI-powered code review platform | Python, JS |
-
-</div>
+| Project | Description | Tech |
+|---------|-------------|------|
+| [k8s-pod-analyzer](https://github.com/Ankitavasudev/k8s-pod-analyzer) | Kubernetes pod log analyzer & performance profiler | ![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white) |
+| [k8s-health-monitor](https://github.com/Ankitavasudev/k8s-health-monitor) | Real-time cluster health checks | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) |
+| [k8s-pod-recommender](https://github.com/Ankitavasudev/k8s-pod-recommender) | CPU/memory limit recommender operator | ![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white) |
+| [container-lint](https://github.com/Ankitavasudev/container-lint) | Dockerfile linter with security checks | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) |
+| [go-task-cli](https://github.com/Ankitavasudev/go-task-cli) | Minimal task manager CLI | ![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white) |
+| [CodeLens-AI](https://github.com/Ankitavasudev/CodeLens-AI) | AI code review platform | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) |
 
 ---
 
-<div align="center">
+## ðŸŽ¯ Open Source
 
-## ðŸŽ¯ Open Source Contributions
-
-<table>
-  <tr>
-    <td align="center" width="50%">
-      <h3>ðŸŒ‹ Volcano</h3>
-      <p>Test utility builder functions</p>
-      <a href="https://github.com/volcano-sh/volcano/pull/5862">PR #5862</a>
-    </td>
-    <td align="center" width="50%">
-      <h3>ðŸ¤– HAMi</h3>
-      <p>Deployment prerequisites docs</p>
-      <a href="https://github.com/Project-HAMi/HAMi/pull/2670">PR #2670</a>
-    </td>
-  </tr>
-  <tr>
-    <td align="center" width="50%">
-      <h3>â˜ï¸ KubeEdge</h3>
-      <p>Helm migration discussion</p>
-      <a href="https://github.com/kubeedge/kubeedge/issues/3660">Issue #3660</a>
-    </td>
-    <td align="center" width="50%">
-      <h3>ðŸ›¡ï¸ Kyverno</h3>
-      <p>JMESPath validation analysis</p>
-      <a href="https://github.com/kyverno/kyverno/issues/16488">Issue #16488</a>
-    </td>
-  </tr>
-</table>
-
-</div>
+| Project | Contribution | Status |
+|---------|--------------|--------|
+| [Volcano](https://github.com/volcano-sh/volcano/pull/5862) | Test utility builder functions | ![Open](https://img.shields.io/badge/PR-Open-FF69B4?style=flat-square) |
+| [HAMi](https://github.com/Project-HAMi/HAMi/pull/2670) | Deployment prerequisites docs | ![Open](https://img.shields.io/badge/PR-Open-FF69B4?style=flat-square) |
+| [KubeEdge](https://github.com/kubeedge/kubeedge/issues/3660) | Helm migration discussion | ![Open](https://img.shields.io/badge/Issue-Open-FF69B4?style=flat-square) |
+| [Kyverno](https://github.com/kyverno/kyverno/issues/16488) | JMESPath validation analysis | ![Open](https://img.shields.io/badge/Issue-Open-FF69B4?style=flat-square) |
 
 ---
-
-<div align="center">
 
 ## ðŸ” Currently Exploring
 
-[![KubeEdge](https://img.shields.io/badge/KubeEdge-217CAD?style=for-the-badge&logo=dotnet&logoColor=white&label=CNCF)](https://github.com/kubeedge/kubeedge)
-[![Jaeger](https://img.shields.io/badge/Jaeger-60D0A0?style=for-the-badge&logo=jaegertracing&logoColor=white)](https://github.com/jaegertracing/jaeger)
-[![Kyverno](https://img.shields.io/badge/Kyverno-333333?style=for-the-badge&logo=kubernetes&logoColor=white)](https://github.com/kyverno/kyverno)
-[![Volcano](https://img.shields.io/badge/Volcano-00599C?style=for-the-badge&logo=volvo&logoColor=white)](https://github.com/volcano-sh/volcano)
-[![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)](https://github.com/prometheus/prometheus)
-[![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)](https://github.com/grafana/grafana)
-
-</div>
+[![KubeEdge](https://img.shields.io/badge/KubeEdge-217CAD?style=flat-square&logo=dotnet&logoColor=white)](https://github.com/kubeedge/kubeedge)
+[![Jaeger](https://img.shields.io/badge/Jaeger-60D0A0?style=flat-square&logo=jaegertracing&logoColor=white)](https://github.com/jaegertracing/jaeger)
+[![Kyverno](https://img.shields.io/badge/Kyverno-333333?style=flat-square&logo=kubernetes&logoColor=white)](https://github.com/kyverno/kyverno)
+[![Volcano](https://img.shields.io/badge/Volcano-00599C?style=flat-square&logo=volvo&logoColor=white)](https://github.com/volcano-sh/volcano)
+[![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white)](https://github.com/prometheus/prometheus)
+[![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white)](https://github.com/grafana/grafana)
 
 ---
 
 <div align="center">
 
-## ðŸ’¡ Random Dev Quote
-
-<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=rose-pine" alt="Quote"/>
-
-</div>
-
----
-
-<div align="center">
-
-## ðŸ Snake Animation
-
-<img src="https://raw.githubusercontent.com/Ankitavasudev/Ankitavasudev/output/github-contribution-grid-snake-dark.svg" alt="Snake" width="100%"/>
-
-</div>
-
----
-
-<div align="center">
-
-## ðŸ“ Technical Blog
-
-| Article | Topic | Date |
-|---------|-------|------|
-| [**Getting Started with Kubernetes Operators**](https://dev.to/ankitasalaria21) | Building operators in Go for Kubernetes | Aug 2026 |
-| [**My Journey into CNCF Open Source**](https://dev.to/ankitasalaria21) | Contributing to KubeEdge, HAMi & more | Jul 2026 |
-| [**Building CLI Tools in Go**](https://dev.to/ankitasalaria21) | From task managers to pod analyzers | Jun 2026 |
-| [**Docker Security Best Practices**](https://dev.to/ankitasalaria21) | Container linting and security scanning | May 2026 |
-
-> ðŸ“Œ **Note:** Write 1-2 articles/month to build technical credibility
-
-</div>
-
----
-
-<div align="center">
-
-## ðŸŽ“ Certifications (Planned)
-
-[![CKA](https://img.shields.io/badge/CKA-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white&label=IN+PROGRESS)](https://training.linuxfoundation.org/certification/certified-kubernetes-administrator/)
-[![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white&label=PLANNED)](https://go.dev)
-[![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white&label=PLANNED)](https://www.docker.com)
-
-</div>
-
----
-
-<div align="center">
-
-## ðŸ“« Connect
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/ankitasalaria21)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ankitasalaria21@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Ankitavasudev)
-
-</div>
-
----
-
-<div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:d1117,50:FF69B4,100:FF1493&height=100&section=footer&text=Thanks+for+visiting!&fontSize=16&fontColor=FFB6C1&animation=fadeIn" alt="Footer"/>
+<i>"I believe good developer tools should save time, not add complexity."</i>
 
 </div>
