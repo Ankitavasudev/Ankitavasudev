@@ -27,34 +27,43 @@ Fun fact: My git commit messages are better than my actual code
 
 ## Tech Stack
 
-<table>
-<tr>
-<td>
+<div align="center">
 
 **Languages**
-![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+<br>
+![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
 
-</td>
-<td>
+<br>
+
+**Observability Stack** (for HAMi LFX)
+<br>
+![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)
+![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)
+![OpenTelemetry](https://img.shields.io/badge/OpenTelemetry-425CC4?style=for-the-badge&logo=opentelemetry&logoColor=white)
+![Thanos](https://img.shields.io/badge/Thanos-6D4E91?style=for-the-badge)
+
+<br>
 
 **Cloud Native**
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Helm](https://img.shields.io/badge/Helm-0F1689?style=flat-square&logo=helm&logoColor=white)
+<br>
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Helm](https://img.shields.io/badge/Helm-0F1689?style=for-the-badge&logo=helm&logoColor=white)
 
-</td>
-<td>
+<br>
 
-**Observability**
-![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white)
-![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white)
+**Tools**
+<br>
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 
-</td>
-</tr>
-</table>
+</div>
 
 ---
 
@@ -196,12 +205,46 @@ Test utilities that make writing tests less painful
 
 ---
 
-## What I Bring to LFX
+## Why I'm Perfect for HAMi GPU Observability
 
-- **Fast learner** - Can read 1000 lines of Go code and only cry a little
-- **Documentation** - I write docs so maintainers don't have to
-- **Testing** - Because "it works on my machine" isn't a valid test strategy
-- **Community** - I respond to review comments faster than my code compiles
+<table>
+<tr>
+<td>
+
+**Prometheus & Grafana**
+- Built dashboards that actually make sense
+- Wrote PromQL queries that don't timeout
+- Created alerts that wake you up for real issues
+
+</td>
+<td>
+
+**Go & Kubernetes**
+- Wrote Go code that compiles on first try (sometimes)
+- Deployed operators that didn't crash in production
+- Debugged pods without `kubectl delete --force`
+
+</td>
+</tr>
+<tr>
+<td>
+
+**Documentation**
+- Write docs so maintainers don't have to
+- Create READMEs that people actually read
+- Document APIs without making developers cry
+
+</td>
+<td>
+
+**Community**
+- Respond to review comments faster than my code compiles
+- Don't ghost maintainers (most of the time)
+- Write commit messages that make sense
+
+</td>
+</tr>
+</table>
 
 ---
 
