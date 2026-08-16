@@ -2,9 +2,11 @@
 
 <img src="https://raw.githubusercontent.com/Ankitavasudev/Ankitavasudev/main/banner.svg" alt="Banner" width="100%"/>
 
-# Hey, I'm Ankita 👋
+# **Hey, I'm Ankita** 👋
 
-### CS Student who breaks things in production and calls it "contributing"
+### *CS Student who breaks things in production and calls it "contributing"*
+
+<br>
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/ankitasalaria21)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Ankitavasudev)
@@ -14,7 +16,7 @@
 
 ---
 
-## About Me
+## **About Me**
 
 ```
 I'm a CS student who got tired of theory and started breaking things in production instead.
@@ -25,7 +27,7 @@ When I'm not debugging pods, I'm probably writing docs or arguing with linters.
 
 ---
 
-## Tech Stack
+## **Tech Stack**
 
 <table>
 <tr>
@@ -62,7 +64,7 @@ When I'm not debugging pods, I'm probably writing docs or arguing with linters.
 
 ---
 
-## GitHub Stats
+## **GitHub Stats**
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=Ankitavasudev&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="160" alt="Stats"/>
@@ -71,13 +73,13 @@ When I'm not debugging pods, I'm probably writing docs or arguing with linters.
 
 ---
 
-## What I've Been Up To
+## **What I've Been Up To**
 
 <table>
 <tr>
 <td width="50%">
 
-#### 🔥 k8s-health-monitor
+#### **k8s-health-monitor**
 
 > Real-time Kubernetes cluster health checker that actually tells you what's wrong
 
@@ -91,7 +93,7 @@ When I'm not debugging pods, I'm probably writing docs or arguing with linters.
 </td>
 <td width="50%">
 
-#### 🔍 k8s-pod-analyzer
+#### **k8s-pod-analyzer**
 
 > Pod log analyzer for when `kubectl logs` isn't enough
 
@@ -107,7 +109,7 @@ When I'm not debugging pods, I'm probably writing docs or arguing with linters.
 <tr>
 <td width="50%">
 
-#### ⚡ k8s-pod-recommender
+#### **k8s-pod-recommender**
 
 > ML-based resource recommendations that actually work
 
@@ -121,7 +123,7 @@ When I'm not debugging pods, I'm probably writing docs or arguing with linters.
 </td>
 <td width="50%">
 
-#### 🐳 container-lint
+#### **container-lint**
 
 > Dockerfile linter that judges your Docker skills
 
@@ -138,7 +140,7 @@ When I'm not debugging pods, I'm probably writing docs or arguing with linters.
 
 ---
 
-## Open Source Contributions
+## **Open Source Contributions**
 
 > "I contribute to CNCF projects so I can tell my parents I work at Google... kind of"
 
@@ -183,7 +185,7 @@ Test utilities that make writing tests less painful
 
 ---
 
-## Currently Exploring
+## **Currently Exploring**
 
 [![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white)](https://github.com/prometheus/prometheus)
 [![KubeEdge](https://img.shields.io/badge/KubeEdge-217CAD?style=flat-square&logo=dotnet&logoColor=white)](https://github.com/kubeedge/kubeedge)
@@ -192,7 +194,7 @@ Test utilities that make writing tests less painful
 
 ---
 
-## Education
+## **Education**
 
 **B.Tech Computer Science** | Expected 2029
 
@@ -200,7 +202,7 @@ Test utilities that make writing tests less painful
 
 ---
 
-## What I Bring to LFX
+## **What I Bring to LFX**
 
 <table>
 <tr>
@@ -243,7 +245,7 @@ Test utilities that make writing tests less painful
 
 ---
 
-## Activity
+## **Activity**
 
 [![Ankita's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=Ankitavasudev&theme=tokyonight&hide_border=true&color=00adb5)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
