@@ -17,17 +17,19 @@
 ## About Me
 
 ```
-Currently: Breaking Kubernetes clusters so you don't have to
-Learning: How to write code that actually compiles
-Dream: Getting a PR merged without 47 review comments
-Fun fact: My git commit messages are better than my actual code
+I'm a CS student who got tired of theory and started breaking things in production instead.
+Currently down the Kubernetes rabbit hole, writing Go code that mostly compiles.
+I contribute to CNCF projects because "I work at Google" sounds better than "I'm a student."
+When I'm not debugging pods, I'm probably writing docs or arguing with linters.
 ```
 
 ---
 
 ## Tech Stack
 
-<div align="center">
+<table>
+<tr>
+<td>
 
 **Languages**
 <br>
@@ -35,18 +37,18 @@ Fun fact: My git commit messages are better than my actual code
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
 
-<br>
+</td>
+<td>
 
-**Observability Stack** (for HAMi LFX)
+**Observability**
 <br>
 ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)
 ![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)
 ![OpenTelemetry](https://img.shields.io/badge/OpenTelemetry-425CC4?style=for-the-badge&logo=opentelemetry&logoColor=white)
-![Thanos](https://img.shields.io/badge/Thanos-6D4E91?style=for-the-badge)
 
-<br>
+</td>
+<td>
 
 **Cloud Native**
 <br>
@@ -54,16 +56,9 @@ Fun fact: My git commit messages are better than my actual code
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Helm](https://img.shields.io/badge/Helm-0F1689?style=for-the-badge&logo=helm&logoColor=white)
 
-<br>
-
-**Tools**
-<br>
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
-
-</div>
+</td>
+</tr>
+</table>
 
 ---
 
@@ -205,24 +200,24 @@ Test utilities that make writing tests less painful
 
 ---
 
-## Why I'm Perfect for HAMi GPU Observability
+## What I Bring to LFX
 
 <table>
 <tr>
 <td>
 
-**Prometheus & Grafana**
-- Built dashboards that actually make sense
-- Wrote PromQL queries that don't timeout
-- Created alerts that wake you up for real issues
+**Observability**
+- Prometheus metrics that actually tell you what's wrong
+- Grafana dashboards that don't need a PhD to understand
+- Alerts that wake you up for real issues, not noise
 
 </td>
 <td>
 
 **Go & Kubernetes**
-- Wrote Go code that compiles on first try (sometimes)
-- Deployed operators that didn't crash in production
-- Debugged pods without `kubectl delete --force`
+- Go code that compiles (most of the time)
+- Kubernetes debugging without `kubectl delete --force`
+- Understanding how cloud-native systems actually work
 
 </td>
 </tr>
@@ -230,17 +225,17 @@ Test utilities that make writing tests less painful
 <td>
 
 **Documentation**
-- Write docs so maintainers don't have to
-- Create READMEs that people actually read
-- Document APIs without making developers cry
+- READMEs that people actually read
+- Docs that make maintainers happy
+- Technical writing that doesn't put you to sleep
 
 </td>
 <td>
 
 **Community**
-- Respond to review comments faster than my code compiles
-- Don't ghost maintainers (most of the time)
-- Write commit messages that make sense
+- PR reviews that are helpful, not just "fix this"
+- Responsive to feedback and suggestions
+- Git commit messages that make sense
 
 </td>
 </tr>
