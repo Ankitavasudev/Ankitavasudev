@@ -89,28 +89,36 @@ When I'm not debugging pods, I'm probably writing docs or arguing with linters.
 
 #### **k8s-health-monitor**
 
-> Real-time Kubernetes cluster health checker that actually tells you what's wrong
+> Real-time Kubernetes cluster health checker with security scanning
 
 ![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
+![Rich](https://img.shields.io/badge/Rich-9B59B6?style=flat-square)
 
+**What it does:**
 - Security scanner that catches privileged containers before they catch you
-- Rich terminal UI because who doesn't love pretty output?
-- Namespace comparison for when you can't remember which cluster is which
+- Rich terminal UI with real-time health monitoring
+- Namespace comparison for side-by-side resource analysis
+
+**Skills used:** Go, Kubernetes API, Security Analysis, CLI Design
 
 </td>
 <td width="50%">
 
 #### **k8s-pod-analyzer**
 
-> Pod log analyzer for when `kubectl logs` isn't enough
+> Kubernetes pod log analyzer with multi-format export
 
 ![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
+![JSON](https://img.shields.io/badge/JSON-000000?style=flat-square)
 
+**What it does:**
 - Parses logs faster than you can say "CrashLoopBackOff"
-- JSON/CSV export for when you need to prove something to your manager
-- Filter by status, restart count, or "how angry is this pod right now"
+- JSON/CSV export for CI/CD integration
+- Advanced filters by status, restart count, namespace
+
+**Skills used:** Go, Log Parsing, Data Export, Kubernetes Debugging
 
 </td>
 </tr>
@@ -119,28 +127,36 @@ When I'm not debugging pods, I'm probably writing docs or arguing with linters.
 
 #### **k8s-pod-recommender**
 
-> ML-based resource recommendations that actually work
+> ML-based resource limit recommender for Kubernetes
 
 ![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
+![ML](https://img.shields.io/badge/ML-FF6B6B?style=flat-square)
 
-- Recommends CPU/memory limits based on actual usage
-- Saves 30-40% on cloud bills (your CFO will love you)
-- Works with HPA/VPA because Kubernetes needs more acronyms
+**What it does:**
+- Recommends CPU/memory limits based on actual usage patterns
+- Saves 30-40% on cloud bills
+- Integrates with HPA/VPA for auto-scaling
+
+**Skills used:** Go, Kubernetes Operators, Resource Optimization, Metrics Analysis
 
 </td>
 <td width="50%">
 
 #### **container-lint**
 
-> Dockerfile linter that judges your Docker skills
+> Dockerfile linter with security scanning
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Security](https://img.shields.io/badge/Security-FF6B6B?style=flat-square)
 
-- 15+ rules to validate your Dockerfile (no pressure)
-- Security scanner for when you accidentally expose secrets
-- Health check validation because "it works on my machine" isn't enough
+**What it does:**
+- 15+ lint rules for Dockerfile validation
+- Security scanner for vulnerability detection
+- Health check validation and complexity analysis
+
+**Skills used:** Python, Docker, Security Analysis, Static Analysis
 
 </td>
 </tr>
@@ -250,6 +266,16 @@ Test utilities that make writing tests less painful
 </td>
 </tr>
 </table>
+
+<div align="center">
+
+![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)
+![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)
+![OpenTelemetry](https://img.shields.io/badge/OpenTelemetry-425CC4?style=for-the-badge&logo=opentelemetry&logoColor=white)
+![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
+
+</div>
 
 ---
 
