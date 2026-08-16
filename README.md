@@ -1,126 +1,101 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Ankitavasudev/Ankitavasudev/main/banner.svg" alt="Banner" width="100%"/>
+# Ankita Salaria
 
-<h1>Hey there ðŸ‘‹ I'm Ankita Salaria</h1>
+### CS Student | Cloud-Native Enthusiast | Open Source Contributor
 
-<p>
-  <b>CS B.Tech Student (2029)</b> | <b>Open Source Contributor</b> | <b>Cloud Native Enthusiast</b>
-</p>
-
-<p>
-  I build tools that make Kubernetes easier to use and monitor.
-  Currently contributing to CNCF projects like KubeEdge, HAMi, Jaeger, and Volcano.
-</p>
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/ankitasalaria21)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ankitasalaria21@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/ankitasalaria21)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Ankitavasudev)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ankitasalaria21@gmail.com)
 
 </div>
 
 ---
 
-## ðŸ‘¨â€ðŸ’» About Me
+## About Me
 
 ```go
-type Ankita struct {
-    Role       string
-    Focus      []string
-    Passion    string
-    FunFact    string
-}
-
-var me = Ankita{
-    Role:    "CS Student & Open Source Contributor",
-    Focus:   []string{"Kubernetes", "Go", "Prometheus", "Grafana", "Cloud Native"},
-    Passion: "Building tools that solve real problems",
-    FunFact: "I believe good tools should save time, not add complexity",
+type Developer struct {
+    Name        string   // Ankita Salaria
+    Role        string   // CS Student & Open Source Contributor
+    Focus       string   // Cloud-Native | Kubernetes | AI/ML
+    Languages   []string // Go, Python, JavaScript, TypeScript
+    Interests   []string // CNCF, Observability, Edge Computing, AI
+    Goal        string   // LFX Mentorship Fall 2026
 }
 ```
 
-### ðŸŽ“ Education
-- **B.Tech CSE** | Expected 2029
-- Focus: Cloud Native, Distributed Systems, DevOps
-
-### ðŸ† Achievements
-- **CNCF Contributor** | KubeEdge, HAMi, Jaeger, Volcano, Prometheus
-- **Open Source Enthusiast** | 6+ personal projects, 10+ PRs merged
-- **Cloud Native Learner** | Kubernetes, Docker, Helm, Prometheus, Grafana
-
-### ðŸŽ¯ Current Goals
-- Apply for LFX Mentorship Term 3 (Sep-Nov 2026)
-- Contribute more to CNCF projects
-- Learn Go deeper and build production-ready tools
-- Get CKA (Certified Kubernetes Administrator) certification
-
 ---
 
-## ðŸ› ï¸ Tech Stack
+## Tech Stack
 
 | Category | Technologies |
 |----------|--------------|
-| **Languages** | ![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=white) ![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white) ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white) |
-| **Cloud Native** | ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![Helm](https://img.shields.io/badge/Helm-0F1689?style=flat-square&logo=helm&logoColor=white) |
-| **Monitoring** | ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white) ![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white) |
-| **Tools** | ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black) ![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white) |
+| **Languages** | Go, Python, Java, C++, Bash |
+| **Cloud-Native** | Kubernetes, Docker, Helm, Prometheus, Grafana |
+| **Observability** | OpenTelemetry, Jaeger, ELK Stack |
+| **AI/ML** | YOLOv8, ResNet50, TensorFlow, PyTorch |
+| **DevOps** | GitHub Actions, CI/CD, Terraform |
+| **Databases** | PostgreSQL, MongoDB, Redis |
 
 ---
 
-## ðŸ“Š GitHub Stats
+## Featured Projects
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Ankitavasudev&show_icons=true&theme=radical&hide_border=true&count_private=true" height="160" alt="Stats"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ankitavasudev&layout=compact&theme=radical&hide_border=true" height="160" alt="Languages"/>
-</p>
-
----
-
-## ðŸ”¥ Streak
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Ankitavasudev&theme=radical" width="600" alt="Streak"/>
-</p>
-
----
-
-## ðŸŽ¯ Projects
+### Cloud-Native Tools
 
 | Project | Description | Tech |
 |---------|-------------|------|
-| [k8s-pod-analyzer](https://github.com/Ankitavasudev/k8s-pod-analyzer) | Kubernetes pod log analyzer & performance profiler | ![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white) |
-| [k8s-health-monitor](https://github.com/Ankitavasudev/k8s-health-monitor) | Real-time cluster health checks | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) |
-| [k8s-pod-recommender](https://github.com/Ankitavasudev/k8s-pod-recommender) | CPU/memory limit recommender operator | ![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white) |
-| [container-lint](https://github.com/Ankitavasudev/container-lint) | Dockerfile linter with security checks | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) |
-| [go-task-cli](https://github.com/Ankitavasudev/go-task-cli) | Minimal task manager CLI | ![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white) |
-| [CodeLens-AI](https://github.com/Ankitavasudev/CodeLens-AI) | AI code review platform | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) |
+| [**k8s-health-monitor**](https://github.com/Ankitavasudev/k8s-health-monitor) | Real-time Kubernetes cluster health checker with rich terminal UI | ![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white) ![Rich](https://img.shields.io/badge/Rich-9B59B6?style=flat-square) ![kubectrl](https://img.shields.io/badge/kubectrl-326CE5?style=flat-square) |
+| [**go-task-cli**](https://github.com/Ankitavasudev/go-task-cli) | Minimal task manager CLI with cobra | ![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white) ![Cobra](https://img.shields.io/badge/Cobra-E74C3C?style=flat-square) |
+
+### AI-Powered Platforms
+
+| Project | Description | Tech |
+|---------|-------------|------|
+| [**WildScope AI**](https://wildscope-3006v9j1-ankitasalaria21-7312s-projects.vercel.app) | Wildlife detection & analytics platform | ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black) ![AI](https://img.shields.io/badge/AI-FF6B6B?style=flat-square) ![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white) |
+| [**CodeLens AI**](https://github.com/Ankitavasudev/CodeLens-AI) | AI code review platform | ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) |
+| [**DevPulse**](https://github.com/Ankitavasudev/DevPulse) | Developer activity tracker | ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) |
+| [**VoxNote**](https://github.com/Ankitavasudev/VoxNote) | Voice-to-notes platform | ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) |
+| [**NexusBoard**](https://github.com/Ankitavasudev/NexusBoard) | Collaborative dashboard | ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) |
 
 ---
 
-## ðŸŽ¯ Open Source
+## Open Source Contributions
 
-| Project | Contribution | Status |
-|---------|--------------|--------|
-| [Volcano](https://github.com/volcano-sh/volcano/pull/5862) | Test utility builder functions | ![Open](https://img.shields.io/badge/PR-Open-FF69B4?style=flat-square) |
-| [HAMi](https://github.com/Project-HAMi/HAMi/pull/2670) | Deployment prerequisites docs | ![Open](https://img.shields.io/badge/PR-Open-FF69B4?style=flat-square) |
-| [KubeEdge](https://github.com/kubeedge/kubeedge/issues/3660) | Helm migration discussion | ![Open](https://img.shields.io/badge/Issue-Open-FF69B4?style=flat-square) |
-| [Kyverno](https://github.com/kyverno/kyverno/issues/16488) | JMESPath validation analysis | ![Open](https://img.shields.io/badge/Issue-Open-FF69B4?style=flat-square) |
+```
+PRs Merged: 4+
+Repos Contributed: k8s-health-monitor, go-task-cli
+Focus Areas: Cloud-Native, Kubernetes, Go CLI Tools
+```
+
+### Recent Activity
+- feat: Add Docker support for containerized deployment (k8s-health-monitor)
+- test: Add comprehensive unit tests (k8s-health-monitor)
+- ci: Add GitHub Actions CI/CD pipeline (k8s-health-monitor)
+- feat: Add stats command (go-task-cli)
 
 ---
 
-## ðŸ” Currently Exploring
+## LFX Mentorship Goals
 
-[![KubeEdge](https://img.shields.io/badge/KubeEdge-217CAD?style=flat-square&logo=dotnet&logoColor=white)](https://github.com/kubeedge/kubeedge)
-[![Jaeger](https://img.shields.io/badge/Jaeger-60D0A0?style=flat-square&logo=jaegertracing&logoColor=white)](https://github.com/jaegertracing/jaeger)
-[![Kyverno](https://img.shields.io/badge/Kyverno-333333?style=flat-square&logo=kubernetes&logoColor=white)](https://github.com/kyverno/kyverno)
-[![Volcano](https://img.shields.io/badge/Volcano-00599C?style=flat-square&logo=volvo&logoColor=white)](https://github.com/volcano-sh/volcano)
-[![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white)](https://github.com/prometheus/prometheus)
-[![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white)](https://github.com/grafana/grafana)
+**Target:** Fall 2026 (Sep 7 - Nov 27)
+
+**Preferred Projects:**
+- Kubernetes ecosystem (Karmada, KubeEdge, OpenYurt)
+- Observability (OpenTelemetry, Jaeger, Prometheus)
+- Cloud-Native Security (Kubescape, Kyverno)
+
+**Available Skills:**
+- Go programming (CLI tools, Kubernetes operators)
+- Python (AI/ML, scripting, testing)
+- Docker & Kubernetes (deployment, monitoring)
+- CI/CD (GitHub Actions, pipelines)
 
 ---
 
 <div align="center">
 
-<i>"I believe good developer tools should save time, not add complexity."</i>
+*"Building cloud-native tools that make infrastructure observable, secure, and intelligent."*
 
 </div>
