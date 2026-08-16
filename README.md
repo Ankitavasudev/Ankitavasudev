@@ -234,18 +234,18 @@ Test utilities that make writing tests less painful
 <tr>
 <td>
 
-**Observability**
-- Prometheus metrics that actually tell you what's wrong
-- Grafana dashboards that don't need a PhD to understand
-- Alerts that wake you up for real issues, not noise
+**Quick Learner**
+- Can read 1000 lines of Go code and only cry a little
+- Debug Kubernetes issues without `kubectl delete --force`
+- Understand cloud-native systems from metrics to manifests
 
 </td>
 <td>
 
-**Go & Kubernetes**
-- Go code that compiles (most of the time)
-- Kubernetes debugging without `kubectl delete --force`
-- Understanding how cloud-native systems actually work
+**Observability Skills**
+- Prometheus metrics that actually tell you what's wrong
+- Grafana dashboards that don't need a PhD to understand
+- Alerts that wake you up for real issues, not noise
 
 </td>
 </tr>
@@ -271,11 +271,14 @@ Test utilities that make writing tests less painful
 
 <div align="center">
 
+![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
 ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)
 ![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)
-![OpenTelemetry](https://img.shields.io/badge/OpenTelemetry-425CC4?style=for-the-badge&logo=opentelemetry&logoColor=white)
-![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 
 </div>
 
