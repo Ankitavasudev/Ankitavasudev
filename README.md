@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="https://raw.githubusercontent.com/Ankitavasudev/Ankitavasudev/main/banner.svg" alt="Banner" width="100%"/>
+
 <h1>Hey ðŸ‘‹ I'm Ankita Salaria</h1>
 
 <p>CS Student | Open Source Contributor | Cloud Native Enthusiast</p>
