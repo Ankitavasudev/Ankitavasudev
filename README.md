@@ -17,12 +17,7 @@
 
 ## About Me
 
-```
-CS student who got tired of theory and started breaking things in production instead.
-Down the Kubernetes rabbit hole, writing Go code that mostly compiles.
-I contribute to CNCF projects because "I work at Google" sounds better than "I'm a student."
-When I'm not debugging pods, I'm probably writing docs or arguing with linters.
-```
+CS student who got tired of theory and started breaking things in production instead. Currently down the Kubernetes rabbit hole, writing Go code that mostly compiles. I contribute to CNCF projects because "I work at Google" sounds better than "I'm a student."
 
 ---
 
@@ -38,6 +33,8 @@ When I'm not debugging pods, I'm probably writing docs or arguing with linters.
 ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)
 ![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)
 ![Helm](https://img.shields.io/badge/Helm-0F1689?style=for-the-badge&logo=helm&logoColor=white)
+![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 
 ---
 
@@ -60,116 +57,79 @@ When I'm not debugging pods, I'm probably writing docs or arguing with linters.
 
 ## Projects
 
-<table>
-<tr>
-<td width="50%">
+### [k8s-health-monitor](https://github.com/Ankitavasudev/k8s-health-monitor)
+> Kubernetes cluster health checker with security scanning, resource visualization & namespace comparison
 
-#### k8s-health-monitor
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
+![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 
-> Real-time Kubernetes cluster health checker with security scanning
+Real-time health monitoring with security scanning, rich terminal UI, and namespace comparison. Built with Python + Rich + C process monitor.
+
+---
+
+### [k8s-pod-analyzer](https://github.com/Ankitavasudev/k8s-pod-analyzer)
+> Kubernetes pod log analyzer with JSON/CSV export, filter flags & report generation
 
 ![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
-![Rich](https://img.shields.io/badge/Rich-9B59B6?style=flat-square)
+![JSON](https://img.shields.io/badge/JSON-000000?style=flat-square)
 
-| Feature | Description |
-|---------|-------------|
-| Security Scanner | Catches privileged containers |
-| Health Monitoring | Real-time cluster health |
-| Namespace Comparison | Side-by-side analysis |
+Log parsing, multi-format export (JSON/CSV), and advanced filters for Kubernetes pod debugging. Built with Go.
 
-</td>
-<td width="50%">
+---
 
-#### k8s-pod-analyzer
-
-> Kubernetes pod log analyzer with multi-format export
+### [k8s-pod-recommender](https://github.com/Ankitavasudev/k8s-pod-recommender)
+> ML-based CPU/memory limit recommender for Kubernetes pods
 
 ![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
+![ML](https://img.shields.io/badge/ML-FF6B6B?style=flat-square)
 
-| Feature | Description |
-|---------|-------------|
-| Log Parsing | Extract errors and warnings |
-| Multi-format Export | JSON/CSV for CI/CD |
-| Advanced Filters | Filter by status, namespace |
+Recommends CPU/memory limits based on actual usage patterns. Saves 30-40% on cloud bills. Integrates with HPA/VPA.
 
-</td>
-</tr>
-<tr>
-<td width="50%">
+---
 
-#### k8s-pod-recommender
-
-> ML-based resource limit recommender for Kubernetes
-
-![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
-
-| Feature | Description |
-|---------|-------------|
-| Smart Recommendations | ML-based suggestions |
-| Cost Optimization | Saves 30-40% on bills |
-| Auto-scaling Ready | Works with HPA/VPA |
-
-</td>
-<td width="50%">
-
-#### container-lint
-
-> Dockerfile linter with security scanning
+### [container-lint](https://github.com/Ankitavasudev/container-lint)
+> Dockerfile linter with 15+ rules, security scanning, health check validation & complexity analysis
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 
-| Feature | Description |
-|---------|-------------|
-| Lint Rules | 15+ validation rules |
-| Security Scanner | Detects vulnerabilities |
-| Health Check | Validates HEALTHCHECK |
+Lint rules, security scanner, health check validation, and complexity analysis for Dockerfiles. Built with Python + JavaScript.
 
-</td>
-</tr>
-</table>
+---
+
+### [go-task-cli](https://github.com/Ankitavasudev/go-task-cli)
+> Feature-rich CLI task manager with CSV import/export, scheduling, webhooks & TUI
+
+![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
+![Cobra](https://img.shields.io/badge/Cobra-E74C3C?style=flat-square)
+
+Task management with CSV import/export, webhooks, scheduling, and interactive TUI. Built with Go + Cobra.
 
 ---
 
 ## Open Source Contributions
 
-<table>
-<tr>
-<td>
+### [Prometheus](https://github.com/prometheus/prometheus/pull/19436) - PR #19436
+![Open](https://img.shields.io/badge/Status-Open-FF69B4?style=flat-square)
+Validate labels are sorted lexicographically in TSDB `getOrCreate()` to prevent data corruption.
 
-**[Prometheus](https://github.com/prometheus/prometheus/pull/19436)** - PR #19436
-![Open](https://img.shields.io/badge/Open-FF69B4?style=flat-square)
-Validate labels are sorted lexicographically in TSDB
+### [KubeEdge](https://github.com/kubeedge/kubeedge/pull/7225) - PR #7225
+![Open](https://img.shields.io/badge/Status-Open-FF69B4?style=flat-square)
+Fix typo in documentation.
 
-</td>
-<td>
+### [KubeEdge](https://github.com/kubeedge/kubeedge/pull/7219) - PR #7219
+![Open](https://img.shields.io/badge/Status-Open-FF69B4?style=flat-square)
+Add govulncheck CI workflow for automated vulnerability scanning.
 
-**[KubeEdge](https://github.com/kubeedge/kubeedge/pull/7225)** - PR #7225
-![Open](https://img.shields.io/badge/Open-FF69B4?style=flat-square)
-Fix typo in documentation
-
-</td>
-</tr>
-<tr>
-<td>
-
-**[KubeEdge](https://github.com/kubeedge/kubeedge/pull/7219)** - PR #7219
-![Open](https://img.shields.io/badge/Open-FF69B4?style=flat-square)
-Add govulncheck CI workflow
-
-</td>
-<td>
-
-**[Volcano](https://github.com/volcano-sh/volcano/pull/5862)** - PR #5862
-![Open](https://img.shields.io/badge/Open-FF69B4?style=flat-square)
-Add test utility builder functions
-
-</td>
-</tr>
-</table>
+### [Volcano](https://github.com/volcano-sh/volcano/pull/5862) - PR #5862
+![Open](https://img.shields.io/badge/Status-Open-FF69B4?style=flat-square)
+Add test utility builder functions for batch scheduling system.
 
 ---
 
@@ -185,6 +145,18 @@ Add test utility builder functions
 ## Education
 
 **B.Tech Computer Science** | Expected 2029
+
+---
+
+## What I Bring to LFX
+
+**Quick Learner** - Can read 1000 lines of Go code and only cry a little. Debug Kubernetes issues without `kubectl delete --force`. Understand cloud-native systems from metrics to manifests.
+
+**Observability Skills** - Prometheus metrics that actually tell you what's wrong. Grafana dashboards that don't need a PhD to understand. Alerts that wake you up for real issues, not noise.
+
+**Documentation** - READMEs that people actually read. Docs that make maintainers happy. Technical writing that doesn't put you to sleep.
+
+**Community** - PR reviews that are helpful, not just "fix this". Responsive to feedback and suggestions. Git commit messages that make sense.
 
 ---
 
