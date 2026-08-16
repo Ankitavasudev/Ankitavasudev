@@ -97,12 +97,11 @@ When I'm not debugging pods, I'm probably writing docs or arguing with linters.
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
 ![Rich](https://img.shields.io/badge/Rich-9B59B6?style=flat-square)
 
-**What it does:**
-- Security scanner that catches privileged containers before they catch you
-- Rich terminal UI with real-time health monitoring
-- Namespace comparison for side-by-side resource analysis
-
-**Skills used:** Go, Kubernetes API, Security Analysis, CLI Design
+| Feature | What It Does |
+|---------|--------------|
+| 🔒 Security Scanner | Catches privileged containers before they catch you |
+| 📊 Health Monitoring | Real-time cluster health with rich terminal UI |
+| 🔄 Namespace Comparison | Side-by-side resource analysis |
 
 </td>
 <td width="50%">
@@ -115,12 +114,11 @@ When I'm not debugging pods, I'm probably writing docs or arguing with linters.
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
 ![JSON](https://img.shields.io/badge/JSON-000000?style=flat-square)
 
-**What it does:**
-- Parses logs faster than you can say "CrashLoopBackOff"
-- JSON/CSV export for CI/CD integration
-- Advanced filters by status, restart count, namespace
-
-**Skills used:** Go, Log Parsing, Data Export, Kubernetes Debugging
+| Feature | What It Does |
+|---------|--------------|
+| 📋 Log Parsing | Extracts errors and warnings from pod logs |
+| 📤 Multi-format Export | JSON/CSV for CI/CD integration |
+| 🔍 Advanced Filters | Filter by status, restart count, namespace |
 
 </td>
 </tr>
@@ -135,12 +133,11 @@ When I'm not debugging pods, I'm probably writing docs or arguing with linters.
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
 ![ML](https://img.shields.io/badge/ML-FF6B6B?style=flat-square)
 
-**What it does:**
-- Recommends CPU/memory limits based on actual usage patterns
-- Saves 30-40% on cloud bills
-- Integrates with HPA/VPA for auto-scaling
-
-**Skills used:** Go, Kubernetes Operators, Resource Optimization, Metrics Analysis
+| Feature | What It Does |
+|---------|--------------|
+| 📈 Smart Recommendations | ML-based CPU/memory limit suggestions |
+| 💰 Cost Optimization | Saves 30-40% on cloud bills |
+| 🔄 Auto-scaling Ready | Works with HPA/VPA |
 
 </td>
 <td width="50%">
@@ -153,12 +150,11 @@ When I'm not debugging pods, I'm probably writing docs or arguing with linters.
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![Security](https://img.shields.io/badge/Security-FF6B6B?style=flat-square)
 
-**What it does:**
-- 15+ lint rules for Dockerfile validation
-- Security scanner for vulnerability detection
-- Health check validation and complexity analysis
-
-**Skills used:** Python, Docker, Security Analysis, Static Analysis
+| Feature | What It Does |
+|---------|--------------|
+| ✅ Lint Rules | 15+ rules for Dockerfile validation |
+| 🔒 Security Scanner | Detects vulnerabilities and anti-patterns |
+| 🏥 Health Check | Validates HEALTHCHECK instructions |
 
 </td>
 </tr>
