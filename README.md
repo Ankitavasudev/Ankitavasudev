@@ -71,6 +71,14 @@ When I'm not debugging pods, I'm probably writing docs or arguing with linters.
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ankitavasudev&layout=compact&theme=tokyonight&hide_border=true" height="160" alt="Languages"/>
 </p>
 
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Ankitavasudev&theme=tokyonight&hide_border=true" width="500" alt="Streak"/>
+</p>
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=Ankitavasudev&theme=tokyonight&no-frame=true&no-bg=false&column=7" width="100%" alt="Trophies"/>
+</p>
+
 ---
 
 ## **What I've Been Up To**
