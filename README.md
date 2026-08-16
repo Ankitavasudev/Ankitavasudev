@@ -2,13 +2,20 @@
 
 <img src="https://raw.githubusercontent.com/Ankitavasudev/Ankitavasudev/main/banner.svg" alt="Banner" width="100%"/>
 
-<h1>Hey ðŸ‘‹ I'm Ankita Salaria</h1>
+<h1>Hey there ðŸ‘‹ I'm Ankita Salaria</h1>
 
-<p>CS Student | Open Source Contributor | Cloud Native Enthusiast</p>
+<p>
+  <b>CS B.Tech Student (2029)</b> | <b>Open Source Contributor</b> | <b>Cloud Native Enthusiast</b>
+</p>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/ankitasalaria21)
-[![Email](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:ankitasalaria21@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Ankitavasudev)
+<p>
+  I build tools that make Kubernetes easier to use and monitor.
+  Currently contributing to CNCF projects like KubeEdge, HAMi, Jaeger, and Volcano.
+</p>
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/ankitasalaria21)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ankitasalaria21@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Ankitavasudev)
 
 </div>
 
@@ -16,11 +23,36 @@
 
 ## ðŸ‘¨â€ðŸ’» About Me
 
-- ðŸŽ“ **B.Tech CSE** | Expected 2029
-- ðŸ”§ **Focus:** Kubernetes, Go, Prometheus, Grafana
-- ðŸŒ± **Learning:** Cloud Native, Distributed Systems, DevOps
-- ðŸ’¡ **Passion:** Building tools that solve real problems
-- ðŸŽ¯ **Goal:** LFX Mentorship Term 3 (Sep-Nov 2026)
+```go
+type Ankita struct {
+    Role       string
+    Focus      []string
+    Passion    string
+    FunFact    string
+}
+
+var me = Ankita{
+    Role:    "CS Student & Open Source Contributor",
+    Focus:   []string{"Kubernetes", "Go", "Prometheus", "Grafana", "Cloud Native"},
+    Passion: "Building tools that solve real problems",
+    FunFact: "I believe good tools should save time, not add complexity",
+}
+```
+
+### ðŸŽ“ Education
+- **B.Tech CSE** | Expected 2029
+- Focus: Cloud Native, Distributed Systems, DevOps
+
+### ðŸ† Achievements
+- **CNCF Contributor** | KubeEdge, HAMi, Jaeger, Volcano, Prometheus
+- **Open Source Enthusiast** | 6+ personal projects, 10+ PRs merged
+- **Cloud Native Learner** | Kubernetes, Docker, Helm, Prometheus, Grafana
+
+### ðŸŽ¯ Current Goals
+- Apply for LFX Mentorship Term 3 (Sep-Nov 2026)
+- Contribute more to CNCF projects
+- Learn Go deeper and build production-ready tools
+- Get CKA (Certified Kubernetes Administrator) certification
 
 ---
 
