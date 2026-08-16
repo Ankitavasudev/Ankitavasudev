@@ -2,15 +2,16 @@
 
 <img src="https://raw.githubusercontent.com/Ankitavasudev/Ankitavasudev/main/banner.svg" alt="Banner" width="100%"/>
 
-# **Hey, I'm Ankita** 👋
+# **Ankita Salaria**
 
-### *CS Student who breaks things in production and calls it "contributing"*
+### *CS Student | Cloud-Native Contributor | Open Source Enthusiast*
 
 <br>
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/ankitasalaria21)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Ankitavasudev)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ankitasalaria21@gmail.com)
+[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/ankitasalaria21)
 
 </div>
 
@@ -37,6 +38,7 @@ When I'm not debugging pods, I'm probably writing docs or arguing with linters.
 <br>
 ![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=white)
 ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
