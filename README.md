@@ -1,6 +1,8 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Ankitavasudev/Ankitavasudev/main/banner.svg" alt="Banner" width="100%"/>
+<a href="https://github.com/Ankitavasudev">
+<img src="https://github.com/Ankitavasudev.png?size=200" width="150" style="border-radius:50%;border:4px solid #00ADB5" alt="Ankita's Avatar"/>
+</a>
 
 # Hey there, I'm **Ankita** 👋
 
@@ -8,6 +10,7 @@
 
 <a href="https://linkedin.com/in/ankitasalaria21"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
 <a href="mailto:ankitasalaria21@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+<a href="https://twitter.com/ankitasalaria21"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter"/></a>
 
 </div>
 
@@ -15,15 +18,29 @@
 
 ## About Me
 
-```
-const ankita = {
-    role: "CS Student (2029)",
-    location: "India",
-    interests: ["Kubernetes", "Go", "Cloud-Native"],
-    currentFocus: "CNCF Open Source",
-    funFact: "I break things in production professionally",
-    motto: "I contribute to CNCF projects because 'I work at Google' sounds better than 'I'm a student'"
-};
+```python
+class Ankita:
+    def __init__(self):
+        self.name = "Ankita Salaria"
+        self.role = "CS Student (2029)"
+        self.location = "India"
+        self.languages = ["Go", "Python", "C", "C++", "JavaScript"]
+        self.interests = ["Kubernetes", "Cloud-Native", "Observability"]
+        self.current_focus = "CNCF Open Source Contributions"
+    
+    def current_status(self):
+        return "Breaking Kubernetes clusters professionally"
+    
+    def fun_fact(self):
+        return "I contribute to CNCF projects because 'I work at Google' sounds better than 'I'm a student'"
+    
+    def lfx_bring(self):
+        return {
+            "observability": "Prometheus metrics that actually tell you what's wrong",
+            "documentation": "READMEs that people actually read",
+            "community": "PR reviews that are helpful, not just 'fix this'",
+            "learning": "Can read 1000 lines of Go code and only cry a little"
+        }
 ```
 
 ---
