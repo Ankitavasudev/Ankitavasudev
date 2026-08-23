@@ -1,167 +1,242 @@
 <div align="center">
 
-<img src="https://github.com/Ankitavasudev.png?size=200" width="150" style="border-radius:50%;border:4px solid #00ADB5" alt="Ankita's Avatar"/>
-
-# Hey, I'm **Ankita** 👋
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=4000&pause=1000&color=00ADB5&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=100&lines=CNCF+Open+Source+Contributor;%2F+Kubernetes+%2F+Go+%2F+Observability" alt="Typing SVG"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:00ADB5,100:0d1117&height=220&section=header&text=Ankita%20Vasudev&fontSize=50&fontColor=ffffff&fontAlignY=35&desc=CNCF%20Contributor%20%7C%20Kubernetes%20%7C%20Go%20%7C%20Observability&descSize=16&descAlignY=55&animation=fadeIn" width="100%"/>
 
 <a href="https://linkedin.com/in/ankitasalaria21"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
 <a href="mailto:ankitasalaria21@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+<a href="https://github.com/Ankitavasudev"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
+
+<img src="https://komarev.com/ghpvc/?username=Ankitavasudev&color=00ADB5&style=flat&label=Profile+Views" alt="Profile Views"/>
 
 </div>
 
 ---
 
-## About Me
+### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Grinning%20Face%20with%20Big%20Eyes.gif" width="35"> About Me
 
-CS Student passionate about cloud-native infrastructure and open source. I contribute to CNCF projects and build tools that solve real problems in Kubernetes ecosystems.
-
-- **Open To:** LFX Mentorship, Internships, Open Source Collaboration
-- **Exploring:** Kubernetes internals, distributed tracing, container runtimes
-- **Ask me about:** Go, Kubernetes, Prometheus, distributed systems
-
----
-
-## What I Bring to LFX
-
-| Area | What I Offer |
-|---|---|
-| **Go & Kubernetes** | Hands-on experience writing Go code for Kubernetes ecosystems. Can navigate large codebases, understand controller patterns, and write clean, testable code. |
-| **Observability** | Built monitoring tools from scratch. Understand Prometheus metrics, Grafana dashboards, and distributed tracing (Jaeger). Can write meaningful alerts, not just `up == 0`. |
-| **Documentation** | Write docs that actually help users. Fixed documentation issues in KubeEdge, improved READMEs, and contributed to project guidelines. |
-| **Testing** | Write unit tests, integration tests, and understand CI/CD pipelines. Added test utilities to Volcano and govulncheck workflows to KubeEdge. |
-| **Community** | Responsive to review feedback. Can explain my changes clearly. Follow project conventions and contribution guidelines. |
+```go
+type Developer struct {
+    Name        string   "Ankita Vasudev"
+    Role        string   "CS Student & Open Source Contributor"
+    Location    string   "India"
+    Languages   []string {"Go", "Python", "C", "C++", "JavaScript"}
+    Focus       []string {"Kubernetes", "Cloud-Native", "Observability", "Distributed Systems"}
+    Status      string   "Building tools that solve real infrastructure problems"
+    CoffeeLevel int      "Running on caffeine and kubectl"
+}
+```
 
 ---
 
-## Skills & Interests
+### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Handshake.gif" width="35"> What I Bring to LFX
+
+<table>
+<tr>
+<td width="50%">
+
+#### Go & Kubernetes
+Writing Go code for Kubernetes ecosystems. Navigate large codebases, understand controller patterns, write clean testable code.
+
+#### Observability
+Built monitoring tools from scratch. Prometheus metrics, Grafana dashboards, distributed tracing with Jaeger.
+
+</td>
+<td width="50%">
+
+#### Documentation & Testing
+Docs that maintainers love. Unit tests, integration tests, CI/CD pipelines. Added test utilities to Volcano and govulncheck to KubeEdge.
+
+#### Community
+Responsive to reviews. Explain changes clearly. Follow project conventions. Git commit messages that make sense.
+
+</td>
+</tr>
+</table>
+
+---
+
+### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Gear.gif" width="35"> Tech Stack
 
 <div align="center">
 
 **Languages**
-![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black)
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
-**Infrastructure & Tools**
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Helm](https://img.shields.io/badge/Helm-0F1689?style=flat-square&logo=helm&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
+**Infrastructure**
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Helm](https://img.shields.io/badge/Helm-0F1689?style=for-the-badge&logo=helm&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
 
 **Observability**
-![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white)
-![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white)
-
-**Interests:** Distributed Systems, Container Runtimes, Policy Engines, Edge Computing, GPU Scheduling
+![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)
+![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)
 
 </div>
 
 ---
 
-## Open Source Contributions
+### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Rocket.gif" width="35"> Open Source Contributions
 
 <table>
 <tr>
 <th>Project</th>
 <th>PR</th>
 <th>Status</th>
-<th>What I Did</th>
+<th>Description</th>
 </tr>
 <tr>
-<td><a href="https://github.com/prometheus/prometheus">Prometheus</a></td>
+<td><a href="https://github.com/prometheus/prometheus"><img src="https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus" alt="Prometheus"/></a></td>
 <td><a href="https://github.com/prometheus/prometheus/pull/19436">#19436</a></td>
-<td>🔍 Review Needed</td>
-<td>Added label sort validation on TSDB append</td>
+<td><img src="https://img.shields.io/badge/Review-Needed-yellow?style=flat-square" alt="Review Needed"/></td>
+<td>Label sort validation on TSDB append</td>
 </tr>
 <tr>
-<td><a href="https://github.com/jaegertracing/jaeger">Jaeger</a></td>
+<td><a href="https://github.com/jaegertracing/jaeger"><img src="https://img.shields.io/badge/Jaeger-66CFD0?style=flat-square&logo=jaeger" alt="Jaeger"/></a></td>
 <td><a href="https://github.com/jaegertracing/jaeger/pull/9292">#9292</a></td>
-<td>🔧 Changes Requested</td>
-<td>Fixed span event sorting to use timestamp instead of name</td>
+<td><img src="https://img.shields.io/badge/Changes-Requested-orange?style=flat-square" alt="Changes Requested"/></td>
+<td>Fix span event sorting by timestamp</td>
 </tr>
 <tr>
-<td><a href="https://github.com/volcano-sh/volcano">Volcano</a></td>
+<td><a href="https://github.com/volcano-sh/volcano"><img src="https://img.shields.io/badge/Volcano-00599C?style=flat-square" alt="Volcano"/></a></td>
 <td><a href="https://github.com/volcano-sh/volcano/pull/5862">#5862</a></td>
-<td>🔍 Review Needed</td>
-<td>Added test builder utilities for pod/job/task creation</td>
+<td><img src="https://img.shields.io/badge/Review-Needed-yellow?style=flat-square" alt="Review Needed"/></td>
+<td>Test builder utilities for pod/job/task</td>
 </tr>
 <tr>
-<td><a href="https://github.com/kubeedge/kubeedge">KubeEdge</a></td>
+<td><a href="https://github.com/kubeedge/kubeedge"><img src="https://img.shields.io/badge/KubeEdge-217CAD?style=flat-square" alt="KubeEdge"/></a></td>
 <td><a href="https://github.com/kubeedge/kubeedge/pull/7229">#7229</a></td>
-<td>🔍 Review Needed</td>
-<td>Replaced klog.Exit with panic in cloudhub config for testability</td>
+<td><img src="https://img.shields.io/badge/Review-Needed-yellow?style=flat-square" alt="Review Needed"/></td>
+<td>Replace klog.Exit with panic in cloudhub</td>
 </tr>
 <tr>
-<td><a href="https://github.com/kubeedge/kubeedge">KubeEdge</a></td>
+<td><a href="https://github.com/kubeedge/kubeedge"><img src="https://img.shields.io/badge/KubeEdge-217CAD?style=flat-square" alt="KubeEdge"/></a></td>
 <td><a href="https://github.com/kubeedge/kubeedge/pull/7219">#7219</a></td>
-<td>🔍 Review Needed</td>
-<td>Added govulncheck CI workflow for vulnerability scanning</td>
+<td><img src="https://img.shields.io/badge/Review-Needed-yellow?style=flat-square" alt="Review Needed"/></td>
+<td>govulncheck CI workflow</td>
 </tr>
 <tr>
-<td><a href="https://github.com/kubeedge/kubeedge">KubeEdge</a></td>
+<td><a href="https://github.com/kubeedge/kubeedge"><img src="https://img.shields.io/badge/KubeEdge-217CAD?style=flat-square" alt="KubeEdge"/></a></td>
 <td><a href="https://github.com/kubeedge/kubeedge/pull/7225">#7225</a></td>
-<td>🔍 Review Needed</td>
-<td>Fixed typo in edge events proposal docs</td>
+<td><img src="https://img.shields.io/badge/Review-Needed-yellow?style=flat-square" alt="Review Needed"/></td>
+<td>Fix typo in edge events proposal</td>
 </tr>
 </table>
 
 ---
 
-## Projects
+### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Stack%20of%20Books.gif" width="35"> Projects
 
-### k8s-health-monitor
-![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square) ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square)
+<table>
+<tr>
+<td width="50%">
 
-Kubernetes cluster health checker with security scanning, resource visualization, and namespace comparison. Analyzes RBAC policies, PVC usage, and provides actionable recommendations.
+#### <a href="https://github.com/Ankitavasudev/k8s-health-monitor">k8s-health-monitor</a>
+![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square) ![K8s](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square)
 
-### k8s-pod-analyzer
-![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square) ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square)
+Kubernetes cluster health checker with security scanning, RBAC analysis, resource visualization, and namespace comparison.
 
-Pod log analyzer with JSON/CSV export, filter flags, and report generation. Parse pod logs at scale and extract meaningful insights.
+</td>
+<td width="50%">
 
-### k8s-pod-recommender
+#### <a href="https://github.com/Ankitavasudev/k8s-pod-analyzer">k8s-pod-analyzer</a>
+![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square) ![K8s](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square)
+
+Pod log analyzer with JSON/CSV export, filter flags, and report generation for debugging at scale.
+
+</td>
+</tr>
+<tr>
+<td>
+
+#### <a href="https://github.com/Ankitavasudev/k8s-pod-recommender">k8s-pod-recommender</a>
 ![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square) ![ML](https://img.shields.io/badge/ML-FF6F00?style=flat-square)
 
-ML-based CPU and memory limit recommender for Kubernetes pods. Analyzes historical usage patterns and suggests optimal resource limits.
+ML-based CPU/memory limit recommender for Kubernetes pods based on historical usage patterns.
 
-### container-lint
+</td>
+<td>
+
+#### <a href="https://github.com/Ankitavasudev/container-lint">container-lint</a>
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square)
 
-Dockerfile linter with 15+ validation rules, security scanning, and health check validation. Catches issues before they reach production.
+Dockerfile linter with 15+ rules, security scanning, and health check validation.
 
-### go-task-cli
+</td>
+</tr>
+<tr>
+<td colspan="2">
+
+#### <a href="https://github.com/Ankitavasudev/go-task-cli">go-task-cli</a>
 ![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square)
 
 Feature-rich CLI task manager with CSV import/export, scheduling, webhooks, and TUI interface.
 
+</td>
+</tr>
+</table>
+
 ---
 
-## GitHub Stats
+### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Bar%20Chart.gif" width="35"> GitHub Stats
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=Ankitavasudev&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" height="170" alt="Stats"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ankitavasudev&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" height="170" alt="Languages"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=Ankitavasudev&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&bg_color=0d1117&title_color=00ADB5&icon_color=00ADB5" alt="Stats"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ankitavasudev&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&bg_color=0d1117&title_color=00ADB5" alt="Languages"/>
 
 </div>
 
 <p align="center">
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Ankitavasudev&theme=tokyonight&hide_border=true" width="550" alt="Streak"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=Ankitavasudev&theme=tokyonight&hide_border=true&background=0d1117&ring=00ADB5&fire=00ADB5&currStreakLabel=00ADB5" width="60%" alt="Streak"/>
 </p>
+
+<p align="center">
+<a href="https://github.com/ryo-ma/github-profile-trophy">
+<img src="https://github-profile-trophy.vercel.app/?username=Ankitavasudev&theme=tokyonight&no-frame=true&no-bg=false&column=7&margin-w=10&bg_color=0d1117" width="100%" alt="Trophies"/>
+</a>
+</p>
+
+---
+
+### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Stars.gif" width="35"> Activity Graph
+
+[![Ankita's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=Ankitavasudev&theme=tokyonight&hide_border=true&color=00adb5&area=true&bg_color=0d1117)](https://github.com/ashutosh00710/github-readme-activity-graph)
+
+---
+
+### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People%20with%20activities/Person%20Technologist.gif" width="35"> Currently Working On
+
+<div align="center">
+
+<a href="https://github.com/prometheus/prometheus">
+<img src="https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white&label=Prometheus" alt="Prometheus"/>
+</a>
+<a href="https://github.com/jaegertracing/jaeger">
+<img src="https://img.shields.io/badge/Jaeger-66CFD0?style=for-the-badge&logo=jaeger&logoColor=white&label=Jaeger" alt="Jaeger"/>
+</a>
+<a href="https://github.com/kubeedge/kubeedge">
+<img src="https://img.shields.io/badge/KubeEdge-217CAD?style=for-the-badge&logoColor=white&label=KubeEdge" alt="KubeEdge"/>
+</a>
+<a href="https://github.com/volcano-sh/volcano">
+<img src="https://img.shields.io/badge/Volcano-00599C?style=for-the-badge&logoColor=white&label=Volcano" alt="Volcano"/>
+</a>
+<a href="https://github.com/Project-HAMi/HAMi">
+<img src="https://img.shields.io/badge/HAMi-FF6B6B?style=for-the-badge&logoColor=white&label=HAMi" alt="HAMi"/>
+</a>
+
+</div>
 
 ---
 
 <div align="center">
 
-*"I break things in production so you don't have to"*
-
-<a href="https://github.com/Ankitavasudev">
-<img src="https://komarev.com/ghpvc/?username=Ankitavasudev&color=00ADB5&style=flat&label=Profile+Views" alt="Profile Views"/>
-</a>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:00ADB5,100:0d1117&height=120&section=footer" width="100%"/>
 
 </div>
