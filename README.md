@@ -1,209 +1,132 @@
 <div align="center">
 
-<!-- Custom SVG Banner -->
-<img src="https://svg/banner.svg" width="0" height="0"/>
+<!-- Unique animated header -->
+<img src="https://capsule-render.vercel.app/api?type=transparent&color=0:0d1117,50:00ADB5,100:0d1117&height=300&section=header&text=Ankita%20Vasudev&fontSize=50&fontColor=00ADB5&fontAlignY=45&desc=Open%20Source%20%7C%20Kubernetes%20%7C%20Go&descSize=20&descAlignY=65&animation=twinkling" width="100%"/>
 
-<!-- Unique Header with glitch effect -->
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=32&duration=2000&pause=500&color=00ADB5&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=100&lines=%3E+ankita+v._;Who+breaks+Kubernetes+for+a+living%3F" alt="Header"/>
+<!-- Profile image with glow effect -->
+<img src="https://github.com/Ankitavasudev.png" width="130" style="border-radius:50%; border: 3px solid #00ADB5; box-shadow: 0 0 20px #00ADB5;" alt="Ankita"/>
 
-<br/><br/>
+<br/>
 
-<!-- Minimal badges -->
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/ankitasalaria21)
-[![Email](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:ankitasalaria21@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Ankitavasudev)
+# Hey, I'm **Ankita** 👋
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/ankitasalaria21)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ankitasalaria21@gmail.com)
+
+![Profile Views](https://komarev.com/ghpvc/?username=Ankitavasudev&color=00ADB5&style=flat&label=Views&labelColor=0d1117)
 
 </div>
-
----
-
-```
-     _          _ _       _     _   
-    / \   _ __ (_) |_ ___| |__ (_)_  __
-   / _ \ | '_ \| | __/ __| '_ \| \ \/ /
-  / ___ \| | | | | || (__| | | | |>  < 
- /_/   \_\_| |_|_|\__\___|_| |_|_/_/\_\
-                                        
-  CS Student | Open Source | CNCF Contributor
-  Go | Kubernetes | Prometheus | Distributed Systems
-```
 
 ---
 
 <div align="center">
 
-### `whoami`
-
 ```
-$ cat /etc/ankita/profile
-Name:       Ankita Vasudev
-Role:       CS Student (2029)
-Location:   India
-Editor:     Neovim (btw)
-Shell:      zsh + starship
-Theme:      Tokyo Night
-Font:       JetBrains Mono
-OS:         Arch btw
+  ___     _            _     _   
+ |_ _|___| |__   ___  | |   (_)_  __
+  | |/ __| '_ \ / _ \ | |   | \ \/ /
+  | |\__ \ | | | (_) || |___| |>  < 
+ |___|___/_| |_|\___/ |_____|_/_/\_\
 ```
 
 </div>
 
 ---
 
-### `$ ls ~/contributions/cncf/`
+<div align="center">
+
+### What I do
+
+```diff
++ Build Kubernetes tools that solve real problems
++ Contribute to CNCF projects (Prometheus, Jaeger, KubeEdge, Volcano)
++ Write Go code that actually compiles
++ Break things in production (professionally)
+```
+
+</div>
+
+---
+
+### 🛠️ Skills
+
+<div align="center">
+
+| | |
+|:---:|:---:|
+| **Languages** | **Infrastructure** |
+| ![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black) ![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white) ![JS](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) | ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![Helm](https://img.shields.io/badge/Helm-0F1689?style=flat-square&logo=helm&logoColor=white) ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white) ![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white) |
+| **Tools** | **Interests** |
+| ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black) ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white) ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white) | Distributed Systems · Container Runtimes · Edge Computing · GPU Scheduling |
+
+</div>
+
+---
+
+### 🚀 Open Source
 
 <table>
 <tr>
-<td>
-
-```
-prometheus/
-├── PR #19436
-│   └── tsdb: validate labels sorted on append
-│   └── Status: waiting for review
-│
-```
-
-</td>
-<td>
-
-```
-jaeger/
-├── PR #9292
-│   └── fix: sort span events by timestamp
-│   └── Status: changes requested (fixing)
-│
-```
-
-</td>
+<th>Project</th>
+<th>PR</th>
+<th>Status</th>
 </tr>
 <tr>
-<td>
-
-```
-volcano/
-├── PR #5862
-│   └── test: add utility builder functions
-│   └── Status: waiting for review
-│
-```
-
-</td>
-<td>
-
-```
-kubeedge/
-├── PR #7229 → klog.Exit to panic
-├── PR #7219 → govulncheck CI
-├── PR #7225 → typo fix docs
-│   └── Status: all waiting for review
-│
-```
-
-</td>
+<td><a href="https://github.com/prometheus/prometheus"><img src="https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus" alt="Prometheus"/></a></td>
+<td><a href="https://github.com/prometheus/prometheus/pull/19436">#19436</a></td>
+<td><img src="https://img.shields.io/badge/-Review-yellow?style=flat-square" alt="Review"/></td>
+</tr>
+<tr>
+<td><a href="https://github.com/jaegertracing/jaeger"><img src="https://img.shields.io/badge/Jaeger-66CFD0?style=flat-square&logo=jaeger" alt="Jaeger"/></a></td>
+<td><a href="https://github.com/jaegertracing/jaeger/pull/9292">#9292</a></td>
+<td><img src="https://img.shields.io/badge/-Fixing-orange?style=flat-square" alt="Fixing"/></td>
+</tr>
+<tr>
+<td><a href="https://github.com/volcano-sh/volcano"><img src="https://img.shields.io/badge/Volcano-00599C?style=flat-square" alt="Volcano"/></a></td>
+<td><a href="https://github.com/volcano-sh/volcano/pull/5862">#5862</a></td>
+<td><img src="https://img.shields.io/badge/-Review-yellow?style=flat-square" alt="Review"/></td>
+</tr>
+<tr>
+<td><a href="https://github.com/kubeedge/kubeedge"><img src="https://img.shields.io/badge/KubeEdge-217CAD?style=flat-square" alt="KubeEdge"/></a></td>
+<td><a href="https://github.com/kubeedge/kubeedge/pull/7229">#7229</a></td>
+<td><img src="https://img.shields.io/badge/-Review-yellow?style=flat-square" alt="Review"/></td>
+</tr>
+<tr>
+<td><a href="https://github.com/kubeedge/kubeedge"><img src="https://img.shields.io/badge/KubeEdge-217CAD?style=flat-square" alt="KubeEdge"/></a></td>
+<td><a href="https://github.com/kubeedge/kubeedge/pull/7219">#7219</a></td>
+<td><img src="https://img.shields.io/badge/-Review-yellow?style=flat-square" alt="Review"/></td>
+</tr>
+<tr>
+<td><a href="https://github.com/kubeedge/kubeedge"><img src="https://img.shields.io/badge/KubeEdge-217CAD?style=flat-square" alt="KubeEdge"/></a></td>
+<td><a href="https://github.com/kubeedge/kubeedge/pull/7225">#7225</a></td>
+<td><img src="https://img.shields.io/badge/-Review-yellow?style=flat-square" alt="Review"/></td>
 </tr>
 </table>
 
 ---
 
-### `$ cat ~/skills.json`
-
-```json
-{
-  "languages": {
-    "go": "████████████████ 95%",
-    "python": "████████████░░░░ 80%",
-    "c": "████████░░░░░░░░ 55%",
-    "c++": "████████░░░░░░░░ 50%",
-    "javascript": "██████████░░░░░░ 65%"
-  },
-  "infrastructure": {
-    "kubernetes": "████████████████ 90%",
-    "docker": "██████████████░░ 85%",
-    "helm": "████████████░░░░ 75%",
-    "prometheus": "██████████████░░ 85%",
-    "linux": "████████████████ 95%"
-  },
-  "interests": [
-    "distributed-systems",
-    "container-runtimes",
-    "observability",
-    "edge-computing",
-    "gpu-scheduling",
-    "policy-engines"
-  ]
-}
-```
-
----
-
-### `$ cat ~/projects.md`
-
-| Project | Stack | What it does |
-|---|---|---|
-| **k8s-health-monitor** | Go, K8s | Cluster health checker with security scanning, RBAC analysis |
-| **k8s-pod-analyzer** | Go, K8s | Pod log analyzer with JSON/CSV export |
-| **k8s-pod-recommender** | Go, ML | ML-based CPU/memory limit recommender |
-| **container-lint** | Python, Docker | Dockerfile linter with 15+ rules |
-| **go-task-cli** | Go | CLI task manager with TUI |
-
----
-
-### `$ neofetch`
+### 📊 Stats
 
 <div align="center">
 
-```ascii
-       _,met$$$$$gg.          ankita@github
-    ,g$$$$$$$$$$$$$$$P.       ----------------
-  ,g$$P"     """Y$$.".       OS: Linux (btw)
- ,$$P'              `$$$.     Editor: Neovim
-',$$P       ,ggs.     `$$b:   Shell: zsh + starship
-`d$$'     ,$P"'   .    $$$    Theme: Tokyo Night
- $$P      d$'     ,    $$P    Font: JetBrains Mono
- $$:      $$.   -    ,d$$'    Status: Breaking K8s
- $$;      Y$b._   _,d$P'     Coffee: ████████ 99%
- Y$$.    `.`"Y$$$$P"'        Contributions: CNCF
- `$$b      "-.__              Languages: Go, Python
-  `Y$$                        Tasks: 18 merged PRs
-   `Y$$.
-     `$$b.
-       `Y$$b.
-          `"Yb._
-              `"""
-```
-
-</div>
-
----
-
-<div align="center">
-
-![Ankita's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=Ankitavasudev&theme=tokyonight&hide_border=true&color=00adb5&area=true&bg_color=0d1117)
-
-</div>
-
----
-
-<div align="center">
-
-![Stats](https://github-readme-stats.vercel.app/api?username=Ankitavasudev&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&bg_color=0d1117&title_color=00ADB5&icon_color=00ADB5)
+![Ankita's Stats](https://github-readme-stats.vercel.app/api?username=Ankitavasudev&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&bg_color=0d1117&title_color=00ADB5&icon_color=00ADB5)
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Ankitavasudev&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&bg_color=0d1117&title_color=00ADB5)
 
 </div>
 
 <p align="center">
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Ankitavasudev&theme=tokyonight&hide_border=true&background=0d1117&ring=00ADB5&fire=00ADB5&currStreakLabel=00ADB5" width="60%"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=Ankitavasudev&theme=tokyonight&hide_border=true&background=0d1117&ring=00ADB5&fire=00ADB5&currStreakLabel=00ADB5" width="55%"/>
 </p>
 
 ---
 
-<div align="center">
+### 📈 Activity
 
-```
-$ uptime
- 12:00:00 up 365 days, 13:37, 1 user, load average: 4.20, 6.90, 0.00
-```
+[![Ankita's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=Ankitavasudev&theme=tokyonight&hide_border=true&color=00adb5&area=true&bg_color=0d1117)](https://github.com/ashutosh00710/github-readme-activity-graph)
+
+---
+
+<div align="center">
 
 ![Visitors](https://komarev.com/ghpvc/?username=Ankitavasudev&color=00ADB5&style=flat&label=PROFILE+VIEWS&labelColor=0d1117)
 
