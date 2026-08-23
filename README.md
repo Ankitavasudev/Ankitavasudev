@@ -1,12 +1,12 @@
 <div align="center">
 
-<!-- Unique animated header -->
-<img src="https://capsule-render.vercel.app/api?type=transparent&color=0:0d1117,50:00ADB5,100:0d1117&height=300&section=header&text=Ankita%20Vasudev&fontSize=50&fontColor=00ADB5&fontAlignY=45&desc=Open%20Source%20%7C%20Kubernetes%20%7C%20Go&descSize=20&descAlignY=65&animation=twinkling" width="100%"/>
+<!-- Banner Image - Cozy Dev Setup -->
+<img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=1200&h=300&fit=crop&auto=format" width="100%" style="border-radius: 10px; margin-bottom: 20px;" alt="Banner"/>
 
 <!-- Profile image with glow effect -->
 <img src="https://github.com/Ankitavasudev.png" width="130" style="border-radius:50%; border: 3px solid #00ADB5; box-shadow: 0 0 20px #00ADB5;" alt="Ankita"/>
 
-<br/>
+<br/><br/>
 
 # Hey, I'm **Ankita** 👋
 
