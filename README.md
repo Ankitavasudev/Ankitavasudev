@@ -1,12 +1,36 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:00ADB5,100:0d1117&height=220&section=header&text=Ankita%20Vasudev&fontSize=50&fontColor=ffffff&fontAlignY=35&desc=CNCF%20Contributor%20%7C%20Kubernetes%20%7C%20Go%20%7C%20Observability&descSize=16&descAlignY=55&animation=fadeIn" width="100%"/>
+<!-- Animated Header Banner -->
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=00ADB5&center=true&vCenter=true&multiline=true&repeat=true&width=800&height=120&lines=Hey%2C+I'm+Ankita+%F0%9F%91%8B;CNCF+Open+Source+Contributor;Kubernetes+%7C+Go+%7C+Observability;Building+cloud-native+tools+that+matter" alt="Typing SVG"/>
 
+<br/>
+
+<!-- Status Badges -->
+<img src="https://img.shields.io/badge/-Open%20To-LFX%20Mentorship-00ADB5?style=for-the-badge&logo=linuxfoundation&logoColor=white" alt="LFX"/>
+<img src="https://img.shields.io/badge/-Status-Active%20Contributor-00ff00?style=for-the-badge&logo=github&logoColor=white" alt="Status"/>
+<img src="https://img.shields.io/badge/-Focus-CNCF%20Projects-ff6b6b?style=for-the-badge&logo=kubernetes&logoColor=white" alt="Focus"/>
+
+<br/>
+
+<!-- Social Links -->
 <a href="https://linkedin.com/in/ankitasalaria21"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
 <a href="mailto:ankitasalaria21@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
 <a href="https://github.com/Ankitavasudev"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
 
-<img src="https://komarev.com/ghpvc/?username=Ankitavasudev&color=00ADB5&style=flat&label=Profile+Views" alt="Profile Views"/>
+<br/>
+
+<!-- Profile Views Counter -->
+<img src="https://komarev.com/ghpvc/?username=Ankitavasudev&color=00ADB5&style=flat&label=Profile+Views&labelColor=0d1117" alt="Views"/>
+
+</div>
+
+---
+
+<div align="center">
+
+<!-- Animated Snake -->
+<!-- https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake-dark.svg -->
+<img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake-dark.svg" width="100%" alt="Snake Animation"/>
 
 </div>
 
@@ -34,19 +58,19 @@ type Developer struct {
 <tr>
 <td width="50%">
 
-#### Go & Kubernetes
+#### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Fire.gif" width="20"> Go & Kubernetes
 Writing Go code for Kubernetes ecosystems. Navigate large codebases, understand controller patterns, write clean testable code.
 
-#### Observability
+#### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Magnifying%20Glass%20Tilted%20Right.gif" width="20"> Observability
 Built monitoring tools from scratch. Prometheus metrics, Grafana dashboards, distributed tracing with Jaeger.
 
 </td>
 <td width="50%">
 
-#### Documentation & Testing
+#### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Books.gif" width="20"> Documentation & Testing
 Docs that maintainers love. Unit tests, integration tests, CI/CD pipelines. Added test utilities to Volcano and govulncheck to KubeEdge.
 
-#### Community
+#### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People/People%20Hugging.gif" width="20"> Community
 Responsive to reviews. Explain changes clearly. Follow project conventions. Git commit messages that make sense.
 
 </td>
@@ -236,6 +260,10 @@ Feature-rich CLI task manager with CSV import/export, scheduling, webhooks, and 
 ---
 
 <div align="center">
+
+*"I break things in production so you don't have to"*
+
+<br/>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:00ADB5,100:0d1117&height=120&section=footer" width="100%"/>
 
