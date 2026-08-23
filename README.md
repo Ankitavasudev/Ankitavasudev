@@ -105,6 +105,67 @@
 
 ---
 
+### 💡 Projects
+
+<table>
+<tr>
+<td width="50%">
+
+#### <a href="https://github.com/Ankitavasudev/k8s-gpu-monitor">k8s-gpu-monitor</a>
+![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square) ![NVIDIA](https://img.shields.io/badge/NVIDIA-76B900?style=flat-square) ![HAMi](https://img.shields.io/badge/HAMi-FF6B6B?style=flat-square)
+
+GPU resource monitor for Kubernetes - tracks utilization, memory, and pod allocation across nodes.
+
+</td>
+<td width="50%">
+
+#### <a href="https://github.com/Ankitavasudev/k8s-batch-analyzer">k8s-batch-analyzer</a>
+![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square) ![Volcano](https://img.shields.io/badge/Volcano-00599C?style=flat-square)
+
+Batch job analyzer for Volcano queues - monitors job completion, resource patterns, and scheduling.
+
+</td>
+</tr>
+<tr>
+<td>
+
+#### <a href="https://github.com/Ankitavasudev/k8s-scheduler-sim">k8s-scheduler-sim</a>
+![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square) ![K8s](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square)
+
+Kubernetes scheduler simulator - visualize scheduling decisions and test custom policies.
+
+</td>
+<td>
+
+#### <a href="https://github.com/Ankitavasudev/k8s-health-monitor">k8s-health-monitor</a>
+![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square) ![K8s](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square)
+
+Cluster health checker with security scanning, RBAC analysis, and resource visualization.
+
+</td>
+</tr>
+<tr>
+<td>
+
+#### <a href="https://github.com/Ankitavasudev/k8s-pod-analyzer">k8s-pod-analyzer</a>
+![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square) ![K8s](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square)
+
+Pod log analyzer with JSON/CSV export and filter flags.
+
+</td>
+<td>
+
+#### <a href="https://github.com/Ankitavasudev/k8s-pod-recommender">k8s-pod-recommender</a>
+![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square) ![ML](https://img.shields.io/badge/ML-FF6F00?style=flat-square)
+
+ML-based CPU/memory limit recommender for Kubernetes pods.
+
+</td>
+</tr>
+</table>
+
+---
+
 ### 📊 Stats
 
 <div align="center">
