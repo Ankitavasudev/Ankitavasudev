@@ -15,7 +15,7 @@
 
 ## About
 
-CS student at MBS College of Engineering, Jammu (Expected 2029). Contributing to CNCF projects — KubeEdge, Volcano, Jaeger, HAMi. Building tools for Kubernetes and distributed systems.
+CS student at MBS College of Engineering, Jammu (Expected 2029). Contributing to CNCF projects. Building tools for Kubernetes and distributed systems.
 
 ---
 
@@ -28,15 +28,15 @@ CS student at MBS College of Engineering, Jammu (Expected 2029). Contributing to
 
 ---
 
-## Open Source Contributions
+## Open Source
 
-| Project | PR | Description | Status |
-|---------|-----|-------------|--------|
-| [KubeEdge](https://github.com/kubeedge/kubeedge) | [#7274](https://github.com/kubeedge/kubeedge/pull/7274) | Fix error handling in cloud controllers | 🟡 Review |
-| [KubeEdge](https://github.com/kubeedge/kubeedge) | [#7219](https://github.com/kubeedge/kubeedge/pull/7219) | Add govulncheck CI workflow | 🟡 Review |
-| [Volcano](https://github.com/volcano-sh/volcano) | [#5862](https://github.com/volcano-sh/volcano/pull/5862) | Add test utility builder functions | 🟡 Review |
-| [Jaeger](https://github.com/jaegertracing/jaeger) | [#9292](https://github.com/jaegertracing/jaeger/pull/9292) | Fix timestamp sorting in span events | 🟡 Review |
-| [HAMi](https://github.com/Project-HAMi/HAMi) | [#2872](https://github.com/Project-HAMi/HAMi/pull/2872) | Add quick start guide for contributors | ✅ CI Passing |
+| Project | PR | Description |
+|---------|-----|-------------|
+| [KubeEdge](https://github.com/kubeedge/kubeedge) | [#7274](https://github.com/kubeedge/kubeedge/pull/7274) | Fix error handling in cloud controllers |
+| [KubeEdge](https://github.com/kubeedge/kubeedge) | [#7219](https://github.com/kubeedge/kubeedge/pull/7219) | Add govulncheck CI workflow |
+| [Volcano](https://github.com/volcano-sh/volcano) | [#5862](https://github.com/volcano-sh/volcano/pull/5862) | Add test utility builder functions |
+| [Jaeger](https://github.com/jaegertracing/jaeger) | [#9292](https://github.com/jaegertracing/jaeger/pull/9292) | Fix timestamp sorting in span events |
+| [HAMi](https://github.com/Project-HAMi/HAMi) | [#2872](https://github.com/Project-HAMi/HAMi/pull/2872) | Add quick start guide for contributors |
 
 ---
 
@@ -44,31 +44,12 @@ CS student at MBS College of Engineering, Jammu (Expected 2029). Contributing to
 
 | Project | Tech | Description |
 |---------|------|-------------|
-| [k8s-pod-recommender](https://github.com/Ankitavasudev/k8s-pod-recommender) | Go, K8s, ML | ML-based CPU/memory limit recommender for Kubernetes pods |
-| [k8s-health-monitor](https://github.com/Ankitavasudev/k8s-health-monitor) | Python, K8s | Cluster health checker with security scanning and visualization |
-| [k8s-gpu-monitor](https://github.com/Ankitavasudev/k8s-gpu-monitor) | Go, NVIDIA, HAMi | GPU resource monitor for Kubernetes |
-| [k8s-batch-analyzer](https://github.com/Ankitavasudev/k8s-batch-analyzer) | Go, Volcano | Batch job analyzer for Volcano queues |
-| [k8s-scheduler-sim](https://github.com/Ankitavasudev/k8s-scheduler-sim) | Go, K8s | Kubernetes scheduler simulator |
-| [CodeLens-AI](https://github.com/Ankitavasudev/CodeLens-AI) | Python, React, OpenAI | AI-powered code review platform |
-
----
-
-## Why I'm a Strong LFX Candidate
-
-**1. Multi-Project CNCF Contributor**
-Contributing to 5 CNCF projects simultaneously (KubeEdge, Volcano, Jaeger, HAMi). This demonstrates ability to work across different codebases, understand varied architectures, and adapt to different team conventions.
-
-**2. Production-Ready Code**
-PRs include CI workflows, error handling fixes, test utilities, and documentation — not just cosmetic changes. Each contribution solves a real problem in production Kubernetes environments.
-
-**3. Go + Kubernetes Expertise**
-Built 6 original Kubernetes tools in Go. Understand scheduler extender patterns, device plugins, CRDs, and RBAC. Can read and modify complex distributed systems code.
-
-**4. Fast Learner**
-Started contributing to CNCF projects within weeks of learning Go and Kubernetes. Self-taught through documentation, code reviews, and hands-on practice.
-
-**5. Available & Committed**
-3 months full-time availability. No competing commitments. Willing to relocate to Bangalore or work remotely.
+| [k8s-pod-recommender](https://github.com/Ankitavasudev/k8s-pod-recommender) | Go, K8s, ML | ML-based CPU/memory limit recommender |
+| [k8s-health-monitor](https://github.com/Ankitavasudev/k8s-health-monitor) | Python, K8s | Cluster health checker |
+| [k8s-gpu-monitor](https://github.com/Ankitavasudev/k8s-gpu-monitor) | Go, NVIDIA | GPU resource monitor |
+| [k8s-batch-analyzer](https://github.com/Ankitavasudev/k8s-batch-analyzer) | Go, Volcano | Batch job analyzer |
+| [k8s-scheduler-sim](https://github.com/Ankitavasudev/k8s-scheduler-sim) | Go, K8s | Scheduler simulator |
+| [CodeLens-AI](https://github.com/Ankitavasudev/CodeLens-AI) | Python, React | AI code review platform |
 
 ---
 
