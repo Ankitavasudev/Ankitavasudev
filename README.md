@@ -37,7 +37,7 @@ observability   → prometheus, grafana, log pipelines
 open source     → patches sent upstream to CNCF projects, reviewed and reworked
 
 $ git shortlog -sn --no-merges
-11 projects shipped · every repo green in CI · 3 upstream PRs open, 2 closed
+11 projects shipped · all builds green · 3 upstream PRs open, 2 closed
 ```
 
 ---
@@ -111,7 +111,7 @@ $ git shortlog -sn --no-merges
 
 # 🛠️ Featured Work
 
-Tools I built end to end — not tutorials, not forks. Every one has tests and a green CI run.
+Tools I built end to end — not tutorials, not forks. Every one builds green before it lands on this list.
 
 | Project | What it does | Stack |
 | :--- | :--- | :--- |
