@@ -37,7 +37,7 @@ observability   → prometheus, grafana, log pipelines
 open source     → patches sent upstream to CNCF projects, reviewed and reworked
 
 $ git shortlog -sn --no-merges
-11 projects shipped · all builds green · 22 upstream PRs open, 20 closed after review
+11 projects shipped · all builds green · 30 upstream PRs open, 20 closed after review
 ```
 
 ---
@@ -135,10 +135,10 @@ Real pull requests to projects I do not own. Status shown as it actually is — 
 
 | Project | What the patches do | Status |
 | :--- | :--- | :--- |
-| [kubeedge/kubeedge](https://github.com/kubeedge/kubeedge) | [#7219](https://github.com/kubeedge/kubeedge/pull/7219) `govulncheck` CI · [#7277](https://github.com/kubeedge/kubeedge/pull/7277) replace `klog.Exit` with `panic` | ![2 open](https://img.shields.io/badge/2-open-3FB950?style=flat-square) |
+| [kubeedge/kubeedge](https://github.com/kubeedge/kubeedge) | [#7219](https://github.com/kubeedge/kubeedge/pull/7219) `govulncheck` CI · [#7277](https://github.com/kubeedge/kubeedge/pull/7277) replace `klog.Exit` with `panic` | ![2 open](https://img.shields.io/badge/2-open-3FB950?style=flat-square) ![3 closed](https://img.shields.io/badge/3-closed-8B949E?style=flat-square) |
 | [volcano-sh/volcano](https://github.com/volcano-sh/volcano) | [#5862](https://github.com/volcano-sh/volcano/pull/5862) builder helpers for test pods | ![1 open](https://img.shields.io/badge/1-open-3FB950?style=flat-square) |
-| [jaegertracing/jaeger](https://github.com/jaegertracing/jaeger) | [#9292](https://github.com/jaegertracing/jaeger/pull/9292) sort span events by timestamp | ![1 open](https://img.shields.io/badge/1-open-3FB950?style=flat-square) |
-| [enginow-in/go-eazy](https://github.com/enginow-in/go-eazy) | 18 open PRs: auth race conditions, an RLS bypass in the payment-gated property query, modal scroll leaks, SEO and skeleton polish | ![18 open](https://img.shields.io/badge/18-open-3FB950?style=flat-square) |
+| [jaegertracing/jaeger](https://github.com/jaegertracing/jaeger) | [#9292](https://github.com/jaegertracing/jaeger/pull/9292) sort span events by timestamp | ![1 open](https://img.shields.io/badge/1-open-3FB950?style=flat-square) ![4 closed](https://img.shields.io/badge/4-closed-8B949E?style=flat-square) |
+| [enginow-in/go-eazy](https://github.com/enginow-in/go-eazy) | 26 open PRs: auth race conditions, an RLS bypass in the payment-gated property query, modal scroll leaks, SEO and skeleton polish | ![26 open](https://img.shields.io/badge/26-open-3FB950?style=flat-square) |
 | [Project-HAMi/HAMi](https://github.com/Project-HAMi/HAMi) · [prometheus/prometheus](https://github.com/prometheus/prometheus) | 10 PRs between them — docs, bug-template coverage, scheduler cleanup, label-sort validation in TSDB | ![10 closed](https://img.shields.io/badge/10-closed-8B949E?style=flat-square) |
 | [kubernetes/kubernetes](https://github.com/kubernetes/kubernetes) · [containerd/containerd](https://github.com/containerd/containerd) · [helm/helm](https://github.com/helm/helm) | 1 each — a pod-condition analyzer utility, an image analyzer, chart validation helpers | ![3 closed](https://img.shields.io/badge/3-closed-8B949E?style=flat-square) |
 
