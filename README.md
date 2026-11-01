@@ -37,7 +37,7 @@ observability   → prometheus, grafana, log pipelines
 open source     → patches sent upstream to CNCF projects, reviewed and reworked
 
 $ git shortlog -sn --no-merges
-18 merged PRs · 6 tools shipped · 3 upstream PRs awaiting review
+18 merged PRs · 8 tools shipped · 3 upstream PRs awaiting review
 ```
 
 ---
@@ -100,6 +100,8 @@ Tools I built end to end — not tutorials, not forks.
 | **[k8s-pod-analyzer](https://github.com/Ankitavasudev/k8s-pod-analyzer)** | Pod log analysis with filter flags, statistics summaries and JSON/CSV report export | `Go` `Kubernetes API` |
 | **[container-lint](https://github.com/Ankitavasudev/container-lint)** | Dockerfile linter with 15+ rules, security scanning and HTML report output | `Python` `AST` `Docker` |
 | **[k8s-pod-recommender](https://github.com/Ankitavasudev/k8s-pod-recommender)** | Recommends CPU/memory limits from observed usage; HPA/VPA aware and cost-oriented | `Go` `K8s` `metrics` |
+| **[SolarSystem](https://github.com/Ankitavasudev/SolarSystem)** — [▶ live](https://ankitavasudev.github.io/SolarSystem/) | Interactive 3D orrery with real planet maps, Kepler-correct orbits, an asteroid belt and comets | `Three.js` `WebGL` |
+| **[emotion-sense](https://github.com/Ankitavasudev/emotion-sense)** | Explainable emotion API that returns the exact tokens behind every prediction | `FastAPI` `Python` |
 | **[CodeLens-AI](https://github.com/Ankitavasudev/CodeLens-AI)** | Automated code review platform that flags issues before they reach a PR | `JavaScript` `AI` |
 
 ---
