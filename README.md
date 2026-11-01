@@ -37,7 +37,7 @@ observability   → prometheus, grafana, log pipelines
 open source     → patches sent upstream to CNCF projects, reviewed and reworked
 
 $ git shortlog -sn --no-merges
-18 merged PRs · 8 tools shipped · 3 upstream PRs awaiting review
+11 projects shipped · every repo green in CI · 3 upstream PRs open, 2 closed
 ```
 
 ---
@@ -85,24 +85,47 @@ $ git shortlog -sn --no-merges
 
 </td>
 </tr>
+<tr>
+<td valign="top" width="50%">
+
+### Web
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=html,css,threejs,react&theme=dark" />
+</p>
+
+</td>
+<td valign="top" width="50%">
+
+### APIs & Testing
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=fastapi,nodejs,pytest,npm&theme=dark" />
+</p>
+
+</td>
+</tr>
 </table>
 
 <br />
 
 # 🛠️ Featured Work
 
-Tools I built end to end — not tutorials, not forks.
+Tools I built end to end — not tutorials, not forks. Every one has tests and a green CI run.
 
 | Project | What it does | Stack |
 | :--- | :--- | :--- |
-| **[k8s-health-monitor](https://github.com/Ankitavasudev/k8s-health-monitor)** | Cluster health checks, security scanning, namespace diffing and quota analysis with Rich-rendered reports | `Python` `kubectl` `Docker` `CI` |
-| **[go-task-cli](https://github.com/Ankitavasudev/go-task-cli)** | Task manager with priorities, due dates, search, CSV/JSON I/O and an interactive TUI | `Go` `Cobra` `REST` |
-| **[k8s-pod-analyzer](https://github.com/Ankitavasudev/k8s-pod-analyzer)** | Pod log analysis with filter flags, statistics summaries and JSON/CSV report export | `Go` `Kubernetes API` |
-| **[container-lint](https://github.com/Ankitavasudev/container-lint)** | Dockerfile linter with 15+ rules, security scanning and HTML report output | `Python` `AST` `Docker` |
-| **[k8s-pod-recommender](https://github.com/Ankitavasudev/k8s-pod-recommender)** | Recommends CPU/memory limits from observed usage; HPA/VPA aware and cost-oriented | `Go` `K8s` `metrics` |
-| **[SolarSystem](https://github.com/Ankitavasudev/SolarSystem)** — [▶ live](https://ankitavasudev.github.io/SolarSystem/) | Interactive 3D orrery with real planet maps, Kepler-correct orbits, an asteroid belt and comets | `Three.js` `WebGL` |
-| **[emotion-sense](https://github.com/Ankitavasudev/emotion-sense)** | Explainable emotion API that returns the exact tokens behind every prediction | `FastAPI` `Python` |
-| **[CodeLens-AI](https://github.com/Ankitavasudev/CodeLens-AI)** | Automated code review platform that flags issues before they reach a PR | `JavaScript` `AI` |
+| **[k8s-health-monitor](https://github.com/Ankitavasudev/k8s-health-monitor)** | Terminal dashboard for a cluster: node capacity, pod and deployment health, security findings, resource accounting, namespace diffing. Says `UNKNOWN` instead of `HEALTHY` when it cannot reach the cluster. `--output prometheus` for scraping. | `Python` `kubectl` `Rich` `Prometheus` `pytest` `CI` |
+| **[container-lint](https://github.com/Ankitavasudev/container-lint)** | Lints Dockerfiles and compose files with no Docker daemon. 14 rules (hadolint-style ids), `--format json`, `--fail-on` severity, exit codes a pipeline can trust. | `Python` `PyYAML` `pytest` `CI` |
+| **[k8s-pod-recommender](https://github.com/Ankitavasudev/k8s-pod-recommender)** | Reads `kubectl get pods -o json` and gives each pod one verdict: `fix`, `set`, `tighten`, `investigate`, `watch` or `keep`. Refuses to invent numbers it cannot measure. | `Go` `Cobra` `kubectl` `CI` |
+| **[k8s-pod-analyzer](https://github.com/Ankitavasudev/k8s-pod-analyzer)** | Ranks the errors inside container logs by frequency (timestamps stripped so repeats group), buckets them by minute, and reads from a file, stdin or `kubectl logs`. Text, JSON or stable CSV. | `Go` `Cobra` `kubectl` `CI` |
+| **[go-task-cli](https://github.com/Ankitavasudev/go-task-cli)** | Project-aware todo list in one JSON file: filters by project/status/priority/tag, due-date tracking, stats, JSON and real CSV import/export. | `Go` `Cobra` `encoding/csv` `CI` |
+| **[SolarSystem](https://github.com/Ankitavasudev/SolarSystem)** — [▶ live](https://ankitavasudev.github.io/SolarSystem/) | Interactive 3D orrery: real planet textures, scaled Kepler orbits, Saturn's rings, an asteroid belt and meteors — hover a planet for facts, click for a ripple. | `Three.js` `WebGL` `JS` `GitHub Pages` |
+| **[VoxNote](https://github.com/Ankitavasudev/VoxNote)** — [▶ live](https://ankitavasudev.github.io/VoxNote/) | Voice notes that never leave the browser: Web Speech transcription, localStorage, search and export. No account, no server. | `JS` `Web Speech API` `node:test` `Pages` |
+| **[NexusBoard](https://github.com/Ankitavasudev/NexusBoard)** — [▶ live](https://ankitavasudev.github.io/NexusBoard/) | Infinite whiteboard in a tab: pen, shapes, text, eraser, undo/redo, PNG export. Zero dependencies, 29 tests. | `JS` `Canvas` `node:test` `Pages` |
+| **[DevPulse](https://github.com/Ankitavasudev/DevPulse)** — [▶ live](https://ankitavasudev.github.io/DevPulse/) | Type a GitHub username, get the shape of that developer in one screen — languages, activity, top repos — from the public API, single file. | `JS` `GitHub API` `Pages` |
+| **[CodeLens-AI](https://github.com/Ankitavasudev/CodeLens-AI)** | Paste code, get a structured review — or an explanation, a refactor, a translation. FastAPI routers, React front end, 30 tests. | `FastAPI` `Python` `React` `Docker` `pytest` |
+| **[emotion-sense](https://github.com/Ankitavasudev/emotion-sense)** | Explainable emotion scoring: every prediction lists the exact words that produced it, with a `/explain` breakdown. | `FastAPI` `Python` `React` `pytest` |
 
 ---
 
@@ -158,7 +181,7 @@ Sent to CNCF projects — status shown as it actually is.
 <br />
 
 - Start from the operator's problem, not the framework — every tool here came from a real gap in `kubectl` or a noisy dashboard.
-- Ship it with tests, a Dockerfile and CI, or it does not count as finished.
+- Ship it with tests and CI, or it does not count as finished — all eleven repos here have a passing workflow.
 - Read the upstream issue, match the maintainers' conventions, expect review comments, come back with a better patch.
 
 </details>
@@ -168,9 +191,9 @@ Sent to CNCF projects — status shown as it actually is.
 
 <br />
 
-- Finalising the model behind `k8s-pod-recommender` and evaluating it against real cluster traces.
-- Reading Kubernetes scheduler internals to extend pod-placement experiments.
-- Keeping upstream PRs green while maintainers review.
+- Wiring `kubectl top` into `k8s-pod-recommender` so it can size from measured usage instead of only inconsistent specs.
+- Adding rules to `container-lint` and more checks to `k8s-health-monitor`.
+- Keeping the five upstream patches green while maintainers review.
 
 </details>
 
