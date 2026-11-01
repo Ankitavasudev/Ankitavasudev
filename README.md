@@ -37,7 +37,7 @@ observability   → prometheus, grafana, log pipelines
 open source     → patches sent upstream to CNCF projects, reviewed and reworked
 
 $ git shortlog -sn --no-merges
-11 projects shipped · all builds green · 3 upstream PRs open, 2 closed
+11 projects shipped · all builds green · 22 upstream PRs open, 20 closed after review
 ```
 
 ---
@@ -131,15 +131,16 @@ Tools I built end to end — not tutorials, not forks. Every one builds green be
 
 # 🌱 Upstream Patches
 
-Sent to CNCF projects — status shown as it actually is.
+Real pull requests to projects I do not own. Status shown as it actually is — most of these were closed, and that is part of the record.
 
-| Project | Patch | Status |
+| Project | What the patches do | Status |
 | :--- | :--- | :--- |
-| [kubeedge/kubeedge](https://github.com/kubeedge/kubeedge) | [#7219](https://github.com/kubeedge/kubeedge/pull/7219) — add `govulncheck` CI workflow | ![open](https://img.shields.io/badge/open-3FB950?style=flat-square) |
-| [volcano-sh/volcano](https://github.com/volcano-sh/volcano) | [#5862](https://github.com/volcano-sh/volcano/pull/5862) — test utility builders for test pods | ![open](https://img.shields.io/badge/open-3FB950?style=flat-square) |
-| [jaegertracing/jaeger](https://github.com/jaegertracing/jaeger) | [#9292](https://github.com/jaegertracing/jaeger/pull/9292) — sort span events by timestamp | ![open](https://img.shields.io/badge/open-3FB950?style=flat-square) |
-| [kubeedge/kubeedge](https://github.com/kubeedge/kubeedge) | [#7274](https://github.com/kubeedge/kubeedge/pull/7274) — error handling in cloud controllers | ![closed](https://img.shields.io/badge/closed-8B949E?style=flat-square) |
-| [Project-HAMi/HAMi](https://github.com/Project-HAMi/HAMi) | [#2872](https://github.com/Project-HAMi/HAMi/pull/2872) — quick start guide for contributors | ![closed](https://img.shields.io/badge/closed-8B949E?style=flat-square) |
+| [kubeedge/kubeedge](https://github.com/kubeedge/kubeedge) | [#7219](https://github.com/kubeedge/kubeedge/pull/7219) `govulncheck` CI · [#7277](https://github.com/kubeedge/kubeedge/pull/7277) replace `klog.Exit` with `panic` | ![2 open](https://img.shields.io/badge/2-open-3FB950?style=flat-square) |
+| [volcano-sh/volcano](https://github.com/volcano-sh/volcano) | [#5862](https://github.com/volcano-sh/volcano/pull/5862) builder helpers for test pods | ![1 open](https://img.shields.io/badge/1-open-3FB950?style=flat-square) |
+| [jaegertracing/jaeger](https://github.com/jaegertracing/jaeger) | [#9292](https://github.com/jaegertracing/jaeger/pull/9292) sort span events by timestamp | ![1 open](https://img.shields.io/badge/1-open-3FB950?style=flat-square) |
+| [enginow-in/go-eazy](https://github.com/enginow-in/go-eazy) | 18 open PRs: auth race conditions, an RLS bypass in the payment-gated property query, modal scroll leaks, SEO and skeleton polish | ![18 open](https://img.shields.io/badge/18-open-3FB950?style=flat-square) |
+| [Project-HAMi/HAMi](https://github.com/Project-HAMi/HAMi) · [prometheus/prometheus](https://github.com/prometheus/prometheus) | 10 PRs between them — docs, bug-template coverage, scheduler cleanup, label-sort validation in TSDB | ![10 closed](https://img.shields.io/badge/10-closed-8B949E?style=flat-square) |
+| [kubernetes/kubernetes](https://github.com/kubernetes/kubernetes) · [containerd/containerd](https://github.com/containerd/containerd) · [helm/helm](https://github.com/helm/helm) | 1 each — a pod-condition analyzer utility, an image analyzer, chart validation helpers | ![3 closed](https://img.shields.io/badge/3-closed-8B949E?style=flat-square) |
 
 ---
 
