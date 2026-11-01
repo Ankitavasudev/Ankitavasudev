@@ -194,7 +194,7 @@ Real pull requests to projects I do not own. Status shown as it actually is — 
 
 - Wiring `kubectl top` into `k8s-pod-recommender` so it can size from measured usage instead of only inconsistent specs.
 - Adding rules to `container-lint` and more checks to `k8s-health-monitor`.
-- Keeping the five upstream patches green while maintainers review.
+- Keeping the kubeedge, volcano and jaeger patches rebased and green while maintainers review.
 
 </details>
 
