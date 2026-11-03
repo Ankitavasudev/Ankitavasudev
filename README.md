@@ -117,11 +117,107 @@ Open To:
 
 ---
 
-# 📊 Contribution Graph
+# 🎯 Currently Building
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Ankitavasudev&bg_color=0d1117&color=4A90D9&line=9B59B6&point=E74C3C&area=true&hide_border=true"/>
+<!-- Animated progress bars for current projects -->
+<svg width="600" height="200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#4A90D9;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#9B59B6;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="g2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#9B59B6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#E74C3C;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="g3" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#E74C3C;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#4A90D9;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="600" height="200" rx="12" fill="#0d1117" stroke="#4A90D9" stroke-width="1" opacity="0.8"/>
+
+  <!-- Title -->
+  <text x="300" y="30" text-anchor="middle" fill="#4A90D9" font-family="monospace" font-size="14" font-weight="bold">⚡ ACTIVE PROJECTS</text>
+
+  <!-- Project 1: KubeArmor -->
+  <text x="20" y="65" fill="#e0d4c8" font-family="monospace" font-size="12">KubeArmor Contribution</text>
+  <rect x="20" y="72" width="560" height="8" rx="4" fill="#1a1f2e"/>
+  <rect x="20" y="72" width="0" height="8" rx="4" fill="url(#g1)">
+    <animate attributeName="width" from="0" to="420" dur="2s" fill="freeze" />
+  </rect>
+  <text x="585" y="80" fill="#4A90D9" font-family="monospace" font-size="11" text-anchor="end">75%</text>
+
+  <!-- Project 2: K8s Pod Analyzer -->
+  <text x="20" y="110" fill="#e0d4c8" font-family="monospace" font-size="12">K8s Pod Analyzer</text>
+  <rect x="20" y="117" width="560" height="8" rx="4" fill="#1a1f2e"/>
+  <rect x="20" y="117" width="0" height="8" rx="4" fill="url(#g2)">
+    <animate attributeName="width" from="0" to="476" dur="2s" fill="freeze" begin="0.3s" />
+  </rect>
+  <text x="585" y="125" fill="#9B59B6" font-family="monospace" font-size="11" text-anchor="end">85%</text>
+
+  <!-- Project 3: K8s Health Monitor -->
+  <text x="20" y="155" fill="#e0d4c8" font-family="monospace" font-size="12">K8s Health Monitor</text>
+  <rect x="20" y="162" width="560" height="8" rx="4" fill="#1a1f2e"/>
+  <rect x="20" y="162" width="0" height="8" rx="4" fill="url(#g3)">
+    <animate attributeName="width" from="0" to="504" dur="2s" fill="freeze" begin="0.6s" />
+  </rect>
+  <text x="585" y="170" fill="#E74C3C" font-family="monospace" font-size="11" text-anchor="end">90%</text>
+
+  <!-- Animated pulse dot -->
+  <circle cx="300" cy="190" r="3" fill="#4A90D9">
+    <animate attributeName="r" values="3;6;3" dur="1.5s" repeatCount="indefinite" />
+    <animate attributeName="opacity" values="1;0.3;1" dur="1.5s" repeatCount="indefinite" />
+  </circle>
+</svg>
+
+<br>
+
+<!-- Skill orbit animation -->
+<svg width="400" height="120" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="core" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#4A90D9;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#4A90D9;stop-opacity:0.1" />
+    </radialGradient>
+  </defs>
+
+  <rect width="400" height="120" rx="12" fill="#0d1117" stroke="#4A90D9" stroke-width="1" opacity="0.6"/>
+
+  <text x="200" y="20" text-anchor="middle" fill="#4A90D9" font-family="monospace" font-size="12" font-weight="bold">🔄 SKILL ORBIT</text>
+
+  <!-- Center node -->
+  <circle cx="200" cy="65" r="18" fill="url(#core)" stroke="#4A90D9" stroke-width="1.5">
+    <animate attributeName="r" values="18;20;18" dur="2s" repeatCount="indefinite" />
+  </circle>
+  <text x="200" y="69" text-anchor="middle" fill="#fff" font-family="monospace" font-size="9" font-weight="bold">CORE</text>
+
+  <!-- Orbiting skill nodes -->
+  <g>
+    <animateTransform attributeName="transform" type="rotate" from="0 200 65" to="360 200 65" dur="12s" repeatCount="indefinite" />
+    <circle cx="200" cy="30" r="12" fill="#0d1117" stroke="#9B59B6" stroke-width="1.5"/>
+    <text x="200" y="34" text-anchor="middle" fill="#9B59B6" font-family="monospace" font-size="8">Go</text>
+  </g>
+  <g>
+    <animateTransform attributeName="transform" type="rotate" from="120 200 65" to="480 200 65" dur="12s" repeatCount="indefinite" />
+    <circle cx="200" cy="30" r="12" fill="#0d1117" stroke="#E74C3C" stroke-width="1.5"/>
+    <text x="200" y="34" text-anchor="middle" fill="#E74C3C" font-family="monospace" font-size="8">K8s</text>
+  </g>
+  <g>
+    <animateTransform attributeName="transform" type="rotate" from="240 200 65" to="600 200 65" dur="12s" repeatCount="indefinite" />
+    <circle cx="200" cy="30" r="12" fill="#0d1117" stroke="#2ECC71" stroke-width="1.5"/>
+    <text x="200" y="34" text-anchor="middle" fill="#2ECC71" font-family="monospace" font-size="8">Py</text>
+  </g>
+
+  <!-- Orbit ring -->
+  <circle cx="200" cy="65" r="35" fill="none" stroke="rgba(74,144,217,0.2)" stroke-width="1" stroke-dasharray="4 4">
+    <animate attributeName="stroke-dashoffset" from="0" to="16" dur="3s" repeatCount="indefinite" />
+  </circle>
+</svg>
 
 </div>
 
