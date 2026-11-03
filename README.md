@@ -117,6 +117,16 @@ Open To:
 
 ---
 
+# 💻 Live Terminal
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/Ankitavasudev/Ankitavasudev/main/terminal_anim.svg" width="600"/>
+
+</div>
+
+---
+
 # 🎯 Currently Building
 
 <div align="center">
