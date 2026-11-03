@@ -212,20 +212,27 @@ Open To:
 
 ---
 
-# ❤️ Beyond Code — Hobbies & Interests
+# ❤️ Beyond Code
 
 <div align="center">
 
-<!-- Red glowing diamond shape with hobbies -->
-<svg width="500" height="320" xmlns="http://www.w3.org/2000/svg">
+<!-- Glowing heart with hobbies as clickable links on boundary -->
+<svg width="520" height="340" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <defs>
-    <radialGradient id="redGlow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" style="stop-color:#E74C3C;stop-opacity:0.9" />
-      <stop offset="50%" style="stop-color:#E74C3C;stop-opacity:0.4" />
+    <radialGradient id="heartGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#ff1744;stop-opacity:0.9" />
+      <stop offset="40%" style="stop-color:#E74C3C;stop-opacity:0.5" />
       <stop offset="100%" style="stop-color:#E74C3C;stop-opacity:0" />
     </radialGradient>
-    <filter id="glow">
-      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+    <filter id="redGlow">
+      <feGaussianBlur stdDeviation="5" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="softGlow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
       <feMerge>
         <feMergeNode in="coloredBlur"/>
         <feMergeNode in="SourceGraphic"/>
@@ -233,83 +240,113 @@ Open To:
     </filter>
   </defs>
 
-  <rect width="500" height="320" rx="12" fill="#0d1117" stroke="#E74C3C" stroke-width="1" opacity="0.7"/>
+  <rect width="520" height="340" rx="12" fill="#0d1117" stroke="#E74C3C" stroke-width="1" opacity="0.7"/>
 
-  <text x="250" y="30" text-anchor="middle" fill="#E74C3C" font-family="monospace" font-size="14" font-weight="bold" filter="url(#glow)">❤️ BEYOND CODE</text>
+  <text x="260" y="30" text-anchor="middle" fill="#E74C3C" font-family="monospace" font-size="14" font-weight="bold" filter="url(#redGlow)">❤️ BEYOND CODE</text>
 
-  <!-- Glowing diamond -->
-  <polygon points="250,55 310,110 250,165 190,110" fill="none" stroke="#E74C3C" stroke-width="2" filter="url(#glow)">
-    <animate attributeName="stroke-opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite" />
-    <animate attributeName="stroke-width" values="2;3;2" dur="2s" repeatCount="indefinite" />
-  </polygon>
+  <!-- Glowing heart shape -->
+  <path d="M260,90 C260,70 230,50 200,50 C160,50 140,80 140,110 C140,160 200,200 260,240 C320,200 380,160 380,110 C380,80 360,50 320,50 C290,50 260,70 260,90 Z" 
+        fill="url(#heartGlow)" stroke="#E74C3C" stroke-width="2.5" filter="url(#redGlow)">
+    <animate attributeName="stroke-opacity" values="0.5;1;0.5" dur="2s" repeatCount="indefinite" />
+    <animate attributeName="stroke-width" values="2;3.5;2" dur="2s" repeatCount="indefinite" />
+  </path>
 
-  <!-- Inner glow diamond -->
-  <polygon points="250,70 290,110 250,150 210,110" fill="url(#redGlow)" opacity="0.3">
-    <animate attributeName="opacity" values="0.2;0.5;0.2" dur="2.5s" repeatCount="indefinite" />
-  </polygon>
+  <!-- Inner heart pulse -->
+  <path d="M260,100 C260,85 240,70 220,70 C195,70 180,90 180,110 C180,145 220,175 260,205 C300,175 340,145 340,110 C340,90 325,70 300,70 C280,70 260,85 260,100 Z" 
+        fill="rgba(231,76,60,0.15)" stroke="none">
+    <animate attributeName="opacity" values="0.1;0.35;0.1" dur="2.5s" repeatCount="indefinite" />
+  </path>
 
-  <!-- Center icon -->
-  <text x="250" y="118" text-anchor="middle" fill="#fff" font-family="monospace" font-size="20" filter="url(#glow)">❤️</text>
+  <!-- Center text -->
+  <text x="260" y="135" text-anchor="middle" fill="#fff" font-family="monospace" font-size="16" font-weight="bold" filter="url(#redGlow)">❤️</text>
+  <text x="260" y="155" text-anchor="middle" fill="#ff6b6b" font-family="monospace" font-size="9" font-weight="bold">PASSION</text>
 
-  <!-- Hobby items orbiting around diamond -->
-  <!-- Top -->
-  <g>
-    <animateTransform attributeName="transform" type="translate" values="0,0; 0,-3; 0,0" dur="2s" repeatCount="indefinite" />
-    <rect x="175" y="42" width="150" height="24" rx="12" fill="rgba(231,76,60,0.1)" stroke="#E74C3C" stroke-width="1" opacity="0.8"/>
-    <text x="250" y="58" text-anchor="middle" fill="#E74C3C" font-family="monospace" font-size="10">🎨 UI/UX Design</text>
-  </g>
+  <!-- Hobby links around heart boundary -->
+  <!-- Top-left -->
+  <a xlink:href="https://github.com/Ankitavasudev" target="_blank">
+    <g>
+      <rect x="60" y="48" width="95" height="22" rx="11" fill="rgba(0,0,0,0.7)" stroke="#E74C3C" stroke-width="1" opacity="0.9"/>
+      <text x="107" y="63" text-anchor="middle" fill="#000" font-family="monospace" font-size="9" font-weight="bold">🎨 UI/UX</text>
+    </g>
+  </a>
 
-  <!-- Right -->
-  <g>
-    <animateTransform attributeName="transform" type="translate" values="0,0; 3,0; 0,0" dur="2.2s" repeatCount="indefinite" />
-    <rect x="320" y="98" width="150" height="24" rx="12" fill="rgba(231,76,60,0.1)" stroke="#E74C3C" stroke-width="1" opacity="0.8"/>
-    <text x="395" y="114" text-anchor="middle" fill="#E74C3C" font-family="monospace" font-size="10">☕ Coffee &amp; Code</text>
-  </g>
-
-  <!-- Bottom -->
-  <g>
-    <animateTransform attributeName="transform" type="translate" values="0,0; 0,3; 0,0" dur="2.4s" repeatCount="indefinite" />
-    <rect x="175" y="172" width="150" height="24" rx="12" fill="rgba(231,76,60,0.1)" stroke="#E74C3C" stroke-width="1" opacity="0.8"/>
-    <text x="250" y="188" text-anchor="middle" fill="#E74C3C" font-family="monospace" font-size="10">📚 Tech Blogs</text>
-  </g>
+  <!-- Top-right -->
+  <a xlink:href="https://github.com/Ankitavasudev" target="_blank">
+    <g>
+      <rect x="365" y="48" width="95" height="22" rx="11" fill="rgba(0,0,0,0.7)" stroke="#E74C3C" stroke-width="1" opacity="0.9"/>
+      <text x="412" y="63" text-anchor="middle" fill="#000" font-family="monospace" font-size="9" font-weight="bold">☕ Coffee</text>
+    </g>
+  </a>
 
   <!-- Left -->
-  <g>
-    <animateTransform attributeName="transform" type="translate" values="0,0; -3,0; 0,0" dur="2.6s" repeatCount="indefinite" />
-    <rect x="30" y="98" width="150" height="24" rx="12" fill="rgba(231,76,60,0.1)" stroke="#E74C3C" stroke-width="1" opacity="0.8"/>
-    <text x="105" y="114" text-anchor="middle" fill="#E74C3C" font-family="monospace" font-size="10">🎮 Gaming</text>
-  </g>
+  <a xlink:href="https://github.com/Ankitavasudev" target="_blank">
+    <g>
+      <rect x="30" y="120" width="95" height="22" rx="11" fill="rgba(0,0,0,0.7)" stroke="#E74C3C" stroke-width="1" opacity="0.9"/>
+      <text x="77" y="135" text-anchor="middle" fill="#000" font-family="monospace" font-size="9" font-weight="bold">🎮 Gaming</text>
+    </g>
+  </a>
 
-  <!-- Additional hobbies at bottom -->
-  <text x="250" y="220" text-anchor="middle" fill="#8B949E" font-family="monospace" font-size="10">Also loves: Music · Travel · Anime · Open Source</text>
+  <!-- Right -->
+  <a xlink:href="https://github.com/Ankitavasudev" target="_blank">
+    <g>
+      <rect x="395" y="120" width="95" height="22" rx="11" fill="rgba(0,0,0,0.7)" stroke="#E74C3C" stroke-width="1" opacity="0.9"/>
+      <text x="442" y="135" text-anchor="middle" fill="#000" font-family="monospace" font-size="9" font-weight="bold">📚 Blogs</text>
+    </g>
+  </a>
 
-  <!-- Animated pulse rings -->
-  <circle cx="250" cy="110" r="60" fill="none" stroke="rgba(231,76,60,0.15)" stroke-width="1">
-    <animate attributeName="r" values="60;75;60" dur="3s" repeatCount="indefinite" />
-    <animate attributeName="opacity" values="0.3;0;0.3" dur="3s" repeatCount="indefinite" />
-  </circle>
-  <circle cx="250" cy="110" r="45" fill="none" stroke="rgba(231,76,60,0.2)" stroke-width="1">
-    <animate attributeName="r" values="45;60;45" dur="3s" repeatCount="indefinite" begin="0.5s" />
-    <animate attributeName="opacity" values="0.4;0;0.4" dur="3s" repeatCount="indefinite" begin="0.5s" />
-  </circle>
+  <!-- Bottom-left -->
+  <a xlink:href="https://github.com/Ankitavasudev" target="_blank">
+    <g>
+      <rect x="80" y="200" width="100" height="22" rx="11" fill="rgba(0,0,0,0.7)" stroke="#E74C3C" stroke-width="1" opacity="0.9"/>
+      <text x="130" y="215" text-anchor="middle" fill="#000" font-family="monospace" font-size="9" font-weight="bold">🎵 Music</text>
+    </g>
+  </a>
 
-  <!-- Floating hearts -->
-  <text x="60" y="260" font-size="14" opacity="0.4">
-    <animate attributeName="y" values="260;240;260" dur="3s" repeatCount="indefinite" />
+  <!-- Bottom-right -->
+  <a xlink:href="https://github.com/Ankitavasudev" target="_blank">
+    <g>
+      <rect x="340" y="200" width="100" height="22" rx="11" fill="rgba(0,0,0,0.7)" stroke="#E74C3C" stroke-width="1" opacity="0.9"/>
+      <text x="390" y="215" text-anchor="middle" fill="#000" font-family="monospace" font-size="9" font-weight="bold">✈️ Travel</text>
+    </g>
+  </a>
+
+  <!-- Bottom center -->
+  <a xlink:href="https://github.com/Ankitavasudev" target="_blank">
+    <g>
+      <rect x="185" y="250" width="150" height="22" rx="11" fill="rgba(0,0,0,0.7)" stroke="#E74C3C" stroke-width="1" opacity="0.9"/>
+      <text x="260" y="265" text-anchor="middle" fill="#000" font-family="monospace" font-size="9" font-weight="bold">🌐 Open Source</text>
+    </g>
+  </a>
+
+  <!-- Bottom tagline -->
+  <text x="260" y="300" text-anchor="middle" fill="#8B949E" font-family="monospace" font-size="10">Building with passion · Living with purpose</text>
+
+  <!-- Animated floating hearts around -->
+  <text x="50" y="60" font-size="16" opacity="0.5">
+    <animate attributeName="y" values="60;45;60" dur="3s" repeatCount="indefinite" />
+    <animate attributeName="opacity" values="0.3;0.7;0.3" dur="3s" repeatCount="indefinite" />
     ❤️
   </text>
-  <text x="180" y="275" font-size="12" opacity="0.3">
-    <animate attributeName="y" values="275;255;275" dur="3.5s" repeatCount="indefinite" begin="0.5s" />
+  <text x="450" y="70" font-size="14" opacity="0.4">
+    <animate attributeName="y" values="70;55;70" dur="3.5s" repeatCount="indefinite" begin="0.5s" />
+    <animate attributeName="opacity" values="0.2;0.6;0.2" dur="3.5s" repeatCount="indefinite" begin="0.5s" />
     💜
   </text>
-  <text x="300" y="265" font-size="14" opacity="0.4">
-    <animate attributeName="y" values="265;245;265" dur="3.2s" repeatCount="indefinite" begin="1s" />
+  <text x="100" y="260" font-size="12" opacity="0.3">
+    <animate attributeName="y" values="260;245;260" dur="4s" repeatCount="indefinite" begin="1s" />
     💙
   </text>
-  <text x="420" y="270" font-size="12" opacity="0.3">
-    <animate attributeName="y" values="270;250;270" dur="3.8s" repeatCount="indefinite" begin="1.5s" />
+  <text x="400" y="255" font-size="14" opacity="0.4">
+    <animate attributeName="y" values="255;240;255" dur="3.2s" repeatCount="indefinite" begin="1.5s" />
     🧡
   </text>
+
+  <!-- Pulse rings around heart -->
+  <ellipse cx="260" cy="145" rx="80" ry="70" fill="none" stroke="rgba(231,76,60,0.15)" stroke-width="1">
+    <animate attributeName="rx" values="80;95;80" dur="3s" repeatCount="indefinite" />
+    <animate attributeName="ry" values="70;85;70" dur="3s" repeatCount="indefinite" />
+    <animate attributeName="opacity" values="0.3;0;0.3" dur="3s" repeatCount="indefinite" />
+  </ellipse>
 </svg>
 
 </div>
