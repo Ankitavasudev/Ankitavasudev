@@ -121,7 +121,7 @@ Open To:
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Ankitavasudev/Ankitavasudev/main/cube_anim.gif" width="300"/>
+<img src="https://raw.githubusercontent.com/Ankitavasudev/Ankitavasudev/main/cube.gif" width="300"/>
 
 <br>
 
