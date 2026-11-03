@@ -117,11 +117,15 @@ Open To:
 
 ---
 
-# 💻 Live Terminal
+# 🎲 Skill Cube
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Ankitavasudev/Ankitavasudev/main/terminal_anim.svg" width="600"/>
+<img src="https://raw.githubusercontent.com/Ankitavasudev/Ankitavasudev/main/cube.svg" width="300"/>
+
+<br>
+
+**Go** · **Python** · **Kubernetes** · **React** · **Docker** · **Linux**
 
 </div>
 
