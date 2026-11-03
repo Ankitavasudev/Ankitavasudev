@@ -1,668 +1,789 @@
-<svg width="624" height="264" xmlns="http://www.w3.org/2000/svg">
+<svg width="648" height="300" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <filter id="goldGlow">
-      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+      <feGaussianBlur stdDeviation="2.5" result="coloredBlur"/>
       <feMerge>
         <feMergeNode in="coloredBlur"/>
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
-    <radialGradient id="bgGlow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" style="stop-color:#1a1510;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#0d1117;stop-opacity:1" />
-    </radialGradient>
+    <filter id="strongGlow">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFD700;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#FFA500;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FF8C00;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fff8e1;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#fff3e0;stop-opacity:1" />
+    </linearGradient>
   </defs>
 
-  <rect width="624" height="264" rx="12" fill="url(#bgGlow)" stroke="#FFD700" stroke-width="1" opacity="0.9"/>
+  <rect width="648" height="300" rx="12" fill="url(#bgGrad)" stroke="#FFD700" stroke-width="1.5" opacity="1"/>
 
-  <text x="312" y="25" text-anchor="middle" fill="#FFD700" font-family="monospace" font-size="13" font-weight="bold" filter="url(#goldGlow)">🙏 108 × JAI SHREE RAM 🙏</text>
+  <text x="324" y="26" text-anchor="middle" fill="#B8860B" font-family="monospace" font-size="13" font-weight="bold" filter="url(#goldGlow)">🙏 108 × जय श्री राम 🙏</text>
   <g>
-    <rect x="14" y="40" width="46" height="18" rx="3" fill="#fff" stroke="#FFD700" stroke-width="0.5" opacity="0.95">
-      <animate attributeName="opacity" values="0.85;1;0.85" dur="3.0s" begin="1.46s" repeatCount="indefinite" />
+    <rect x="14" y="40" width="48" height="22" rx="4" fill="#fff" stroke="#FFD700" stroke-width="0.8" opacity="0.98">
+      <animate attributeName="stroke-opacity" values="0.6;1;0.6" dur="2.1s" begin="1.28s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.9;1;0.9" dur="2.1s" begin="1.28s" repeatCount="indefinite" />
     </rect>
-    <text x="37" y="53" text-anchor="middle" fill="#B8860B" font-family="monospace" font-size="6" font-weight="bold">Jai Shree Ram</text>
+    <text x="38" y="55" text-anchor="middle" fill="#B8860B" font-family="'Noto Sans Devanagari', 'Mangal', sans-serif" font-size="9" font-weight="900" filter="url(#goldGlow)">जय श्री राम</text>
   </g>
   <g>
-    <rect x="64" y="40" width="46" height="18" rx="3" fill="#fff" stroke="#FFD700" stroke-width="0.5" opacity="0.95">
-      <animate attributeName="opacity" values="0.85;1;0.85" dur="3.0s" begin="1.54s" repeatCount="indefinite" />
+    <rect x="66" y="40" width="48" height="22" rx="4" fill="#fff" stroke="#FFD700" stroke-width="0.8" opacity="0.98">
+      <animate attributeName="stroke-opacity" values="0.6;1;0.6" dur="2.8s" begin="1.1s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.9;1;0.9" dur="2.8s" begin="1.1s" repeatCount="indefinite" />
     </rect>
-    <text x="87" y="53" text-anchor="middle" fill="#B8860B" font-family="monospace" font-size="6" font-weight="bold">Jai Shree Ram</text>
+    <text x="90" y="55" text-anchor="middle" fill="#B8860B" font-family="'Noto Sans Devanagari', 'Mangal', sans-serif" font-size="9" font-weight="900" filter="url(#goldGlow)">जय श्री राम</text>
   </g>
   <g>
-    <rect x="114" y="40" width="46" height="18" rx="3" fill="#fff" stroke="#FFD700" stroke-width="0.5" opacity="0.95">
-      <animate attributeName="opacity" values="0.85;1;0.85" dur="2.7s" begin="1.67s" repeatCount="indefinite" />
+    <rect x="118" y="40" width="48" height="22" rx="4" fill="#fff" stroke="#FFD700" stroke-width="0.8" opacity="0.98">
+      <animate attributeName="stroke-opacity" values="0.6;1;0.6" dur="3.4s" begin="1.95s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.9;1;0.9" dur="3.4s" begin="1.95s" repeatCount="indefinite" />
     </rect>
-    <text x="137" y="53" text-anchor="middle" fill="#B8860B" font-family="monospace" font-size="6" font-weight="bold">Jai Shree Ram</text>
+    <text x="142" y="55" text-anchor="middle" fill="#B8860B" font-family="'Noto Sans Devanagari', 'Mangal', sans-serif" font-size="9" font-weight="900" filter="url(#goldGlow)">जय श्री राम</text>
   </g>
   <g>
-    <rect x="164" y="40" width="46" height="18" rx="3" fill="#fff" stroke="#FFD700" stroke-width="0.5" opacity="0.95">
-      <animate attributeName="opacity" values="0.85;1;0.85" dur="4.0s" begin="1.81s" repeatCount="indefinite" />
+    <rect x="170" y="40" width="48" height="22" rx="4" fill="#fff" stroke="#FFD700" stroke-width="0.8" opacity="0.98">
+      <animate attributeName="stroke-opacity" values="0.6;1;0.6" dur="3.4s" begin="0.98s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.9;1;0.9" dur="3.4s" begin="0.98s" repeatCount="indefinite" />
     </rect>
-    <text x="187" y="53" text-anchor="middle" fill="#B8860B" font-family="monospace" font-size="6" font-weight="bold">Jai Shree Ram</text>
+    <text x="194" y="55" text-anchor="middle" fill="#B8860B" font-family="'Noto Sans Devanagari', 'Mangal', sans-serif" font-size="9" font-weight="900" filter="url(#goldGlow)">जय श्री राम</text>
   </g>
   <g>
-    <rect x="214" y="40" width="46" height="18" rx="3" fill="#fff" stroke="#FFD700" stroke-width="0.5" opacity="0.95">
-      <animate attributeName="opacity" values="0.85;1;0.85" dur="3.8s" begin="0.74s" repeatCount="indefinite" />
+    <rect x="222" y="40" width="48" height="22" rx="4" fill="#fff" stroke="#FFD700" stroke-width="0.8" opacity="0.98">
+      <animate attributeName="stroke-opacity" values="0.6;1;0.6" dur="2.2s" begin="1.29s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.9;1;0.9" dur="2.2s" begin="1.29s" repeatCount="indefinite" />
     </rect>
-    <text x="237" y="53" text-anchor="middle" fill="#B8860B" font-family="monospace" font-size="6" font-weight="bold">Jai Shree Ram</text>
+    <text x="246" y="55" text-anchor="middle" fill="#B8860B" font-family="'Noto Sans Devanagari', 'Mangal', sans-serif" font-size="9" font-weight="900" filter="url(#goldGlow)">जय श्री राम</text>
   </g>
   <g>
-    <rect x="264" y="40" width="46" height="18" rx="3" fill="#fff" stroke="#FFD700" stroke-width="0.5" opacity="0.95">
-      <animate attributeName="opacity" values="0.85;1;0.85" dur="2.1s" begin="1.49s" repeatCount="indefinite" />
+    <rect x="274" y="40" width="48" height="22" rx="4" fill="#fff" stroke="#FFD700" stroke-width="0.8" opacity="0.98">
+      <animate attributeName="stroke-opacity" values="0.6;1;0.6" dur="2.6s" begin="0.16s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.9;1;0.9" dur="2.6s" begin="0.16s" repeatCount="indefinite" />
     </rect>
-    <text x="287" y="53" text-anchor="middle" fill="#B8860B" font-family="monospace" font-size="6" font-weight="bold">Jai Shree Ram</text>
+    <text x="298" y="55" text-anchor="middle" fill="#B8860B" font-family="'Noto Sans Devanagari', 'Mangal', sans-serif" font-size="9" font-weight="900" filter="url(#goldGlow)">जय श्री राम</text>
   </g>
   <g>
-    <rect x="314" y="40" width="46" height="18" rx="3" fill="#fff" stroke="#FFD700" stroke-width="0.5" opacity="0.95">
-      <animate attributeName="opacity" values="0.85;1;0.85" dur="3.5s" begin="1.54s" repeatCount="indefinite" />
+    <rect x="326" y="40" width="48" height="22" rx="4" fill="#fff" stroke="#FFD700" stroke-width="0.8" opacity="0.98">
+      <animate attributeName="stroke-opacity" values="0.6;1;0.6" dur="4.0s" begin="1.06s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.9;1;0.9" dur="4.0s" begin="1.06s" repeatCount="indefinite" />
     </rect>
-    <text x="337" y="53" text-anchor="middle" fill="#B8860B" font-family="monospace" font-size="6" font-weight="bold">Jai Shree Ram</text>
+    <text x="350" y="55" text-anchor="middle" fill="#B8860B" font-family="'Noto Sans Devanagari', 'Mangal', sans-serif" font-size="9" font-weight="900" filter="url(#goldGlow)">जय श्री राम</text>
   </g>
   <g>
-    <rect x="364" y="40" width="46" height="18" rx="3" fill="#fff" stroke="#FFD700" stroke-width="0.5" opacity="0.95">
-      <animate attributeName="opacity" values="0.85;1;0.85" dur="3.5s" begin="1.44s" repeatCount="indefinite" />
+    <rect x="378" y="40" width="48" height="22" rx="4" fill="#fff" stroke="#FFD700" stroke-width="0.8" opacity="0.98">
+      <animate attributeName="stroke-opacity" values="0.6;1;0.6" dur="3.6s" begin="1.56s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.9;1;0.9" dur="3.6s" begin="1.56s" repeatCount="indefinite" />
     </rect>
-    <text x="387" y="53" text-anchor="middle" fill="#B8860B" font-family="monospace" font-size="6" font-weight="bold">Jai Shree Ram</text>
+    <text x="402" y="55" text-anchor="middle" fill="#B8860B" font-family="'Noto Sans Devanagari', 'Mangal', sans-serif" font-size="9" font-weight="900" filter="url(#goldGlow)">जय श्री राम</text>
   </g>
   <g>
-    <rect x="414" y="40" width="46" height="18" rx="3" fill="#fff" stroke="#FFD700" stroke-width="0.5" opacity="0.95">
-      <animate attributeName="opacity" values="0.85;1;0.85" dur="3.2s" begin="1.36s" repeatCount="indefinite" />
+    <rect x="430" y="40" width="48" height="22" rx="4" fill="#fff" stroke="#FFD700" stroke-width="0.8" opacity="0.98">
+      <animate attributeName="stroke-opacity" values="0.6;1;0.6" dur="3.6s" begin="0.7s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.9;1;0.9" dur="3.6s" begin="0.7s" repeatCount="indefinite" />
     </rect>
-    <text x="437" y="53" text-anchor="middle" fill="#B8860B" font-family="monospace" font-size="6" font-weight="bold">Jai Shree Ram</text>
+    <text x="454" y="55" text-anchor="middle" fill="#B8860B" font-family="'Noto Sans Devanagari', 'Mangal', sans-serif" font-size="9" font-weight="900" filter="url(#goldGlow)">जय श्री राम</text>
   </g>
   <g>
-    <rect x="464" y="40" width="46" height="18" rx="3" fill="#fff" stroke="#FFD700" stroke-width="0.5" opacity="0.95">
-      <animate attributeName="opacity" values="0.85;1;0.85" dur="2.9s" begin="1.22s" repeatCount="indefinite" />
+    <rect x="482" y="40" width="48" height="22" rx="4" fill="#fff" stroke="#FFD700" stroke-width="0.8" opacity="0.98">
+      <animate attributeName="stroke-opacity" values="0.6;1;0.6" dur="2.2s" begin="0.95s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.9;1;0.9" dur="2.2s" begin="0.95s" repeatCount="indefinite" />
     </rect>
-    <text x="487" y="53" text-anchor="middle" fill="#B8860B" font-family="monospace" font-size="6" font-weight="bold">Jai Shree Ram</text>
+    <text x="506" y="55" text-anchor="middle" fill="#B8860B" font-family="'Noto Sans Devanagari', 'Mangal', sans-serif" font-size="9" font-weight="900" filter="url(#goldGlow)">जय श्री राम</text>
   </g>
   <g>
-    <rect x="514" y="40" width="46" height="18" rx="3" fill="#fff" stroke="#FFD700" stroke-width="0.5" opacity="0.95">
-      <animate attributeName="opacity" values="0.85;1;0.85" dur="2.8s" begin="1.5s" repeatCount="indefinite" />
+    <rect x="534" y="40" width="48" height="22" rx="4" fill="#fff" stroke="#FFD700" stroke-width="0.8" opacity="0.98">
+      <animate attributeName="stroke-opacity" values="0.6;1;0.6" dur="3.4s" begin="0.37s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.9;1;0.9" dur="3.4s" begin="0.37s" repeatCount="indefinite" />
     </rect>
-    <text x="537" y="53" text-anchor="middle" fill="#B8860B" font-family="monospace" font-size="6" font-weight="bold">Jai Shree Ram</text>
+    <text x="558" y="55" text-anchor="middle" fill="#B8860B" font-family="'Noto Sans Devanagari', 'Mangal', sans-serif" font-size="9" font-weight="900" filter="url(#goldGlow)">जय श्री राम</text>
   </g>
   <g>
-    <rect x="564" y="40" width="46" height="18" rx="3" fill="#fff" stroke="#FFD700" stroke-width="0.5" opacity="0.95">
-      <animate attributeName="opacity" values="0.85;1;0.85" dur="3.7s" begin="0.84s" repeatCount="indefinite" />
+    <rect x="586" y="40" width="48" height="22" rx="4" fill="#fff" stroke="#FFD700" stroke-width="0.8" opacity="0.98">
+      <animate attributeName="stroke-opacity" values="0.6;1;0.6" dur="2.4s" begin="1.38s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.9;1;0.9" dur="2.4s" begin="1.38s" repeatCount="indefinite" />
     </rect>
-    <text x="587" y="53" text-anchor="middle" fill="#B8860B" font-family="monospace" font-size="6" font-weight="bold">Jai Shree Ram</text>
+    <text x="610" y="55" text-anchor="middle" fill="#B8860B" font-family="'Noto Sans Devanagari', 'Mangal', sans-serif" font-size="9" font-weight="900" filter="url(#goldGlow)">जय श्री राम</text>
   </g>
   <g>
-    <rect x="14" y="62" width="46" height="18" rx="3" fill="#fff" stroke="#FFD700" stroke-width="0.5" opacity="0.95">
-      <animate attributeName="opacity" values="0.85;1;0.85" dur="2.2s" begin="1.37s" repeatCount="indefinite" />
+    <rect x="14" y="66" width="48" height="22" rx="4" fill="#fff" stroke="#FFD700" stroke-width="0.8" opacity="0.98">
+      <animate attributeName="stroke-opacity" values="0.6;1;0.6" dur="2.3s" begin="1.89s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.9;1;0.9" dur="2.3s" begin="1.89s" repeatCount="indefinite" />
     </rect>
-    <text x="37" y="75" text-anchor="middle" fill="#B8860B" font-family="monospace" font-size="6" font-weight="bold">Jai Shree Ram</text>
+    <text x="38" y="81" text-anchor="middle" fill="#B8860B" font-family="'Noto Sans Devanagari', 'Mangal', sans-serif" font-size="9" font-weight="900" filter="url(#goldGlow)">जय श्री राम</text>
   </g>
   <g>
-    <rect x="64" y="62" width="46" height="18" rx="3" fill="#fff" stroke="#FFD700" stroke-width="0.5" opacity="0.95">
-      <animate attributeName="opacity" values="0.85;1;0.85" dur="2.9s" begin="0.89s" repeatCount="indefinite" />
+    <rect x="66" y="66" width="48" height="22" rx="4" fill="#fff" stroke="#FFD700" stroke-width="0.8" opacity="0.98">
+      <animate attributeName="stroke-opacity" values="0.6;1;0.6" dur="4.0s" begin="1.92s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.9;1;0.9" dur="4.0s" begin="1.92s" repeatCount="indefinite" />
     </rect>
-    <text x="87" y="75" text-anchor="middle" fill="#B8860B" font-family="monospace" font-size="6" font-weight="bold">Jai Shree Ram</text>
+    <text x="90" y="81" text-anchor="middle" fill="#B8860B" font-family="'Noto Sans Devanagari', 'Mangal', sans-serif" font-size="9" font-weight="900" filter="url(#goldGlow)">जय श्री राम</text>
   </g>
   <g>
-    <rect x="114" y="62" width="46" height="18" rx="3" fill="#fff" stroke="#FFD700" stroke-width="0.5" opacity="0.95">
-      <animate attributeName="opacity" values="0.85;1;0.85" dur="3.4s" begin="0.54s" repeatCount="indefinite" />
+    <rect x="118" y="66" width="48" height="22" rx="4" fill="#fff" stroke="#FFD700" stroke-width="0.8" opacity="0.98">
+      <animate attributeName="stroke-opacity" values="0.6;1;0.6" dur="3.3s" begin="1.67s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.9;1;0.9" dur="3.3s" begin="1.67s" repeatCount="indefinite" />
     </rect>
-    <text x="137" y="75" text-anchor="middle" fill="#B8860B" font-family="monospace" font-size="6" font-weight="bold">Jai Shree Ram</text>
+    <text x="142" y="81" text-anchor="middle" fill="#B8860B" font-family="'Noto Sans Devanagari', 'Mangal', sans-serif" font-size="9" font-weight="900" filter="url(#goldGlow)">जय श्री राम</text>
   </g>
   <g>
-    <rect x="164" y="62" width="46" height="18" rx="3" fill="#fff" stroke="#FFD700" stroke-width="0.5" opacity="0.95">
-      <animate attributeName="opacity" values="0.85;1;0.85" dur="3.0s" begin="1.94s" repeatCount="indefinite" />
+    <rect x="170" y="66" width="48" height="22" rx="4" fill="#fff" stroke="#FFD700" stroke-width="0.8" opacity="0.98">
+      <animate attributeName="stroke-opacity" values="0.6;1;0.6" dur="3.7s" begin="1.79s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.9;1;0.9" dur="3.7s" begin="1.79s" repeatCount="indefinite" />
     </rect>
-    <text x="187" y="75" text-anchor="middle" fill="#B8860B" font-family="monospace" font-size="6" font-weight="bold">Jai Shree Ram</text>
+    <text x="194" y="81" text-anchor="middle" fill="#B8860B" font-family="'Noto Sans Devanagari', 'Mangal', sans-serif" font-size="9" font-weight="900" filter="url(#goldGlow)">जय श्री राम</text>
   </g>
   <g>
-    <rect x="214" y="62" width="46" height="18" rx="3" fill="#fff" stroke="#FFD700" stroke-width="0.5" opacity="0.95">
-      <animate attributeName="opacity" values="0.85;1;0.85" dur="3.5s" begin="1.55s" repeatCount="indefinite" />
+    <rect x="222" y="66" width="48" height="22" rx="4" fill="#fff" stroke="#FFD700" stroke-width="0.8" opacity="0.98">
+      <animate attributeName="stroke-opacity" values="0.6;1;0.6" dur="3.6s" begin="1.07s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.9;1;0.9" dur="3.6s" begin="1.07s" repeatCount="indefinite" />
     </rect>
-    <text x="237" y="75" text-anchor="middle" fill="#B8860B" font-family="monospace" font-size="6" font-weight="bold">Jai Shree Ram</text>
+    <text x="246" y="81" text-anchor="middle" fill="#B8860B" font-family="'Noto Sans Devanagari', 'Mangal', sans-serif" font-size="9" font-weight="900" filter="url(#goldGlow)">जय श्री राम</text>
   </g>
   <g>
-    <rect x="264" y="62" width="46" height="18" rx="3" fill="#fff" stroke="#FFD700" stroke-width="0.5" opacity="0.95">
-      <animate attributeName="opacity" values="0.85;1;0.85" dur="2.6s" begin="1.68s" repeatCount="indefinite" />
+    <rect x="274" y="66" width="48" height="22" rx="4" fill="#fff" stroke="#FFD700" stroke-width="0.8" opacity="0.98">
+      <animate attributeName="stroke-opacity" values="0.6;1;0.6" dur="3.9s" begin="0.17s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.9;1;0.9" dur="3.9s" begin="0.17s" repeatCount="indefinite" />
     </rect>
-    <text x="287" y="75" text-anchor="middle" fill="#B8860B" font-family="monospace" font-size="6" font-weight="bold">Jai Shree Ram</text>
+    <text x="298" y="81" text-anchor="middle" fill="#B8860B" font-family="'Noto Sans Devanagari', 'Mangal', sans-serif" font-size="9" font-weight="900" filter="url(#goldGlow)">जय श्री राम</text>
   </g>
   <g>
-    <rect x="314" y="62" width="46" height="18" rx="3" fill="#fff" stroke="#FFD700" stroke-width="0.5" opacity="0.95">
-      <animate attributeName="opacity" values="0.85;1;0.85" dur="2.9s" begin="0.51s" repeatCount="indefinite" />
+    <rect x="326" y="66" width="48" height="22" rx="4" fill="#fff" stroke="#FFD700" stroke-width="0.8" opacity="0.98">
+      <animate attributeName="stroke-opacity" values="0.6;1;0.6" dur="3.9s" begin="1.26s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.9;1;0.9" dur="3.9s" begin="1.26s" repeatCount="indefinite" />
     </rect>
-    <text x="337" y="75" text-anchor="middle" fill="#B8860B" font-family="monospace" font-size="6" font-weight="bold">Jai Shree Ram</text>
+    <text x="350" y="81" text-anchor="middle" fill="#B8860B" font-family="'Noto Sans Devanagari', 'Mangal', sans-serif" font-size="9" font-weight="900" filter="url(#goldGlow)">जय श्री राम</text>
   </g>
   <g>
-    <rect x="364" y="62" width="46" height="18" rx="3" fill="#fff" stroke="#FFD700" stroke-width="0.5" opacity="0.95">
-      <animate attributeName="opacity" values="0.85;1;0.85" dur="3.6s" begin="1.87s" repeatCount="indefinite" />
+    <rect x="378" y="66" width="48" height="22" rx="4" fill="#fff" stroke="#FFD700" stroke-width="0.8" opacity="0.98">
+      <animate attributeName="stroke-opacity" values="0.6;1;0.6" dur="3.0s" begin="1.49s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.9;1;0.9" dur="3.0s" begin="1.49s" repeatCount="indefinite" />
     </rect>
-    <text x="387" y="75" text-anchor="middle" fill="#B8860B" font-family="monospace" font-size="6" font-weight="bold">Jai Shree Ram</text>
+    <text x="402" y="81" text-anchor="middle" fill="#B8860B" font-family="'Noto Sans Devanagari', 'Mangal', sans-serif" font-size="9" font-weight="900" filter="url(#goldGlow)">जय श्री राम</text>
   </g>
   <g>
-    <rect x="414" y="62" width="46" height="18" rx="3" fill="#fff" stroke="#FFD700" stroke-width="0.5" opacity="0.95">
-      <animate attributeName="opacity" values="0.85;1;0.85" dur="3.6s" begin="1.18s" repeatCount="indefinite" />
+    <rect x="430" y="66" width="48" height="22" rx="4" fill="#fff" stroke="#FFD700" stroke-width="0.8" opacity="0.98">
+      <animate attributeName="stroke-opacity" values="0.6;1;0.6" dur="2.6s" begin="1.35s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.9;1;0.9" dur="2.6s" begin="1.35s" repeatCount="indefinite" />
     </rect>
-    <text x="437" y="75" text-anchor="middle" fill="#B8860B" font-family="monospace" font-size="6" font-weight="bold">Jai Shree Ram</text>
+    <text x="454" y="81" text-anchor="middle" fill="#B8860B" font-family="'Noto Sans Devanagari', 'Mangal', sans-serif" font-size="9" font-weight="900" filter="url(#goldGlow)">जय श्री राम</text>
   </g>
   <g>
-    <rect x="464" y="62" width="46" height="18" rx="3" fill="#fff" stroke="#FFD700" stroke-width="0.5" opacity="0.95">
-      <animate attributeName="opacity" values="0.85;1;0.85" dur="2.1s" begin="1.9s" repeatCount="indefinite" />
+    <rect x="482" y="66" width="48" height="22" rx="4" fill="#fff" stroke="#FFD700" stroke-width="0.8" opacity="0.98">
+      <animate attributeName="stroke-opacity" values="0.6;1;0.6" dur="3.1s" begin="1.24s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.9;1;0.9" dur="3.1s" begin="1.24s" repeatCount="indefinite" />
     </rect>
-    <text x="487" y="75" text-anchor="middle" fill="#B8860B" font-family="monospace" font-size="6" font-weight="bold">Jai Shree Ram</text>
+    <text x="506" y="81" text-anchor="middle" fill="#B8860B" font-family="'Noto Sans Devanagari', 'Mangal', sans-serif" font-size="9" font-weight="900" filter="url(#goldGlow)">जय श्री राम</text>
   </g>
   <g>
-    <rect x="514" y="62" width="46" height="18" rx="3" fill="#fff" stroke="#FFD700" stroke-width="0.5" opacity="0.95">
-      <animate attributeName="opacity" values="0.85;1;0.85" dur="2.1s" begin="0.5s" repeatCount="indefinite" />
+    <rect x="534" y="66" width="48" height="22" rx="4" fill="#fff" stroke="#FFD700" stroke-width="0.8" opacity="0.98">
+      <animate attributeName="stroke-opacity" values="0.6;1;0.6" dur="2.1s" begin="2.0s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.9;1;0.9" dur="2.1s" begin="2.0s" repeatCount="indefinite" />
     </rect>
-    <text x="537" y="75" text-anchor="middle" fill="#B8860B" font-family="monospace" font-size="6" font-weight="bold">Jai Shree Ram</text>
+    <text x="558" y="81" text-anchor="middle" fill="#B8860B" font-family="'Noto Sans Devanagari', 'Mangal', sans-serif" font-size="9" font-weight="900" filter="url(#goldGlow)">जय श्री राम</text>
   </g>
   <g>
-    <rect x="564" y="62" width="46" height="18" rx="3" fill="#fff" stroke="#FFD700" stroke-width="0.5" opacity="0.95">
-      <animate attributeName="opacity" values="0.85;1;0.85" dur="3.7s" begin="0.7s" repeatCount="indefinite" />
+    <rect x="586" y="66" width="48" height="22" rx="4" fill="#fff" stroke="#FFD700" stroke-width="0.8" opacity="0.98">
+      <animate attributeName="stroke-opacity" values="0.6;1;0.6" dur="2.9s" begin="0.16s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.9;1;0.9" dur="2.9s" begin="0.16s" repeatCount="indefinite" />
     </rect>
-    <text x="587" y="75" text-anchor="middle" fill="#B8860B" font-family="monospace" font-size="6" font-weight="bold">Jai Shree Ram</text>
+    <text x="610" y="81" text-anchor="middle" fill="#B8860B" font-family="'Noto Sans Devanagari', 'Mangal', sans-serif" font-size="9" font-weight="900" filter="url(#goldGlow)">जय श्री राम</text>
   </g>
   <g>
-    <rect x="14" y="84" width="46" height="18" rx="3" fill="#fff" stroke="#FFD700" stroke-width="0.5" opacity="0.95">
-      <animate attributeName="opacity" values="0.85;1;0.85" dur="3.1s" begin="1.95s" repeatCount="indefinite" />
+    <rect x="14" y="92" width="48" height="22" rx="4" fill="#fff" stroke="#FFD700" stroke-width="0.8" opacity="0.98">
+      <animate attributeName="stroke-opacity" values="0.6;1;0.6" dur="2.7s" begin="0.63s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.9;1;0.9" dur="2.7s" begin="0.63s" repeatCount="indefinite" />
     </rect>
-    <text x="37" y="97" text-anchor="middle" fill="#B8860B" font-family="monospace" font-size="6" font-weight="bold">Jai Shree Ram</text>
+    <text x="38" y="107" text-anchor="middle" fill="#B8860B" font-family="'Noto Sans Devanagari', 'Mangal', sans-serif" font-size="9" font-weight="900" filter="url(#goldGlow)">जय श्री राम</text>
   </g>
   <g>
-    <rect x="64" y="84" width="46" height="18" rx="3" fill="#fff" stroke="#FFD700" stroke-width="0.5" opacity="0.95">
-      <animate attributeName="opacity" values="0.85;1;0.85" dur="3.1s" begin="1.81s" repeatCount="indefinite" />
+    <rect x="66" y="92" width="48" height="22" rx="4" fill="#fff" stroke="#FFD700" stroke-width="0.8" opacity="0.98">
+      <animate attributeName="stroke-opacity" values="0.6;1;0.6" dur="2.6s" begin="1.37s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.9;1;0.9" dur="2.6s" begin="1.37s" repeatCount="indefinite" />
     </rect>
-    <text x="87" y="97" text-anchor="middle" fill="#B8860B" font-family="monospace" font-size="6" font-weight="bold">Jai Shree Ram</text>
+    <text x="90" y="107" text-anchor="middle" fill="#B8860B" font-family="'Noto Sans Devanagari', 'Mangal', sans-serif" font-size="9" font-weight="900" filter="url(#goldGlow)">जय श्री राम</text>
   </g>
   <g>
-    <rect x="114" y="84" width="46" height="18" rx="3" fill="#fff" stroke="#FFD700" stroke-width="0.5" opacity="0.95">
-      <animate attributeName="opacity" values="0.85;1;0.85" dur="2.7s" begin="1.59s" repeatCount="indefinite" />
+    <rect x="118" y="92" width="48" height="22" rx="4" fill="#fff" stroke="#FFD700" stroke-width="0.8" opacity="0.98">
+      <animate attributeName="stroke-opacity" values="0.6;1;0.6" dur="2.1s" begin="1.18s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.9;1;0.9" dur="2.1s" begin="1.18s" repeatCount="indefinite" />
     </rect>
-    <text x="137" y="97" text-anchor="middle" fill="#B8860B" font-family="monospace" font-size="6" font-weight="bold">Jai Shree Ram</text>
+    <text x="142" y="107" text-anchor="middle" fill="#B8860B" font-family="'Noto Sans Devanagari', 'Mangal', sans-serif" font-size="9" font-weight="900" filter="url(#goldGlow)">जय श्री राम</text>
   </g>
   <g>
-    <rect x="164" y="84" width="46" height="18" rx="3" fill="#fff" stroke="#FFD700" stroke-width="0.5" opacity="0.95">
-      <animate attributeName="opacity" values="0.85;1;0.85" dur="2.3s" begin="1.67s" repeatCount="indefinite" />
+    <rect x="170" y="92" width="48" height="22" rx="4" fill="#fff" stroke="#FFD700" stroke-width="0.8" opacity="0.98">
+      <animate attributeName="stroke-opacity" values="0.6;1;0.6" dur="3.7s" begin="0.79s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.9;1;0.9" dur="3.7s" begin="0.79s" repeatCount="indefinite" />
     </rect>
-    <text x="187" y="97" text-anchor="middle" fill="#B8860B" font-family="monospace" font-size="6" font-weight="bold">Jai Shree Ram</text>
+    <text x="194" y="107" text-anchor="middle" fill="#B8860B" font-family="'Noto Sans Devanagari', 'Mangal', sans-serif" font-size="9" font-weight="900" filter="url(#goldGlow)">जय श्री राम</text>
   </g>
   <g>
-    <rect x="214" y="84" width="46" height="18" rx="3" fill="#fff" stroke="#FFD700" stroke-width="0.5" opacity="0.95">
-      <animate attributeName="opacity" values="0.85;1;0.85" dur="3.5s" begin="0.7s" repeatCount="indefinite" />
+    <rect x="222" y="92" width="48" height="22" rx="4" fill="#fff" stroke="#FFD700" stroke-width="0.8" opacity="0.98">
+      <animate attributeName="stroke-opacity" values="0.6;1;0.6" dur="3.9s" begin="1.66s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.9;1;0.9" dur="3.9s" begin="1.66s" repeatCount="indefinite" />
     </rect>
-    <text x="237" y="97" text-anchor="middle" fill="#B8860B" font-family="monospace" font-size="6" font-weight="bold">Jai Shree Ram</text>
+    <text x="246" y="107" text-anchor="middle" fill="#B8860B" font-family="'Noto Sans Devanagari', 'Mangal', sans-serif" font-size="9" font-weight="900" filter="url(#goldGlow)">जय श्री राम</text>
   </g>
   <g>
-    <rect x="264" y="84" width="46" height="18" rx="3" fill="#fff" stroke="#FFD700" stroke-width="0.5" opacity="0.95">
-      <animate attributeName="opacity" values="0.85;1;0.85" dur="3.7s" begin="1.4s" repeatCount="indefinite" />
+    <rect x="274" y="92" width="48" height="22" rx="4" fill="#fff" stroke="#FFD700" stroke-width="0.8" opacity="0.98">
+      <animate attributeName="stroke-opacity" values="0.6;1;0.6" dur="3.0s" begin="1.83s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.9;1;0.9" dur="3.0s" begin="1.83s" repeatCount="indefinite" />
     </rect>
-    <text x="287" y="97" text-anchor="middle" fill="#B8860B" font-family="monospace" font-size="6" font-weight="bold">Jai Shree Ram</text>
+    <text x="298" y="107" text-anchor="middle" fill="#B8860B" font-family="'Noto Sans Devanagari', 'Mangal', sans-serif" font-size="9" font-weight="900" filter="url(#goldGlow)">जय श्री राम</text>
   </g>
   <g>
-    <rect x="314" y="84" width="46" height="18" rx="3" fill="#fff" stroke="#FFD700" stroke-width="0.5" opacity="0.95">
-      <animate attributeName="opacity" values="0.85;1;0.85" dur="3.9s" begin="1.58s" repeatCount="indefinite" />
+    <rect x="326" y="92" width="48" height="22" rx="4" fill="#fff" stroke="#FFD700" stroke-width="0.8" opacity="0.98">
+      <animate attributeName="stroke-opacity" values="0.6;1;0.6" dur="3.0s" begin="1.8s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.9;1;0.9" dur="3.0s" begin="1.8s" repeatCount="indefinite" />
     </rect>
-    <text x="337" y="97" text-anchor="middle" fill="#B8860B" font-family="monospace" font-size="6" font-weight="bold">Jai Shree Ram</text>
+    <text x="350" y="107" text-anchor="middle" fill="#B8860B" font-family="'Noto Sans Devanagari', 'Mangal', sans-serif" font-size="9" font-weight="900" filter="url(#goldGlow)">जय श्री राम</text>
   </g>
   <g>
-    <rect x="364" y="84" width="46" height="18" rx="3" fill="#fff" stroke="#FFD700" stroke-width="0.5" opacity="0.95">
-      <animate attributeName="opacity" values="0.85;1;0.85" dur="3.6s" begin="1.86s" repeatCount="indefinite" />
+    <rect x="378" y="92" width="48" height="22" rx="4" fill="#fff" stroke="#FFD700" stroke-width="0.8" opacity="0.98">
+      <animate attributeName="stroke-opacity" values="0.6;1;0.6" dur="3.4s" begin="1.53s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.9;1;0.9" dur="3.4s" begin="1.53s" repeatCount="indefinite" />
     </rect>
-    <text x="387" y="97" text-anchor="middle" fill="#B8860B" font-family="monospace" font-size="6" font-weight="bold">Jai Shree Ram</text>
+    <text x="402" y="107" text-anchor="middle" fill="#B8860B" font-family="'Noto Sans Devanagari', 'Mangal', sans-serif" font-size="9" font-weight="900" filter="url(#goldGlow)">जय श्री राम</text>
   </g>
   <g>
-    <rect x="414" y="84" width="46" height="18" rx="3" fill="#fff" stroke="#FFD700" stroke-width="0.5" opacity="0.95">
-      <animate attributeName="opacity" values="0.85;1;0.85" dur="2.3s" begin="0.47s" repeatCount="indefinite" />
+    <rect x="430" y="92" width="48" height="22" rx="4" fill="#fff" stroke="#FFD700" stroke-width="0.8" opacity="0.98">
+      <animate attributeName="stroke-opacity" values="0.6;1;0.6" dur="3.9s" begin="1.18s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.9;1;0.9" dur="3.9s" begin="1.18s" repeatCount="indefinite" />
     </rect>
-    <text x="437" y="97" text-anchor="middle" fill="#B8860B" font-family="monospace" font-size="6" font-weight="bold">Jai Shree Ram</text>
+    <text x="454" y="107" text-anchor="middle" fill="#B8860B" font-family="'Noto Sans Devanagari', 'Mangal', sans-serif" font-size="9" font-weight="900" filter="url(#goldGlow)">जय श्री राम</text>
   </g>
   <g>
-    <rect x="464" y="84" width="46" height="18" rx="3" fill="#fff" stroke="#FFD700" stroke-width="0.5" opacity="0.95">
-      <animate attributeName="opacity" values="0.85;1;0.85" dur="2.9s" begin="1.77s" repeatCount="indefinite" />
+    <rect x="482" y="92" width="48" height="22" rx="4" fill="#fff" stroke="#FFD700" stroke-width="0.8" opacity="0.98">
+      <animate attributeName="stroke-opacity" values="0.6;1;0.6" dur="2.2s" begin="1.16s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.9;1;0.9" dur="2.2s" begin="1.16s" repeatCount="indefinite" />
     </rect>
-    <text x="487" y="97" text-anchor="middle" fill="#B8860B" font-family="monospace" font-size="6" font-weight="bold">Jai Shree Ram</text>
+    <text x="506" y="107" text-anchor="middle" fill="#B8860B" font-family="'Noto Sans Devanagari', 'Mangal', sans-serif" font-size="9" font-weight="900" filter="url(#goldGlow)">जय श्री राम</text>
   </g>
   <g>
-    <rect x="514" y="84" width="46" height="18" rx="3" fill="#fff" stroke="#FFD700" stroke-width="0.5" opacity="0.95">
-      <animate attributeName="opacity" values="0.85;1;0.85" dur="2.4s" begin="1.08s" repeatCount="indefinite" />
+    <rect x="534" y="92" width="48" height="22" rx="4" fill="#fff" stroke="#FFD700" stroke-width="0.8" opacity="0.98">
+      <animate attributeName="stroke-opacity" values="0.6;1;0.6" dur="2.2s" begin="0.27s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.9;1;0.9" dur="2.2s" begin="0.27s" repeatCount="indefinite" />
     </rect>
-    <text x="537" y="97" text-anchor="middle" fill="#B8860B" font-family="monospace" font-size="6" font-weight="bold">Jai Shree Ram</text>
+    <text x="558" y="107" text-anchor="middle" fill="#B8860B" font-family="'Noto Sans Devanagari', 'Mangal', sans-serif" font-size="9" font-weight="900" filter="url(#goldGlow)">जय श्री राम</text>
   </g>
   <g>
-    <rect x="564" y="84" width="46" height="18" rx="3" fill="#fff" stroke="#FFD700" stroke-width="0.5" opacity="0.95">
-      <animate attributeName="opacity" values="0.85;1;0.85" dur="3.4s" begin="0.51s" repeatCount="indefinite" />
+    <rect x="586" y="92" width="48" height="22" rx="4" fill="#fff" stroke="#FFD700" stroke-width="0.8" opacity="0.98">
+      <animate attributeName="stroke-opacity" values="0.6;1;0.6" dur="2.8s" begin="1.39s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.9;1;0.9" dur="2.8s" begin="1.39s" repeatCount="indefinite" />
     </rect>
-    <text x="587" y="97" text-anchor="middle" fill="#B8860B" font-family="monospace" font-size="6" font-weight="bold">Jai Shree Ram</text>
+    <text x="610" y="107" text-anchor="middle" fill="#B8860B" font-family="'Noto Sans Devanagari', 'Mangal', sans-serif" font-size="9" font-weight="900" filter="url(#goldGlow)">जय श्री राम</text>
   </g>
   <g>
-    <rect x="14" y="106" width="46" height="18" rx="3" fill="#fff" stroke="#FFD700" stroke-width="0.5" opacity="0.95">
-      <animate attributeName="opacity" values="0.85;1;0.85" dur="3.2s" begin="1.25s" repeatCount="indefinite" />
+    <rect x="14" y="118" width="48" height="22" rx="4" fill="#fff" stroke="#FFD700" stroke-width="0.8" opacity="0.98">
+      <animate attributeName="stroke-opacity" values="0.6;1;0.6" dur="2.3s" begin="1.18s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.9;1;0.9" dur="2.3s" begin="1.18s" repeatCount="indefinite" />
     </rect>
-    <text x="37" y="119" text-anchor="middle" fill="#B8860B" font-family="monospace" font-size="6" font-weight="bold">Jai Shree Ram</text>
+    <text x="38" y="133" text-anchor="middle" fill="#B8860B" font-family="'Noto Sans Devanagari', 'Mangal', sans-serif" font-size="9" font-weight="900" filter="url(#goldGlow)">जय श्री राम</text>
   </g>
   <g>
-    <rect x="64" y="106" width="46" height="18" rx="3" fill="#fff" stroke="#FFD700" stroke-width="0.5" opacity="0.95">
-      <animate attributeName="opacity" values="0.85;1;0.85" dur="2.2s" begin="1.68s" repeatCount="indefinite" />
+    <rect x="66" y="118" width="48" height="22" rx="4" fill="#fff" stroke="#FFD700" stroke-width="0.8" opacity="0.98">
+      <animate attributeName="stroke-opacity" values="0.6;1;0.6" dur="2.5s" begin="1.99s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.9;1;0.9" dur="2.5s" begin="1.99s" repeatCount="indefinite" />
     </rect>
-    <text x="87" y="119" text-anchor="middle" fill="#B8860B" font-family="monospace" font-size="6" font-weight="bold">Jai Shree Ram</text>
+    <text x="90" y="133" text-anchor="middle" fill="#B8860B" font-family="'Noto Sans Devanagari', 'Mangal', sans-serif" font-size="9" font-weight="900" filter="url(#goldGlow)">जय श्री राम</text>
   </g>
   <g>
-    <rect x="114" y="106" width="46" height="18" rx="3" fill="#fff" stroke="#FFD700" stroke-width="0.5" opacity="0.95">
-      <animate attributeName="opacity" values="0.85;1;0.85" dur="2.6s" begin="1.25s" repeatCount="indefinite" />
+    <rect x="118" y="118" width="48" height="22" rx="4" fill="#fff" stroke="#FFD700" stroke-width="0.8" opacity="0.98">
+      <animate attributeName="stroke-opacity" values="0.6;1;0.6" dur="2.0s" begin="0.22s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.9;1;0.9" dur="2.0s" begin="0.22s" repeatCount="indefinite" />
     </rect>
-    <text x="137" y="119" text-anchor="middle" fill="#B8860B" font-family="monospace" font-size="6" font-weight="bold">Jai Shree Ram</text>
+    <text x="142" y="133" text-anchor="middle" fill="#B8860B" font-family="'Noto Sans Devanagari', 'Mangal', sans-serif" font-size="9" font-weight="900" filter="url(#goldGlow)">जय श्री राम</text>
   </g>
   <g>
-    <rect x="164" y="106" width="46" height="18" rx="3" fill="#fff" stroke="#FFD700" stroke-width="0.5" opacity="0.95">
-      <animate attributeName="opacity" values="0.85;1;0.85" dur="3.6s" begin="1.37s" repeatCount="indefinite" />
+    <rect x="170" y="118" width="48" height="22" rx="4" fill="#fff" stroke="#FFD700" stroke-width="0.8" opacity="0.98">
+      <animate attributeName="stroke-opacity" values="0.6;1;0.6" dur="2.3s" begin="1.91s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.9;1;0.9" dur="2.3s" begin="1.91s" repeatCount="indefinite" />
     </rect>
-    <text x="187" y="119" text-anchor="middle" fill="#B8860B" font-family="monospace" font-size="6" font-weight="bold">Jai Shree Ram</text>
+    <text x="194" y="133" text-anchor="middle" fill="#B8860B" font-family="'Noto Sans Devanagari', 'Mangal', sans-serif" font-size="9" font-weight="900" filter="url(#goldGlow)">जय श्री राम</text>
   </g>
   <g>
-    <rect x="214" y="106" width="46" height="18" rx="3" fill="#fff" stroke="#FFD700" stroke-width="0.5" opacity="0.95">
-      <animate attributeName="opacity" values="0.85;1;0.85" dur="3.4s" begin="0.0s" repeatCount="indefinite" />
+    <rect x="222" y="118" width="48" height="22" rx="4" fill="#fff" stroke="#FFD700" stroke-width="0.8" opacity="0.98">
+      <animate attributeName="stroke-opacity" values="0.6;1;0.6" dur="3.4s" begin="1.32s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.9;1;0.9" dur="3.4s" begin="1.32s" repeatCount="indefinite" />
     </rect>
-    <text x="237" y="119" text-anchor="middle" fill="#B8860B" font-family="monospace" font-size="6" font-weight="bold">Jai Shree Ram</text>
+    <text x="246" y="133" text-anchor="middle" fill="#B8860B" font-family="'Noto Sans Devanagari', 'Mangal', sans-serif" font-size="9" font-weight="900" filter="url(#goldGlow)">जय श्री राम</text>
   </g>
   <g>
-    <rect x="264" y="106" width="46" height="18" rx="3" fill="#fff" stroke="#FFD700" stroke-width="0.5" opacity="0.95">
-      <animate attributeName="opacity" values="0.85;1;0.85" dur="3.1s" begin="1.38s" repeatCount="indefinite" />
+    <rect x="274" y="118" width="48" height="22" rx="4" fill="#fff" stroke="#FFD700" stroke-width="0.8" opacity="0.98">
+      <animate attributeName="stroke-opacity" values="0.6;1;0.6" dur="3.8s" begin="1.7s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.9;1;0.9" dur="3.8s" begin="1.7s" repeatCount="indefinite" />
     </rect>
-    <text x="287" y="119" text-anchor="middle" fill="#B8860B" font-family="monospace" font-size="6" font-weight="bold">Jai Shree Ram</text>
+    <text x="298" y="133" text-anchor="middle" fill="#B8860B" font-family="'Noto Sans Devanagari', 'Mangal', sans-serif" font-size="9" font-weight="900" filter="url(#goldGlow)">जय श्री राम</text>
   </g>
   <g>
-    <rect x="314" y="106" width="46" height="18" rx="3" fill="#fff" stroke="#FFD700" stroke-width="0.5" opacity="0.95">
-      <animate attributeName="opacity" values="0.85;1;0.85" dur="2.8s" begin="1.02s" repeatCount="indefinite" />
+    <rect x="326" y="118" width="48" height="22" rx="4" fill="#fff" stroke="#FFD700" stroke-width="0.8" opacity="0.98">
+      <animate attributeName="stroke-opacity" values="0.6;1;0.6" dur="3.1s" begin="0.77s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.9;1;0.9" dur="3.1s" begin="0.77s" repeatCount="indefinite" />
     </rect>
-    <text x="337" y="119" text-anchor="middle" fill="#B8860B" font-family="monospace" font-size="6" font-weight="bold">Jai Shree Ram</text>
+    <text x="350" y="133" text-anchor="middle" fill="#B8860B" font-family="'Noto Sans Devanagari', 'Mangal', sans-serif" font-size="9" font-weight="900" filter="url(#goldGlow)">जय श्री राम</text>
   </g>
   <g>
-    <rect x="364" y="106" width="46" height="18" rx="3" fill="#fff" stroke="#FFD700" stroke-width="0.5" opacity="0.95">
-      <animate attributeName="opacity" values="0.85;1;0.85" dur="3.6s" begin="0.41s" repeatCount="indefinite" />
+    <rect x="378" y="118" width="48" height="22" rx="4" fill="#fff" stroke="#FFD700" stroke-width="0.8" opacity="0.98">
+      <animate attributeName="stroke-opacity" values="0.6;1;0.6" dur="3.3s" begin="0.69s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.9;1;0.9" dur="3.3s" begin="0.69s" repeatCount="indefinite" />
     </rect>
-    <text x="387" y="119" text-anchor="middle" fill="#B8860B" font-family="monospace" font-size="6" font-weight="bold">Jai Shree Ram</text>
+    <text x="402" y="133" text-anchor="middle" fill="#B8860B" font-family="'Noto Sans Devanagari', 'Mangal', sans-serif" font-size="9" font-weight="900" filter="url(#goldGlow)">जय श्री राम</text>
   </g>
   <g>
-    <rect x="414" y="106" width="46" height="18" rx="3" fill="#fff" stroke="#FFD700" stroke-width="0.5" opacity="0.95">
-      <animate attributeName="opacity" values="0.85;1;0.85" dur="2.5s" begin="0.72s" repeatCount="indefinite" />
+    <rect x="430" y="118" width="48" height="22" rx="4" fill="#fff" stroke="#FFD700" stroke-width="0.8" opacity="0.98">
+      <animate attributeName="stroke-opacity" values="0.6;1;0.6" dur="3.2s" begin="1.87s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.9;1;0.9" dur="3.2s" begin="1.87s" repeatCount="indefinite" />
     </rect>
-    <text x="437" y="119" text-anchor="middle" fill="#B8860B" font-family="monospace" font-size="6" font-weight="bold">Jai Shree Ram</text>
+    <text x="454" y="133" text-anchor="middle" fill="#B8860B" font-family="'Noto Sans Devanagari', 'Mangal', sans-serif" font-size="9" font-weight="900" filter="url(#goldGlow)">जय श्री राम</text>
   </g>
   <g>
-    <rect x="464" y="106" width="46" height="18" rx="3" fill="#fff" stroke="#FFD700" stroke-width="0.5" opacity="0.95">
-      <animate attributeName="opacity" values="0.85;1;0.85" dur="2.9s" begin="0.81s" repeatCount="indefinite" />
+    <rect x="482" y="118" width="48" height="22" rx="4" fill="#fff" stroke="#FFD700" stroke-width="0.8" opacity="0.98">
+      <animate attributeName="stroke-opacity" values="0.6;1;0.6" dur="2.5s" begin="0.2s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.9;1;0.9" dur="2.5s" begin="0.2s" repeatCount="indefinite" />
     </rect>
-    <text x="487" y="119" text-anchor="middle" fill="#B8860B" font-family="monospace" font-size="6" font-weight="bold">Jai Shree Ram</text>
+    <text x="506" y="133" text-anchor="middle" fill="#B8860B" font-family="'Noto Sans Devanagari', 'Mangal', sans-serif" font-size="9" font-weight="900" filter="url(#goldGlow)">जय श्री राम</text>
   </g>
   <g>
-    <rect x="514" y="106" width="46" height="18" rx="3" fill="#fff" stroke="#FFD700" stroke-width="0.5" opacity="0.95">
-      <animate attributeName="opacity" values="0.85;1;0.85" dur="3.3s" begin="1.68s" repeatCount="indefinite" />
+    <rect x="534" y="118" width="48" height="22" rx="4" fill="#fff" stroke="#FFD700" stroke-width="0.8" opacity="0.98">
+      <animate attributeName="stroke-opacity" values="0.6;1;0.6" dur="2.2s" begin="1.04s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.9;1;0.9" dur="2.2s" begin="1.04s" repeatCount="indefinite" />
     </rect>
-    <text x="537" y="119" text-anchor="middle" fill="#B8860B" font-family="monospace" font-size="6" font-weight="bold">Jai Shree Ram</text>
+    <text x="558" y="133" text-anchor="middle" fill="#B8860B" font-family="'Noto Sans Devanagari', 'Mangal', sans-serif" font-size="9" font-weight="900" filter="url(#goldGlow)">जय श्री राम</text>
   </g>
   <g>
-    <rect x="564" y="106" width="46" height="18" rx="3" fill="#fff" stroke="#FFD700" stroke-width="0.5" opacity="0.95">
-      <animate attributeName="opacity" values="0.85;1;0.85" dur="3.2s" begin="0.76s" repeatCount="indefinite" />
+    <rect x="586" y="118" width="48" height="22" rx="4" fill="#fff" stroke="#FFD700" stroke-width="0.8" opacity="0.98">
+      <animate attributeName="stroke-opacity" values="0.6;1;0.6" dur="3.7s" begin="0.48s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.9;1;0.9" dur="3.7s" begin="0.48s" repeatCount="indefinite" />
     </rect>
-    <text x="587" y="119" text-anchor="middle" fill="#B8860B" font-family="monospace" font-size="6" font-weight="bold">Jai Shree Ram</text>
+    <text x="610" y="133" text-anchor="middle" fill="#B8860B" font-family="'Noto Sans Devanagari', 'Mangal', sans-serif" font-size="9" font-weight="900" filter="url(#goldGlow)">जय श्री राम</text>
   </g>
   <g>
-    <rect x="14" y="128" width="46" height="18" rx="3" fill="#fff" stroke="#FFD700" stroke-width="0.5" opacity="0.95">
-      <animate attributeName="opacity" values="0.85;1;0.85" dur="3.3s" begin="1.47s" repeatCount="indefinite" />
+    <rect x="14" y="144" width="48" height="22" rx="4" fill="#fff" stroke="#FFD700" stroke-width="0.8" opacity="0.98">
+      <animate attributeName="stroke-opacity" values="0.6;1;0.6" dur="3.5s" begin="0.86s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.9;1;0.9" dur="3.5s" begin="0.86s" repeatCount="indefinite" />
     </rect>
-    <text x="37" y="141" text-anchor="middle" fill="#B8860B" font-family="monospace" font-size="6" font-weight="bold">Jai Shree Ram</text>
+    <text x="38" y="159" text-anchor="middle" fill="#B8860B" font-family="'Noto Sans Devanagari', 'Mangal', sans-serif" font-size="9" font-weight="900" filter="url(#goldGlow)">जय श्री राम</text>
   </g>
   <g>
-    <rect x="64" y="128" width="46" height="18" rx="3" fill="#fff" stroke="#FFD700" stroke-width="0.5" opacity="0.95">
-      <animate attributeName="opacity" values="0.85;1;0.85" dur="3.5s" begin="0.97s" repeatCount="indefinite" />
+    <rect x="66" y="144" width="48" height="22" rx="4" fill="#fff" stroke="#FFD700" stroke-width="0.8" opacity="0.98">
+      <animate attributeName="stroke-opacity" values="0.6;1;0.6" dur="3.6s" begin="1.65s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.9;1;0.9" dur="3.6s" begin="1.65s" repeatCount="indefinite" />
     </rect>
-    <text x="87" y="141" text-anchor="middle" fill="#B8860B" font-family="monospace" font-size="6" font-weight="bold">Jai Shree Ram</text>
+    <text x="90" y="159" text-anchor="middle" fill="#B8860B" font-family="'Noto Sans Devanagari', 'Mangal', sans-serif" font-size="9" font-weight="900" filter="url(#goldGlow)">जय श्री राम</text>
   </g>
   <g>
-    <rect x="114" y="128" width="46" height="18" rx="3" fill="#fff" stroke="#FFD700" stroke-width="0.5" opacity="0.95">
-      <animate attributeName="opacity" values="0.85;1;0.85" dur="3.8s" begin="1.89s" repeatCount="indefinite" />
+    <rect x="118" y="144" width="48" height="22" rx="4" fill="#fff" stroke="#FFD700" stroke-width="0.8" opacity="0.98">
+      <animate attributeName="stroke-opacity" values="0.6;1;0.6" dur="3.1s" begin="0.64s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.9;1;0.9" dur="3.1s" begin="0.64s" repeatCount="indefinite" />
     </rect>
-    <text x="137" y="141" text-anchor="middle" fill="#B8860B" font-family="monospace" font-size="6" font-weight="bold">Jai Shree Ram</text>
+    <text x="142" y="159" text-anchor="middle" fill="#B8860B" font-family="'Noto Sans Devanagari', 'Mangal', sans-serif" font-size="9" font-weight="900" filter="url(#goldGlow)">जय श्री राम</text>
   </g>
   <g>
-    <rect x="164" y="128" width="46" height="18" rx="3" fill="#fff" stroke="#FFD700" stroke-width="0.5" opacity="0.95">
-      <animate attributeName="opacity" values="0.85;1;0.85" dur="2.8s" begin="0.64s" repeatCount="indefinite" />
+    <rect x="170" y="144" width="48" height="22" rx="4" fill="#fff" stroke="#FFD700" stroke-width="0.8" opacity="0.98">
+      <animate attributeName="stroke-opacity" values="0.6;1;0.6" dur="2.5s" begin="1.18s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.9;1;0.9" dur="2.5s" begin="1.18s" repeatCount="indefinite" />
     </rect>
-    <text x="187" y="141" text-anchor="middle" fill="#B8860B" font-family="monospace" font-size="6" font-weight="bold">Jai Shree Ram</text>
+    <text x="194" y="159" text-anchor="middle" fill="#B8860B" font-family="'Noto Sans Devanagari', 'Mangal', sans-serif" font-size="9" font-weight="900" filter="url(#goldGlow)">जय श्री राम</text>
   </g>
   <g>
-    <rect x="214" y="128" width="46" height="18" rx="3" fill="#fff" stroke="#FFD700" stroke-width="0.5" opacity="0.95">
-      <animate attributeName="opacity" values="0.85;1;0.85" dur="2.6s" begin="1.01s" repeatCount="indefinite" />
+    <rect x="222" y="144" width="48" height="22" rx="4" fill="#fff" stroke="#FFD700" stroke-width="0.8" opacity="0.98">
+      <animate attributeName="stroke-opacity" values="0.6;1;0.6" dur="3.3s" begin="1.23s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.9;1;0.9" dur="3.3s" begin="1.23s" repeatCount="indefinite" />
     </rect>
-    <text x="237" y="141" text-anchor="middle" fill="#B8860B" font-family="monospace" font-size="6" font-weight="bold">Jai Shree Ram</text>
+    <text x="246" y="159" text-anchor="middle" fill="#B8860B" font-family="'Noto Sans Devanagari', 'Mangal', sans-serif" font-size="9" font-weight="900" filter="url(#goldGlow)">जय श्री राम</text>
   </g>
   <g>
-    <rect x="264" y="128" width="46" height="18" rx="3" fill="#fff" stroke="#FFD700" stroke-width="0.5" opacity="0.95">
-      <animate attributeName="opacity" values="0.85;1;0.85" dur="2.6s" begin="1.88s" repeatCount="indefinite" />
+    <rect x="274" y="144" width="48" height="22" rx="4" fill="#fff" stroke="#FFD700" stroke-width="0.8" opacity="0.98">
+      <animate attributeName="stroke-opacity" values="0.6;1;0.6" dur="3.3s" begin="1.16s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.9;1;0.9" dur="3.3s" begin="1.16s" repeatCount="indefinite" />
     </rect>
-    <text x="287" y="141" text-anchor="middle" fill="#B8860B" font-family="monospace" font-size="6" font-weight="bold">Jai Shree Ram</text>
+    <text x="298" y="159" text-anchor="middle" fill="#B8860B" font-family="'Noto Sans Devanagari', 'Mangal', sans-serif" font-size="9" font-weight="900" filter="url(#goldGlow)">जय श्री राम</text>
   </g>
   <g>
-    <rect x="314" y="128" width="46" height="18" rx="3" fill="#fff" stroke="#FFD700" stroke-width="0.5" opacity="0.95">
-      <animate attributeName="opacity" values="0.85;1;0.85" dur="2.2s" begin="1.53s" repeatCount="indefinite" />
+    <rect x="326" y="144" width="48" height="22" rx="4" fill="#fff" stroke="#FFD700" stroke-width="0.8" opacity="0.98">
+      <animate attributeName="stroke-opacity" values="0.6;1;0.6" dur="2.5s" begin="0.97s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.9;1;0.9" dur="2.5s" begin="0.97s" repeatCount="indefinite" />
     </rect>
-    <text x="337" y="141" text-anchor="middle" fill="#B8860B" font-family="monospace" font-size="6" font-weight="bold">Jai Shree Ram</text>
+    <text x="350" y="159" text-anchor="middle" fill="#B8860B" font-family="'Noto Sans Devanagari', 'Mangal', sans-serif" font-size="9" font-weight="900" filter="url(#goldGlow)">जय श्री राम</text>
   </g>
   <g>
-    <rect x="364" y="128" width="46" height="18" rx="3" fill="#fff" stroke="#FFD700" stroke-width="0.5" opacity="0.95">
-      <animate attributeName="opacity" values="0.85;1;0.85" dur="3.4s" begin="0.67s" repeatCount="indefinite" />
+    <rect x="378" y="144" width="48" height="22" rx="4" fill="#fff" stroke="#FFD700" stroke-width="0.8" opacity="0.98">
+      <animate attributeName="stroke-opacity" values="0.6;1;0.6" dur="3.6s" begin="1.93s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.9;1;0.9" dur="3.6s" begin="1.93s" repeatCount="indefinite" />
     </rect>
-    <text x="387" y="141" text-anchor="middle" fill="#B8860B" font-family="monospace" font-size="6" font-weight="bold">Jai Shree Ram</text>
+    <text x="402" y="159" text-anchor="middle" fill="#B8860B" font-family="'Noto Sans Devanagari', 'Mangal', sans-serif" font-size="9" font-weight="900" filter="url(#goldGlow)">जय श्री राम</text>
   </g>
   <g>
-    <rect x="414" y="128" width="46" height="18" rx="3" fill="#fff" stroke="#FFD700" stroke-width="0.5" opacity="0.95">
-      <animate attributeName="opacity" values="0.85;1;0.85" dur="2.7s" begin="1.83s" repeatCount="indefinite" />
+    <rect x="430" y="144" width="48" height="22" rx="4" fill="#fff" stroke="#FFD700" stroke-width="0.8" opacity="0.98">
+      <animate attributeName="stroke-opacity" values="0.6;1;0.6" dur="2.6s" begin="1.28s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.9;1;0.9" dur="2.6s" begin="1.28s" repeatCount="indefinite" />
     </rect>
-    <text x="437" y="141" text-anchor="middle" fill="#B8860B" font-family="monospace" font-size="6" font-weight="bold">Jai Shree Ram</text>
+    <text x="454" y="159" text-anchor="middle" fill="#B8860B" font-family="'Noto Sans Devanagari', 'Mangal', sans-serif" font-size="9" font-weight="900" filter="url(#goldGlow)">जय श्री राम</text>
   </g>
   <g>
-    <rect x="464" y="128" width="46" height="18" rx="3" fill="#fff" stroke="#FFD700" stroke-width="0.5" opacity="0.95">
-      <animate attributeName="opacity" values="0.85;1;0.85" dur="2.2s" begin="0.17s" repeatCount="indefinite" />
+    <rect x="482" y="144" width="48" height="22" rx="4" fill="#fff" stroke="#FFD700" stroke-width="0.8" opacity="0.98">
+      <animate attributeName="stroke-opacity" values="0.6;1;0.6" dur="2.7s" begin="1.72s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.9;1;0.9" dur="2.7s" begin="1.72s" repeatCount="indefinite" />
     </rect>
-    <text x="487" y="141" text-anchor="middle" fill="#B8860B" font-family="monospace" font-size="6" font-weight="bold">Jai Shree Ram</text>
+    <text x="506" y="159" text-anchor="middle" fill="#B8860B" font-family="'Noto Sans Devanagari', 'Mangal', sans-serif" font-size="9" font-weight="900" filter="url(#goldGlow)">जय श्री राम</text>
   </g>
   <g>
-    <rect x="514" y="128" width="46" height="18" rx="3" fill="#fff" stroke="#FFD700" stroke-width="0.5" opacity="0.95">
-      <animate attributeName="opacity" values="0.85;1;0.85" dur="3.1s" begin="1.95s" repeatCount="indefinite" />
+    <rect x="534" y="144" width="48" height="22" rx="4" fill="#fff" stroke="#FFD700" stroke-width="0.8" opacity="0.98">
+      <animate attributeName="stroke-opacity" values="0.6;1;0.6" dur="3.1s" begin="1.8s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.9;1;0.9" dur="3.1s" begin="1.8s" repeatCount="indefinite" />
     </rect>
-    <text x="537" y="141" text-anchor="middle" fill="#B8860B" font-family="monospace" font-size="6" font-weight="bold">Jai Shree Ram</text>
+    <text x="558" y="159" text-anchor="middle" fill="#B8860B" font-family="'Noto Sans Devanagari', 'Mangal', sans-serif" font-size="9" font-weight="900" filter="url(#goldGlow)">जय श्री राम</text>
   </g>
   <g>
-    <rect x="564" y="128" width="46" height="18" rx="3" fill="#fff" stroke="#FFD700" stroke-width="0.5" opacity="0.95">
-      <animate attributeName="opacity" values="0.85;1;0.85" dur="2.9s" begin="1.09s" repeatCount="indefinite" />
+    <rect x="586" y="144" width="48" height="22" rx="4" fill="#fff" stroke="#FFD700" stroke-width="0.8" opacity="0.98">
+      <animate attributeName="stroke-opacity" values="0.6;1;0.6" dur="3.8s" begin="1.85s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.9;1;0.9" dur="3.8s" begin="1.85s" repeatCount="indefinite" />
     </rect>
-    <text x="587" y="141" text-anchor="middle" fill="#B8860B" font-family="monospace" font-size="6" font-weight="bold">Jai Shree Ram</text>
+    <text x="610" y="159" text-anchor="middle" fill="#B8860B" font-family="'Noto Sans Devanagari', 'Mangal', sans-serif" font-size="9" font-weight="900" filter="url(#goldGlow)">जय श्री राम</text>
   </g>
   <g>
-    <rect x="14" y="150" width="46" height="18" rx="3" fill="#fff" stroke="#FFD700" stroke-width="0.5" opacity="0.95">
-      <animate attributeName="opacity" values="0.85;1;0.85" dur="2.1s" begin="1.64s" repeatCount="indefinite" />
+    <rect x="14" y="170" width="48" height="22" rx="4" fill="#fff" stroke="#FFD700" stroke-width="0.8" opacity="0.98">
+      <animate attributeName="stroke-opacity" values="0.6;1;0.6" dur="3.8s" begin="0.78s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.9;1;0.9" dur="3.8s" begin="0.78s" repeatCount="indefinite" />
     </rect>
-    <text x="37" y="163" text-anchor="middle" fill="#B8860B" font-family="monospace" font-size="6" font-weight="bold">Jai Shree Ram</text>
+    <text x="38" y="185" text-anchor="middle" fill="#B8860B" font-family="'Noto Sans Devanagari', 'Mangal', sans-serif" font-size="9" font-weight="900" filter="url(#goldGlow)">जय श्री राम</text>
   </g>
   <g>
-    <rect x="64" y="150" width="46" height="18" rx="3" fill="#fff" stroke="#FFD700" stroke-width="0.5" opacity="0.95">
-      <animate attributeName="opacity" values="0.85;1;0.85" dur="2.4s" begin="0.61s" repeatCount="indefinite" />
+    <rect x="66" y="170" width="48" height="22" rx="4" fill="#fff" stroke="#FFD700" stroke-width="0.8" opacity="0.98">
+      <animate attributeName="stroke-opacity" values="0.6;1;0.6" dur="2.3s" begin="0.59s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.9;1;0.9" dur="2.3s" begin="0.59s" repeatCount="indefinite" />
     </rect>
-    <text x="87" y="163" text-anchor="middle" fill="#B8860B" font-family="monospace" font-size="6" font-weight="bold">Jai Shree Ram</text>
+    <text x="90" y="185" text-anchor="middle" fill="#B8860B" font-family="'Noto Sans Devanagari', 'Mangal', sans-serif" font-size="9" font-weight="900" filter="url(#goldGlow)">जय श्री राम</text>
   </g>
   <g>
-    <rect x="114" y="150" width="46" height="18" rx="3" fill="#fff" stroke="#FFD700" stroke-width="0.5" opacity="0.95">
-      <animate attributeName="opacity" values="0.85;1;0.85" dur="3.2s" begin="0.17s" repeatCount="indefinite" />
+    <rect x="118" y="170" width="48" height="22" rx="4" fill="#fff" stroke="#FFD700" stroke-width="0.8" opacity="0.98">
+      <animate attributeName="stroke-opacity" values="0.6;1;0.6" dur="3.2s" begin="1.01s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.9;1;0.9" dur="3.2s" begin="1.01s" repeatCount="indefinite" />
     </rect>
-    <text x="137" y="163" text-anchor="middle" fill="#B8860B" font-family="monospace" font-size="6" font-weight="bold">Jai Shree Ram</text>
+    <text x="142" y="185" text-anchor="middle" fill="#B8860B" font-family="'Noto Sans Devanagari', 'Mangal', sans-serif" font-size="9" font-weight="900" filter="url(#goldGlow)">जय श्री राम</text>
   </g>
   <g>
-    <rect x="164" y="150" width="46" height="18" rx="3" fill="#fff" stroke="#FFD700" stroke-width="0.5" opacity="0.95">
-      <animate attributeName="opacity" values="0.85;1;0.85" dur="2.1s" begin="0.85s" repeatCount="indefinite" />
+    <rect x="170" y="170" width="48" height="22" rx="4" fill="#fff" stroke="#FFD700" stroke-width="0.8" opacity="0.98">
+      <animate attributeName="stroke-opacity" values="0.6;1;0.6" dur="3.1s" begin="1.62s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.9;1;0.9" dur="3.1s" begin="1.62s" repeatCount="indefinite" />
     </rect>
-    <text x="187" y="163" text-anchor="middle" fill="#B8860B" font-family="monospace" font-size="6" font-weight="bold">Jai Shree Ram</text>
+    <text x="194" y="185" text-anchor="middle" fill="#B8860B" font-family="'Noto Sans Devanagari', 'Mangal', sans-serif" font-size="9" font-weight="900" filter="url(#goldGlow)">जय श्री राम</text>
   </g>
   <g>
-    <rect x="214" y="150" width="46" height="18" rx="3" fill="#fff" stroke="#FFD700" stroke-width="0.5" opacity="0.95">
-      <animate attributeName="opacity" values="0.85;1;0.85" dur="2.9s" begin="1.29s" repeatCount="indefinite" />
+    <rect x="222" y="170" width="48" height="22" rx="4" fill="#fff" stroke="#FFD700" stroke-width="0.8" opacity="0.98">
+      <animate attributeName="stroke-opacity" values="0.6;1;0.6" dur="3.2s" begin="0.05s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.9;1;0.9" dur="3.2s" begin="0.05s" repeatCount="indefinite" />
     </rect>
-    <text x="237" y="163" text-anchor="middle" fill="#B8860B" font-family="monospace" font-size="6" font-weight="bold">Jai Shree Ram</text>
+    <text x="246" y="185" text-anchor="middle" fill="#B8860B" font-family="'Noto Sans Devanagari', 'Mangal', sans-serif" font-size="9" font-weight="900" filter="url(#goldGlow)">जय श्री राम</text>
   </g>
   <g>
-    <rect x="264" y="150" width="46" height="18" rx="3" fill="#fff" stroke="#FFD700" stroke-width="0.5" opacity="0.95">
-      <animate attributeName="opacity" values="0.85;1;0.85" dur="3.4s" begin="0.99s" repeatCount="indefinite" />
+    <rect x="274" y="170" width="48" height="22" rx="4" fill="#fff" stroke="#FFD700" stroke-width="0.8" opacity="0.98">
+      <animate attributeName="stroke-opacity" values="0.6;1;0.6" dur="2.8s" begin="0.06s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.9;1;0.9" dur="2.8s" begin="0.06s" repeatCount="indefinite" />
     </rect>
-    <text x="287" y="163" text-anchor="middle" fill="#B8860B" font-family="monospace" font-size="6" font-weight="bold">Jai Shree Ram</text>
+    <text x="298" y="185" text-anchor="middle" fill="#B8860B" font-family="'Noto Sans Devanagari', 'Mangal', sans-serif" font-size="9" font-weight="900" filter="url(#goldGlow)">जय श्री राम</text>
   </g>
   <g>
-    <rect x="314" y="150" width="46" height="18" rx="3" fill="#fff" stroke="#FFD700" stroke-width="0.5" opacity="0.95">
-      <animate attributeName="opacity" values="0.85;1;0.85" dur="2.8s" begin="1.31s" repeatCount="indefinite" />
+    <rect x="326" y="170" width="48" height="22" rx="4" fill="#fff" stroke="#FFD700" stroke-width="0.8" opacity="0.98">
+      <animate attributeName="stroke-opacity" values="0.6;1;0.6" dur="3.1s" begin="0.76s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.9;1;0.9" dur="3.1s" begin="0.76s" repeatCount="indefinite" />
     </rect>
-    <text x="337" y="163" text-anchor="middle" fill="#B8860B" font-family="monospace" font-size="6" font-weight="bold">Jai Shree Ram</text>
+    <text x="350" y="185" text-anchor="middle" fill="#B8860B" font-family="'Noto Sans Devanagari', 'Mangal', sans-serif" font-size="9" font-weight="900" filter="url(#goldGlow)">जय श्री राम</text>
   </g>
   <g>
-    <rect x="364" y="150" width="46" height="18" rx="3" fill="#fff" stroke="#FFD700" stroke-width="0.5" opacity="0.95">
-      <animate attributeName="opacity" values="0.85;1;0.85" dur="3.1s" begin="0.25s" repeatCount="indefinite" />
+    <rect x="378" y="170" width="48" height="22" rx="4" fill="#fff" stroke="#FFD700" stroke-width="0.8" opacity="0.98">
+      <animate attributeName="stroke-opacity" values="0.6;1;0.6" dur="2.3s" begin="0.89s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.9;1;0.9" dur="2.3s" begin="0.89s" repeatCount="indefinite" />
     </rect>
-    <text x="387" y="163" text-anchor="middle" fill="#B8860B" font-family="monospace" font-size="6" font-weight="bold">Jai Shree Ram</text>
+    <text x="402" y="185" text-anchor="middle" fill="#B8860B" font-family="'Noto Sans Devanagari', 'Mangal', sans-serif" font-size="9" font-weight="900" filter="url(#goldGlow)">जय श्री राम</text>
   </g>
   <g>
-    <rect x="414" y="150" width="46" height="18" rx="3" fill="#fff" stroke="#FFD700" stroke-width="0.5" opacity="0.95">
-      <animate attributeName="opacity" values="0.85;1;0.85" dur="3.0s" begin="0.35s" repeatCount="indefinite" />
+    <rect x="430" y="170" width="48" height="22" rx="4" fill="#fff" stroke="#FFD700" stroke-width="0.8" opacity="0.98">
+      <animate attributeName="stroke-opacity" values="0.6;1;0.6" dur="2.6s" begin="0.18s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.9;1;0.9" dur="2.6s" begin="0.18s" repeatCount="indefinite" />
     </rect>
-    <text x="437" y="163" text-anchor="middle" fill="#B8860B" font-family="monospace" font-size="6" font-weight="bold">Jai Shree Ram</text>
+    <text x="454" y="185" text-anchor="middle" fill="#B8860B" font-family="'Noto Sans Devanagari', 'Mangal', sans-serif" font-size="9" font-weight="900" filter="url(#goldGlow)">जय श्री राम</text>
   </g>
   <g>
-    <rect x="464" y="150" width="46" height="18" rx="3" fill="#fff" stroke="#FFD700" stroke-width="0.5" opacity="0.95">
-      <animate attributeName="opacity" values="0.85;1;0.85" dur="2.0s" begin="0.51s" repeatCount="indefinite" />
+    <rect x="482" y="170" width="48" height="22" rx="4" fill="#fff" stroke="#FFD700" stroke-width="0.8" opacity="0.98">
+      <animate attributeName="stroke-opacity" values="0.6;1;0.6" dur="3.5s" begin="1.81s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.9;1;0.9" dur="3.5s" begin="1.81s" repeatCount="indefinite" />
     </rect>
-    <text x="487" y="163" text-anchor="middle" fill="#B8860B" font-family="monospace" font-size="6" font-weight="bold">Jai Shree Ram</text>
+    <text x="506" y="185" text-anchor="middle" fill="#B8860B" font-family="'Noto Sans Devanagari', 'Mangal', sans-serif" font-size="9" font-weight="900" filter="url(#goldGlow)">जय श्री राम</text>
   </g>
   <g>
-    <rect x="514" y="150" width="46" height="18" rx="3" fill="#fff" stroke="#FFD700" stroke-width="0.5" opacity="0.95">
-      <animate attributeName="opacity" values="0.85;1;0.85" dur="3.1s" begin="1.3s" repeatCount="indefinite" />
+    <rect x="534" y="170" width="48" height="22" rx="4" fill="#fff" stroke="#FFD700" stroke-width="0.8" opacity="0.98">
+      <animate attributeName="stroke-opacity" values="0.6;1;0.6" dur="2.3s" begin="0.06s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.9;1;0.9" dur="2.3s" begin="0.06s" repeatCount="indefinite" />
     </rect>
-    <text x="537" y="163" text-anchor="middle" fill="#B8860B" font-family="monospace" font-size="6" font-weight="bold">Jai Shree Ram</text>
+    <text x="558" y="185" text-anchor="middle" fill="#B8860B" font-family="'Noto Sans Devanagari', 'Mangal', sans-serif" font-size="9" font-weight="900" filter="url(#goldGlow)">जय श्री राम</text>
   </g>
   <g>
-    <rect x="564" y="150" width="46" height="18" rx="3" fill="#fff" stroke="#FFD700" stroke-width="0.5" opacity="0.95">
-      <animate attributeName="opacity" values="0.85;1;0.85" dur="2.3s" begin="0.39s" repeatCount="indefinite" />
+    <rect x="586" y="170" width="48" height="22" rx="4" fill="#fff" stroke="#FFD700" stroke-width="0.8" opacity="0.98">
+      <animate attributeName="stroke-opacity" values="0.6;1;0.6" dur="2.3s" begin="1.07s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.9;1;0.9" dur="2.3s" begin="1.07s" repeatCount="indefinite" />
     </rect>
-    <text x="587" y="163" text-anchor="middle" fill="#B8860B" font-family="monospace" font-size="6" font-weight="bold">Jai Shree Ram</text>
+    <text x="610" y="185" text-anchor="middle" fill="#B8860B" font-family="'Noto Sans Devanagari', 'Mangal', sans-serif" font-size="9" font-weight="900" filter="url(#goldGlow)">जय श्री राम</text>
   </g>
   <g>
-    <rect x="14" y="172" width="46" height="18" rx="3" fill="#fff" stroke="#FFD700" stroke-width="0.5" opacity="0.95">
-      <animate attributeName="opacity" values="0.85;1;0.85" dur="3.0s" begin="0.92s" repeatCount="indefinite" />
+    <rect x="14" y="196" width="48" height="22" rx="4" fill="#fff" stroke="#FFD700" stroke-width="0.8" opacity="0.98">
+      <animate attributeName="stroke-opacity" values="0.6;1;0.6" dur="3.0s" begin="1.12s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.9;1;0.9" dur="3.0s" begin="1.12s" repeatCount="indefinite" />
     </rect>
-    <text x="37" y="185" text-anchor="middle" fill="#B8860B" font-family="monospace" font-size="6" font-weight="bold">Jai Shree Ram</text>
+    <text x="38" y="211" text-anchor="middle" fill="#B8860B" font-family="'Noto Sans Devanagari', 'Mangal', sans-serif" font-size="9" font-weight="900" filter="url(#goldGlow)">जय श्री राम</text>
   </g>
   <g>
-    <rect x="64" y="172" width="46" height="18" rx="3" fill="#fff" stroke="#FFD700" stroke-width="0.5" opacity="0.95">
-      <animate attributeName="opacity" values="0.85;1;0.85" dur="2.5s" begin="1.99s" repeatCount="indefinite" />
+    <rect x="66" y="196" width="48" height="22" rx="4" fill="#fff" stroke="#FFD700" stroke-width="0.8" opacity="0.98">
+      <animate attributeName="stroke-opacity" values="0.6;1;0.6" dur="3.5s" begin="1.48s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.9;1;0.9" dur="3.5s" begin="1.48s" repeatCount="indefinite" />
     </rect>
-    <text x="87" y="185" text-anchor="middle" fill="#B8860B" font-family="monospace" font-size="6" font-weight="bold">Jai Shree Ram</text>
+    <text x="90" y="211" text-anchor="middle" fill="#B8860B" font-family="'Noto Sans Devanagari', 'Mangal', sans-serif" font-size="9" font-weight="900" filter="url(#goldGlow)">जय श्री राम</text>
   </g>
   <g>
-    <rect x="114" y="172" width="46" height="18" rx="3" fill="#fff" stroke="#FFD700" stroke-width="0.5" opacity="0.95">
-      <animate attributeName="opacity" values="0.85;1;0.85" dur="2.5s" begin="0.97s" repeatCount="indefinite" />
+    <rect x="118" y="196" width="48" height="22" rx="4" fill="#fff" stroke="#FFD700" stroke-width="0.8" opacity="0.98">
+      <animate attributeName="stroke-opacity" values="0.6;1;0.6" dur="2.1s" begin="0.99s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.9;1;0.9" dur="2.1s" begin="0.99s" repeatCount="indefinite" />
     </rect>
-    <text x="137" y="185" text-anchor="middle" fill="#B8860B" font-family="monospace" font-size="6" font-weight="bold">Jai Shree Ram</text>
+    <text x="142" y="211" text-anchor="middle" fill="#B8860B" font-family="'Noto Sans Devanagari', 'Mangal', sans-serif" font-size="9" font-weight="900" filter="url(#goldGlow)">जय श्री राम</text>
   </g>
   <g>
-    <rect x="164" y="172" width="46" height="18" rx="3" fill="#fff" stroke="#FFD700" stroke-width="0.5" opacity="0.95">
-      <animate attributeName="opacity" values="0.85;1;0.85" dur="2.9s" begin="1.11s" repeatCount="indefinite" />
+    <rect x="170" y="196" width="48" height="22" rx="4" fill="#fff" stroke="#FFD700" stroke-width="0.8" opacity="0.98">
+      <animate attributeName="stroke-opacity" values="0.6;1;0.6" dur="2.1s" begin="0.36s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.9;1;0.9" dur="2.1s" begin="0.36s" repeatCount="indefinite" />
     </rect>
-    <text x="187" y="185" text-anchor="middle" fill="#B8860B" font-family="monospace" font-size="6" font-weight="bold">Jai Shree Ram</text>
+    <text x="194" y="211" text-anchor="middle" fill="#B8860B" font-family="'Noto Sans Devanagari', 'Mangal', sans-serif" font-size="9" font-weight="900" filter="url(#goldGlow)">जय श्री राम</text>
   </g>
   <g>
-    <rect x="214" y="172" width="46" height="18" rx="3" fill="#fff" stroke="#FFD700" stroke-width="0.5" opacity="0.95">
-      <animate attributeName="opacity" values="0.85;1;0.85" dur="2.2s" begin="1.74s" repeatCount="indefinite" />
+    <rect x="222" y="196" width="48" height="22" rx="4" fill="#fff" stroke="#FFD700" stroke-width="0.8" opacity="0.98">
+      <animate attributeName="stroke-opacity" values="0.6;1;0.6" dur="3.0s" begin="1.66s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.9;1;0.9" dur="3.0s" begin="1.66s" repeatCount="indefinite" />
     </rect>
-    <text x="237" y="185" text-anchor="middle" fill="#B8860B" font-family="monospace" font-size="6" font-weight="bold">Jai Shree Ram</text>
+    <text x="246" y="211" text-anchor="middle" fill="#B8860B" font-family="'Noto Sans Devanagari', 'Mangal', sans-serif" font-size="9" font-weight="900" filter="url(#goldGlow)">जय श्री राम</text>
   </g>
   <g>
-    <rect x="264" y="172" width="46" height="18" rx="3" fill="#fff" stroke="#FFD700" stroke-width="0.5" opacity="0.95">
-      <animate attributeName="opacity" values="0.85;1;0.85" dur="2.5s" begin="1.35s" repeatCount="indefinite" />
+    <rect x="274" y="196" width="48" height="22" rx="4" fill="#fff" stroke="#FFD700" stroke-width="0.8" opacity="0.98">
+      <animate attributeName="stroke-opacity" values="0.6;1;0.6" dur="3.9s" begin="0.3s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.9;1;0.9" dur="3.9s" begin="0.3s" repeatCount="indefinite" />
     </rect>
-    <text x="287" y="185" text-anchor="middle" fill="#B8860B" font-family="monospace" font-size="6" font-weight="bold">Jai Shree Ram</text>
+    <text x="298" y="211" text-anchor="middle" fill="#B8860B" font-family="'Noto Sans Devanagari', 'Mangal', sans-serif" font-size="9" font-weight="900" filter="url(#goldGlow)">जय श्री राम</text>
   </g>
   <g>
-    <rect x="314" y="172" width="46" height="18" rx="3" fill="#fff" stroke="#FFD700" stroke-width="0.5" opacity="0.95">
-      <animate attributeName="opacity" values="0.85;1;0.85" dur="2.5s" begin="1.53s" repeatCount="indefinite" />
+    <rect x="326" y="196" width="48" height="22" rx="4" fill="#fff" stroke="#FFD700" stroke-width="0.8" opacity="0.98">
+      <animate attributeName="stroke-opacity" values="0.6;1;0.6" dur="3.6s" begin="1.27s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.9;1;0.9" dur="3.6s" begin="1.27s" repeatCount="indefinite" />
     </rect>
-    <text x="337" y="185" text-anchor="middle" fill="#B8860B" font-family="monospace" font-size="6" font-weight="bold">Jai Shree Ram</text>
+    <text x="350" y="211" text-anchor="middle" fill="#B8860B" font-family="'Noto Sans Devanagari', 'Mangal', sans-serif" font-size="9" font-weight="900" filter="url(#goldGlow)">जय श्री राम</text>
   </g>
   <g>
-    <rect x="364" y="172" width="46" height="18" rx="3" fill="#fff" stroke="#FFD700" stroke-width="0.5" opacity="0.95">
-      <animate attributeName="opacity" values="0.85;1;0.85" dur="2.6s" begin="1.27s" repeatCount="indefinite" />
+    <rect x="378" y="196" width="48" height="22" rx="4" fill="#fff" stroke="#FFD700" stroke-width="0.8" opacity="0.98">
+      <animate attributeName="stroke-opacity" values="0.6;1;0.6" dur="3.5s" begin="0.2s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.9;1;0.9" dur="3.5s" begin="0.2s" repeatCount="indefinite" />
     </rect>
-    <text x="387" y="185" text-anchor="middle" fill="#B8860B" font-family="monospace" font-size="6" font-weight="bold">Jai Shree Ram</text>
+    <text x="402" y="211" text-anchor="middle" fill="#B8860B" font-family="'Noto Sans Devanagari', 'Mangal', sans-serif" font-size="9" font-weight="900" filter="url(#goldGlow)">जय श्री राम</text>
   </g>
   <g>
-    <rect x="414" y="172" width="46" height="18" rx="3" fill="#fff" stroke="#FFD700" stroke-width="0.5" opacity="0.95">
-      <animate attributeName="opacity" values="0.85;1;0.85" dur="3.8s" begin="1.41s" repeatCount="indefinite" />
+    <rect x="430" y="196" width="48" height="22" rx="4" fill="#fff" stroke="#FFD700" stroke-width="0.8" opacity="0.98">
+      <animate attributeName="stroke-opacity" values="0.6;1;0.6" dur="2.5s" begin="0.05s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.9;1;0.9" dur="2.5s" begin="0.05s" repeatCount="indefinite" />
     </rect>
-    <text x="437" y="185" text-anchor="middle" fill="#B8860B" font-family="monospace" font-size="6" font-weight="bold">Jai Shree Ram</text>
+    <text x="454" y="211" text-anchor="middle" fill="#B8860B" font-family="'Noto Sans Devanagari', 'Mangal', sans-serif" font-size="9" font-weight="900" filter="url(#goldGlow)">जय श्री राम</text>
   </g>
   <g>
-    <rect x="464" y="172" width="46" height="18" rx="3" fill="#fff" stroke="#FFD700" stroke-width="0.5" opacity="0.95">
-      <animate attributeName="opacity" values="0.85;1;0.85" dur="2.8s" begin="1.8s" repeatCount="indefinite" />
+    <rect x="482" y="196" width="48" height="22" rx="4" fill="#fff" stroke="#FFD700" stroke-width="0.8" opacity="0.98">
+      <animate attributeName="stroke-opacity" values="0.6;1;0.6" dur="2.8s" begin="0.91s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.9;1;0.9" dur="2.8s" begin="0.91s" repeatCount="indefinite" />
     </rect>
-    <text x="487" y="185" text-anchor="middle" fill="#B8860B" font-family="monospace" font-size="6" font-weight="bold">Jai Shree Ram</text>
+    <text x="506" y="211" text-anchor="middle" fill="#B8860B" font-family="'Noto Sans Devanagari', 'Mangal', sans-serif" font-size="9" font-weight="900" filter="url(#goldGlow)">जय श्री राम</text>
   </g>
   <g>
-    <rect x="514" y="172" width="46" height="18" rx="3" fill="#fff" stroke="#FFD700" stroke-width="0.5" opacity="0.95">
-      <animate attributeName="opacity" values="0.85;1;0.85" dur="3.0s" begin="0.78s" repeatCount="indefinite" />
+    <rect x="534" y="196" width="48" height="22" rx="4" fill="#fff" stroke="#FFD700" stroke-width="0.8" opacity="0.98">
+      <animate attributeName="stroke-opacity" values="0.6;1;0.6" dur="2.9s" begin="0.49s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.9;1;0.9" dur="2.9s" begin="0.49s" repeatCount="indefinite" />
     </rect>
-    <text x="537" y="185" text-anchor="middle" fill="#B8860B" font-family="monospace" font-size="6" font-weight="bold">Jai Shree Ram</text>
+    <text x="558" y="211" text-anchor="middle" fill="#B8860B" font-family="'Noto Sans Devanagari', 'Mangal', sans-serif" font-size="9" font-weight="900" filter="url(#goldGlow)">जय श्री राम</text>
   </g>
   <g>
-    <rect x="564" y="172" width="46" height="18" rx="3" fill="#fff" stroke="#FFD700" stroke-width="0.5" opacity="0.95">
-      <animate attributeName="opacity" values="0.85;1;0.85" dur="3.1s" begin="0.39s" repeatCount="indefinite" />
+    <rect x="586" y="196" width="48" height="22" rx="4" fill="#fff" stroke="#FFD700" stroke-width="0.8" opacity="0.98">
+      <animate attributeName="stroke-opacity" values="0.6;1;0.6" dur="3.5s" begin="0.2s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.9;1;0.9" dur="3.5s" begin="0.2s" repeatCount="indefinite" />
     </rect>
-    <text x="587" y="185" text-anchor="middle" fill="#B8860B" font-family="monospace" font-size="6" font-weight="bold">Jai Shree Ram</text>
+    <text x="610" y="211" text-anchor="middle" fill="#B8860B" font-family="'Noto Sans Devanagari', 'Mangal', sans-serif" font-size="9" font-weight="900" filter="url(#goldGlow)">जय श्री राम</text>
   </g>
   <g>
-    <rect x="14" y="194" width="46" height="18" rx="3" fill="#fff" stroke="#FFD700" stroke-width="0.5" opacity="0.95">
-      <animate attributeName="opacity" values="0.85;1;0.85" dur="3.6s" begin="0.06s" repeatCount="indefinite" />
+    <rect x="14" y="222" width="48" height="22" rx="4" fill="#fff" stroke="#FFD700" stroke-width="0.8" opacity="0.98">
+      <animate attributeName="stroke-opacity" values="0.6;1;0.6" dur="2.0s" begin="0.28s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.9;1;0.9" dur="2.0s" begin="0.28s" repeatCount="indefinite" />
     </rect>
-    <text x="37" y="207" text-anchor="middle" fill="#B8860B" font-family="monospace" font-size="6" font-weight="bold">Jai Shree Ram</text>
+    <text x="38" y="237" text-anchor="middle" fill="#B8860B" font-family="'Noto Sans Devanagari', 'Mangal', sans-serif" font-size="9" font-weight="900" filter="url(#goldGlow)">जय श्री राम</text>
   </g>
   <g>
-    <rect x="64" y="194" width="46" height="18" rx="3" fill="#fff" stroke="#FFD700" stroke-width="0.5" opacity="0.95">
-      <animate attributeName="opacity" values="0.85;1;0.85" dur="2.8s" begin="0.05s" repeatCount="indefinite" />
+    <rect x="66" y="222" width="48" height="22" rx="4" fill="#fff" stroke="#FFD700" stroke-width="0.8" opacity="0.98">
+      <animate attributeName="stroke-opacity" values="0.6;1;0.6" dur="2.0s" begin="1.68s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.9;1;0.9" dur="2.0s" begin="1.68s" repeatCount="indefinite" />
     </rect>
-    <text x="87" y="207" text-anchor="middle" fill="#B8860B" font-family="monospace" font-size="6" font-weight="bold">Jai Shree Ram</text>
+    <text x="90" y="237" text-anchor="middle" fill="#B8860B" font-family="'Noto Sans Devanagari', 'Mangal', sans-serif" font-size="9" font-weight="900" filter="url(#goldGlow)">जय श्री राम</text>
   </g>
   <g>
-    <rect x="114" y="194" width="46" height="18" rx="3" fill="#fff" stroke="#FFD700" stroke-width="0.5" opacity="0.95">
-      <animate attributeName="opacity" values="0.85;1;0.85" dur="2.2s" begin="1.38s" repeatCount="indefinite" />
+    <rect x="118" y="222" width="48" height="22" rx="4" fill="#fff" stroke="#FFD700" stroke-width="0.8" opacity="0.98">
+      <animate attributeName="stroke-opacity" values="0.6;1;0.6" dur="4.0s" begin="1.84s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.9;1;0.9" dur="4.0s" begin="1.84s" repeatCount="indefinite" />
     </rect>
-    <text x="137" y="207" text-anchor="middle" fill="#B8860B" font-family="monospace" font-size="6" font-weight="bold">Jai Shree Ram</text>
+    <text x="142" y="237" text-anchor="middle" fill="#B8860B" font-family="'Noto Sans Devanagari', 'Mangal', sans-serif" font-size="9" font-weight="900" filter="url(#goldGlow)">जय श्री राम</text>
   </g>
   <g>
-    <rect x="164" y="194" width="46" height="18" rx="3" fill="#fff" stroke="#FFD700" stroke-width="0.5" opacity="0.95">
-      <animate attributeName="opacity" values="0.85;1;0.85" dur="3.6s" begin="1.67s" repeatCount="indefinite" />
+    <rect x="170" y="222" width="48" height="22" rx="4" fill="#fff" stroke="#FFD700" stroke-width="0.8" opacity="0.98">
+      <animate attributeName="stroke-opacity" values="0.6;1;0.6" dur="3.0s" begin="1.54s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.9;1;0.9" dur="3.0s" begin="1.54s" repeatCount="indefinite" />
     </rect>
-    <text x="187" y="207" text-anchor="middle" fill="#B8860B" font-family="monospace" font-size="6" font-weight="bold">Jai Shree Ram</text>
+    <text x="194" y="237" text-anchor="middle" fill="#B8860B" font-family="'Noto Sans Devanagari', 'Mangal', sans-serif" font-size="9" font-weight="900" filter="url(#goldGlow)">जय श्री राम</text>
   </g>
   <g>
-    <rect x="214" y="194" width="46" height="18" rx="3" fill="#fff" stroke="#FFD700" stroke-width="0.5" opacity="0.95">
-      <animate attributeName="opacity" values="0.85;1;0.85" dur="3.0s" begin="1.82s" repeatCount="indefinite" />
+    <rect x="222" y="222" width="48" height="22" rx="4" fill="#fff" stroke="#FFD700" stroke-width="0.8" opacity="0.98">
+      <animate attributeName="stroke-opacity" values="0.6;1;0.6" dur="3.1s" begin="1.56s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.9;1;0.9" dur="3.1s" begin="1.56s" repeatCount="indefinite" />
     </rect>
-    <text x="237" y="207" text-anchor="middle" fill="#B8860B" font-family="monospace" font-size="6" font-weight="bold">Jai Shree Ram</text>
+    <text x="246" y="237" text-anchor="middle" fill="#B8860B" font-family="'Noto Sans Devanagari', 'Mangal', sans-serif" font-size="9" font-weight="900" filter="url(#goldGlow)">जय श्री राम</text>
   </g>
   <g>
-    <rect x="264" y="194" width="46" height="18" rx="3" fill="#fff" stroke="#FFD700" stroke-width="0.5" opacity="0.95">
-      <animate attributeName="opacity" values="0.85;1;0.85" dur="3.4s" begin="1.56s" repeatCount="indefinite" />
+    <rect x="274" y="222" width="48" height="22" rx="4" fill="#fff" stroke="#FFD700" stroke-width="0.8" opacity="0.98">
+      <animate attributeName="stroke-opacity" values="0.6;1;0.6" dur="2.1s" begin="1.49s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.9;1;0.9" dur="2.1s" begin="1.49s" repeatCount="indefinite" />
     </rect>
-    <text x="287" y="207" text-anchor="middle" fill="#B8860B" font-family="monospace" font-size="6" font-weight="bold">Jai Shree Ram</text>
+    <text x="298" y="237" text-anchor="middle" fill="#B8860B" font-family="'Noto Sans Devanagari', 'Mangal', sans-serif" font-size="9" font-weight="900" filter="url(#goldGlow)">जय श्री राम</text>
   </g>
   <g>
-    <rect x="314" y="194" width="46" height="18" rx="3" fill="#fff" stroke="#FFD700" stroke-width="0.5" opacity="0.95">
-      <animate attributeName="opacity" values="0.85;1;0.85" dur="2.3s" begin="0.19s" repeatCount="indefinite" />
+    <rect x="326" y="222" width="48" height="22" rx="4" fill="#fff" stroke="#FFD700" stroke-width="0.8" opacity="0.98">
+      <animate attributeName="stroke-opacity" values="0.6;1;0.6" dur="4.0s" begin="1.51s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.9;1;0.9" dur="4.0s" begin="1.51s" repeatCount="indefinite" />
     </rect>
-    <text x="337" y="207" text-anchor="middle" fill="#B8860B" font-family="monospace" font-size="6" font-weight="bold">Jai Shree Ram</text>
+    <text x="350" y="237" text-anchor="middle" fill="#B8860B" font-family="'Noto Sans Devanagari', 'Mangal', sans-serif" font-size="9" font-weight="900" filter="url(#goldGlow)">जय श्री राम</text>
   </g>
   <g>
-    <rect x="364" y="194" width="46" height="18" rx="3" fill="#fff" stroke="#FFD700" stroke-width="0.5" opacity="0.95">
-      <animate attributeName="opacity" values="0.85;1;0.85" dur="2.4s" begin="0.11s" repeatCount="indefinite" />
+    <rect x="378" y="222" width="48" height="22" rx="4" fill="#fff" stroke="#FFD700" stroke-width="0.8" opacity="0.98">
+      <animate attributeName="stroke-opacity" values="0.6;1;0.6" dur="3.8s" begin="1.8s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.9;1;0.9" dur="3.8s" begin="1.8s" repeatCount="indefinite" />
     </rect>
-    <text x="387" y="207" text-anchor="middle" fill="#B8860B" font-family="monospace" font-size="6" font-weight="bold">Jai Shree Ram</text>
+    <text x="402" y="237" text-anchor="middle" fill="#B8860B" font-family="'Noto Sans Devanagari', 'Mangal', sans-serif" font-size="9" font-weight="900" filter="url(#goldGlow)">जय श्री राम</text>
   </g>
   <g>
-    <rect x="414" y="194" width="46" height="18" rx="3" fill="#fff" stroke="#FFD700" stroke-width="0.5" opacity="0.95">
-      <animate attributeName="opacity" values="0.85;1;0.85" dur="3.3s" begin="1.81s" repeatCount="indefinite" />
+    <rect x="430" y="222" width="48" height="22" rx="4" fill="#fff" stroke="#FFD700" stroke-width="0.8" opacity="0.98">
+      <animate attributeName="stroke-opacity" values="0.6;1;0.6" dur="2.7s" begin="0.2s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.9;1;0.9" dur="2.7s" begin="0.2s" repeatCount="indefinite" />
     </rect>
-    <text x="437" y="207" text-anchor="middle" fill="#B8860B" font-family="monospace" font-size="6" font-weight="bold">Jai Shree Ram</text>
+    <text x="454" y="237" text-anchor="middle" fill="#B8860B" font-family="'Noto Sans Devanagari', 'Mangal', sans-serif" font-size="9" font-weight="900" filter="url(#goldGlow)">जय श्री राम</text>
   </g>
   <g>
-    <rect x="464" y="194" width="46" height="18" rx="3" fill="#fff" stroke="#FFD700" stroke-width="0.5" opacity="0.95">
-      <animate attributeName="opacity" values="0.85;1;0.85" dur="2.1s" begin="1.96s" repeatCount="indefinite" />
+    <rect x="482" y="222" width="48" height="22" rx="4" fill="#fff" stroke="#FFD700" stroke-width="0.8" opacity="0.98">
+      <animate attributeName="stroke-opacity" values="0.6;1;0.6" dur="2.5s" begin="0.0s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.9;1;0.9" dur="2.5s" begin="0.0s" repeatCount="indefinite" />
     </rect>
-    <text x="487" y="207" text-anchor="middle" fill="#B8860B" font-family="monospace" font-size="6" font-weight="bold">Jai Shree Ram</text>
+    <text x="506" y="237" text-anchor="middle" fill="#B8860B" font-family="'Noto Sans Devanagari', 'Mangal', sans-serif" font-size="9" font-weight="900" filter="url(#goldGlow)">जय श्री राम</text>
   </g>
   <g>
-    <rect x="514" y="194" width="46" height="18" rx="3" fill="#fff" stroke="#FFD700" stroke-width="0.5" opacity="0.95">
-      <animate attributeName="opacity" values="0.85;1;0.85" dur="3.3s" begin="0.07s" repeatCount="indefinite" />
+    <rect x="534" y="222" width="48" height="22" rx="4" fill="#fff" stroke="#FFD700" stroke-width="0.8" opacity="0.98">
+      <animate attributeName="stroke-opacity" values="0.6;1;0.6" dur="3.8s" begin="0.5s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.9;1;0.9" dur="3.8s" begin="0.5s" repeatCount="indefinite" />
     </rect>
-    <text x="537" y="207" text-anchor="middle" fill="#B8860B" font-family="monospace" font-size="6" font-weight="bold">Jai Shree Ram</text>
+    <text x="558" y="237" text-anchor="middle" fill="#B8860B" font-family="'Noto Sans Devanagari', 'Mangal', sans-serif" font-size="9" font-weight="900" filter="url(#goldGlow)">जय श्री राम</text>
   </g>
   <g>
-    <rect x="564" y="194" width="46" height="18" rx="3" fill="#fff" stroke="#FFD700" stroke-width="0.5" opacity="0.95">
-      <animate attributeName="opacity" values="0.85;1;0.85" dur="3.4s" begin="1.08s" repeatCount="indefinite" />
+    <rect x="586" y="222" width="48" height="22" rx="4" fill="#fff" stroke="#FFD700" stroke-width="0.8" opacity="0.98">
+      <animate attributeName="stroke-opacity" values="0.6;1;0.6" dur="3.9s" begin="1.72s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.9;1;0.9" dur="3.9s" begin="1.72s" repeatCount="indefinite" />
     </rect>
-    <text x="587" y="207" text-anchor="middle" fill="#B8860B" font-family="monospace" font-size="6" font-weight="bold">Jai Shree Ram</text>
+    <text x="610" y="237" text-anchor="middle" fill="#B8860B" font-family="'Noto Sans Devanagari', 'Mangal', sans-serif" font-size="9" font-weight="900" filter="url(#goldGlow)">जय श्री राम</text>
   </g>
   <g>
-    <rect x="14" y="216" width="46" height="18" rx="3" fill="#fff" stroke="#FFD700" stroke-width="0.5" opacity="0.95">
-      <animate attributeName="opacity" values="0.85;1;0.85" dur="3.2s" begin="0.56s" repeatCount="indefinite" />
+    <rect x="14" y="248" width="48" height="22" rx="4" fill="#fff" stroke="#FFD700" stroke-width="0.8" opacity="0.98">
+      <animate attributeName="stroke-opacity" values="0.6;1;0.6" dur="2.4s" begin="1.23s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.9;1;0.9" dur="2.4s" begin="1.23s" repeatCount="indefinite" />
     </rect>
-    <text x="37" y="229" text-anchor="middle" fill="#B8860B" font-family="monospace" font-size="6" font-weight="bold">Jai Shree Ram</text>
+    <text x="38" y="263" text-anchor="middle" fill="#B8860B" font-family="'Noto Sans Devanagari', 'Mangal', sans-serif" font-size="9" font-weight="900" filter="url(#goldGlow)">जय श्री राम</text>
   </g>
   <g>
-    <rect x="64" y="216" width="46" height="18" rx="3" fill="#fff" stroke="#FFD700" stroke-width="0.5" opacity="0.95">
-      <animate attributeName="opacity" values="0.85;1;0.85" dur="3.4s" begin="0.31s" repeatCount="indefinite" />
+    <rect x="66" y="248" width="48" height="22" rx="4" fill="#fff" stroke="#FFD700" stroke-width="0.8" opacity="0.98">
+      <animate attributeName="stroke-opacity" values="0.6;1;0.6" dur="3.8s" begin="1.32s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.9;1;0.9" dur="3.8s" begin="1.32s" repeatCount="indefinite" />
     </rect>
-    <text x="87" y="229" text-anchor="middle" fill="#B8860B" font-family="monospace" font-size="6" font-weight="bold">Jai Shree Ram</text>
+    <text x="90" y="263" text-anchor="middle" fill="#B8860B" font-family="'Noto Sans Devanagari', 'Mangal', sans-serif" font-size="9" font-weight="900" filter="url(#goldGlow)">जय श्री राम</text>
   </g>
   <g>
-    <rect x="114" y="216" width="46" height="18" rx="3" fill="#fff" stroke="#FFD700" stroke-width="0.5" opacity="0.95">
-      <animate attributeName="opacity" values="0.85;1;0.85" dur="3.2s" begin="0.48s" repeatCount="indefinite" />
+    <rect x="118" y="248" width="48" height="22" rx="4" fill="#fff" stroke="#FFD700" stroke-width="0.8" opacity="0.98">
+      <animate attributeName="stroke-opacity" values="0.6;1;0.6" dur="2.4s" begin="0.6s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.9;1;0.9" dur="2.4s" begin="0.6s" repeatCount="indefinite" />
     </rect>
-    <text x="137" y="229" text-anchor="middle" fill="#B8860B" font-family="monospace" font-size="6" font-weight="bold">Jai Shree Ram</text>
+    <text x="142" y="263" text-anchor="middle" fill="#B8860B" font-family="'Noto Sans Devanagari', 'Mangal', sans-serif" font-size="9" font-weight="900" filter="url(#goldGlow)">जय श्री राम</text>
   </g>
   <g>
-    <rect x="164" y="216" width="46" height="18" rx="3" fill="#fff" stroke="#FFD700" stroke-width="0.5" opacity="0.95">
-      <animate attributeName="opacity" values="0.85;1;0.85" dur="3.3s" begin="1.29s" repeatCount="indefinite" />
+    <rect x="170" y="248" width="48" height="22" rx="4" fill="#fff" stroke="#FFD700" stroke-width="0.8" opacity="0.98">
+      <animate attributeName="stroke-opacity" values="0.6;1;0.6" dur="3.0s" begin="1.65s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.9;1;0.9" dur="3.0s" begin="1.65s" repeatCount="indefinite" />
     </rect>
-    <text x="187" y="229" text-anchor="middle" fill="#B8860B" font-family="monospace" font-size="6" font-weight="bold">Jai Shree Ram</text>
+    <text x="194" y="263" text-anchor="middle" fill="#B8860B" font-family="'Noto Sans Devanagari', 'Mangal', sans-serif" font-size="9" font-weight="900" filter="url(#goldGlow)">जय श्री राम</text>
   </g>
   <g>
-    <rect x="214" y="216" width="46" height="18" rx="3" fill="#fff" stroke="#FFD700" stroke-width="0.5" opacity="0.95">
-      <animate attributeName="opacity" values="0.85;1;0.85" dur="2.4s" begin="0.32s" repeatCount="indefinite" />
+    <rect x="222" y="248" width="48" height="22" rx="4" fill="#fff" stroke="#FFD700" stroke-width="0.8" opacity="0.98">
+      <animate attributeName="stroke-opacity" values="0.6;1;0.6" dur="3.4s" begin="1.94s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.9;1;0.9" dur="3.4s" begin="1.94s" repeatCount="indefinite" />
     </rect>
-    <text x="237" y="229" text-anchor="middle" fill="#B8860B" font-family="monospace" font-size="6" font-weight="bold">Jai Shree Ram</text>
+    <text x="246" y="263" text-anchor="middle" fill="#B8860B" font-family="'Noto Sans Devanagari', 'Mangal', sans-serif" font-size="9" font-weight="900" filter="url(#goldGlow)">जय श्री राम</text>
   </g>
   <g>
-    <rect x="264" y="216" width="46" height="18" rx="3" fill="#fff" stroke="#FFD700" stroke-width="0.5" opacity="0.95">
-      <animate attributeName="opacity" values="0.85;1;0.85" dur="3.3s" begin="1.24s" repeatCount="indefinite" />
+    <rect x="274" y="248" width="48" height="22" rx="4" fill="#fff" stroke="#FFD700" stroke-width="0.8" opacity="0.98">
+      <animate attributeName="stroke-opacity" values="0.6;1;0.6" dur="3.7s" begin="1.19s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.9;1;0.9" dur="3.7s" begin="1.19s" repeatCount="indefinite" />
     </rect>
-    <text x="287" y="229" text-anchor="middle" fill="#B8860B" font-family="monospace" font-size="6" font-weight="bold">Jai Shree Ram</text>
+    <text x="298" y="263" text-anchor="middle" fill="#B8860B" font-family="'Noto Sans Devanagari', 'Mangal', sans-serif" font-size="9" font-weight="900" filter="url(#goldGlow)">जय श्री राम</text>
   </g>
   <g>
-    <rect x="314" y="216" width="46" height="18" rx="3" fill="#fff" stroke="#FFD700" stroke-width="0.5" opacity="0.95">
-      <animate attributeName="opacity" values="0.85;1;0.85" dur="2.3s" begin="0.65s" repeatCount="indefinite" />
+    <rect x="326" y="248" width="48" height="22" rx="4" fill="#fff" stroke="#FFD700" stroke-width="0.8" opacity="0.98">
+      <animate attributeName="stroke-opacity" values="0.6;1;0.6" dur="3.3s" begin="0.99s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.9;1;0.9" dur="3.3s" begin="0.99s" repeatCount="indefinite" />
     </rect>
-    <text x="337" y="229" text-anchor="middle" fill="#B8860B" font-family="monospace" font-size="6" font-weight="bold">Jai Shree Ram</text>
+    <text x="350" y="263" text-anchor="middle" fill="#B8860B" font-family="'Noto Sans Devanagari', 'Mangal', sans-serif" font-size="9" font-weight="900" filter="url(#goldGlow)">जय श्री राम</text>
   </g>
   <g>
-    <rect x="364" y="216" width="46" height="18" rx="3" fill="#fff" stroke="#FFD700" stroke-width="0.5" opacity="0.95">
-      <animate attributeName="opacity" values="0.85;1;0.85" dur="2.6s" begin="0.9s" repeatCount="indefinite" />
+    <rect x="378" y="248" width="48" height="22" rx="4" fill="#fff" stroke="#FFD700" stroke-width="0.8" opacity="0.98">
+      <animate attributeName="stroke-opacity" values="0.6;1;0.6" dur="2.8s" begin="0.08s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.9;1;0.9" dur="2.8s" begin="0.08s" repeatCount="indefinite" />
     </rect>
-    <text x="387" y="229" text-anchor="middle" fill="#B8860B" font-family="monospace" font-size="6" font-weight="bold">Jai Shree Ram</text>
+    <text x="402" y="263" text-anchor="middle" fill="#B8860B" font-family="'Noto Sans Devanagari', 'Mangal', sans-serif" font-size="9" font-weight="900" filter="url(#goldGlow)">जय श्री राम</text>
   </g>
   <g>
-    <rect x="414" y="216" width="46" height="18" rx="3" fill="#fff" stroke="#FFD700" stroke-width="0.5" opacity="0.95">
-      <animate attributeName="opacity" values="0.85;1;0.85" dur="2.4s" begin="1.91s" repeatCount="indefinite" />
+    <rect x="430" y="248" width="48" height="22" rx="4" fill="#fff" stroke="#FFD700" stroke-width="0.8" opacity="0.98">
+      <animate attributeName="stroke-opacity" values="0.6;1;0.6" dur="2.1s" begin="0.37s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.9;1;0.9" dur="2.1s" begin="0.37s" repeatCount="indefinite" />
     </rect>
-    <text x="437" y="229" text-anchor="middle" fill="#B8860B" font-family="monospace" font-size="6" font-weight="bold">Jai Shree Ram</text>
+    <text x="454" y="263" text-anchor="middle" fill="#B8860B" font-family="'Noto Sans Devanagari', 'Mangal', sans-serif" font-size="9" font-weight="900" filter="url(#goldGlow)">जय श्री राम</text>
   </g>
   <g>
-    <rect x="464" y="216" width="46" height="18" rx="3" fill="#fff" stroke="#FFD700" stroke-width="0.5" opacity="0.95">
-      <animate attributeName="opacity" values="0.85;1;0.85" dur="3.2s" begin="0.67s" repeatCount="indefinite" />
+    <rect x="482" y="248" width="48" height="22" rx="4" fill="#fff" stroke="#FFD700" stroke-width="0.8" opacity="0.98">
+      <animate attributeName="stroke-opacity" values="0.6;1;0.6" dur="3.0s" begin="0.36s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.9;1;0.9" dur="3.0s" begin="0.36s" repeatCount="indefinite" />
     </rect>
-    <text x="487" y="229" text-anchor="middle" fill="#B8860B" font-family="monospace" font-size="6" font-weight="bold">Jai Shree Ram</text>
+    <text x="506" y="263" text-anchor="middle" fill="#B8860B" font-family="'Noto Sans Devanagari', 'Mangal', sans-serif" font-size="9" font-weight="900" filter="url(#goldGlow)">जय श्री राम</text>
   </g>
   <g>
-    <rect x="514" y="216" width="46" height="18" rx="3" fill="#fff" stroke="#FFD700" stroke-width="0.5" opacity="0.95">
-      <animate attributeName="opacity" values="0.85;1;0.85" dur="2.6s" begin="1.11s" repeatCount="indefinite" />
+    <rect x="534" y="248" width="48" height="22" rx="4" fill="#fff" stroke="#FFD700" stroke-width="0.8" opacity="0.98">
+      <animate attributeName="stroke-opacity" values="0.6;1;0.6" dur="3.2s" begin="1.0s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.9;1;0.9" dur="3.2s" begin="1.0s" repeatCount="indefinite" />
     </rect>
-    <text x="537" y="229" text-anchor="middle" fill="#B8860B" font-family="monospace" font-size="6" font-weight="bold">Jai Shree Ram</text>
+    <text x="558" y="263" text-anchor="middle" fill="#B8860B" font-family="'Noto Sans Devanagari', 'Mangal', sans-serif" font-size="9" font-weight="900" filter="url(#goldGlow)">जय श्री राम</text>
   </g>
   <g>
-    <rect x="564" y="216" width="46" height="18" rx="3" fill="#fff" stroke="#FFD700" stroke-width="0.5" opacity="0.95">
-      <animate attributeName="opacity" values="0.85;1;0.85" dur="2.4s" begin="0.62s" repeatCount="indefinite" />
+    <rect x="586" y="248" width="48" height="22" rx="4" fill="#fff" stroke="#FFD700" stroke-width="0.8" opacity="0.98">
+      <animate attributeName="stroke-opacity" values="0.6;1;0.6" dur="2.3s" begin="1.5s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.9;1;0.9" dur="2.3s" begin="1.5s" repeatCount="indefinite" />
     </rect>
-    <text x="587" y="229" text-anchor="middle" fill="#B8860B" font-family="monospace" font-size="6" font-weight="bold">Jai Shree Ram</text>
+    <text x="610" y="263" text-anchor="middle" fill="#B8860B" font-family="'Noto Sans Devanagari', 'Mangal', sans-serif" font-size="9" font-weight="900" filter="url(#goldGlow)">जय श्री राम</text>
   </g>
-  <text x="312" y="256" text-anchor="middle" fill="#8B949E" font-family="monospace" font-size="9">🙏 Har Har Mahadev · Jai Shree Ram · 108 Sacred Chants 🙏</text>
+  <text x="324" y="292" text-anchor="middle" fill="#B8860B" font-family="monospace" font-size="9" font-weight="bold" filter="url(#goldGlow)">🙏 हर हर महादेव · जय श्री राम · 108 पवित्र जाप 🙏</text>
 </svg>
