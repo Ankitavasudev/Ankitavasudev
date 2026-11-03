@@ -1,0 +1,49 @@
+<svg width="520" height="340" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="heartGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#ff1744;stop-opacity:0.9" />
+      <stop offset="40%" style="stop-color:#E74C3C;stop-opacity:0.5" />
+      <stop offset="100%" style="stop-color:#E74C3C;stop-opacity:0" />
+    </radialGradient>
+  </defs>
+
+  <rect width="520" height="340" rx="12" fill="#0d1117" stroke="#E74C3C" stroke-width="1" opacity="0.7"/>
+
+  <text x="260" y="30" text-anchor="middle" fill="#E74C3C" font-family="monospace" font-size="14" font-weight="bold">BEYOND CODE</text>
+
+  <!-- Glowing heart shape -->
+  <path d="M260,90 C260,70 230,50 200,50 C160,50 140,80 140,110 C140,160 200,200 260,240 C320,200 380,160 380,110 C380,80 360,50 320,50 C290,50 260,70 260,90 Z" 
+        fill="url(#heartGlow)" stroke="#E74C3C" stroke-width="2.5"/>
+
+  <!-- Inner heart -->
+  <path d="M260,100 C260,85 240,70 220,70 C195,70 180,90 180,110 C180,145 220,175 260,205 C300,175 340,145 340,110 C340,90 325,70 300,70 C280,70 260,85 260,100 Z" 
+        fill="rgba(231,76,60,0.2)" stroke="none"/>
+
+  <!-- Center text -->
+  <text x="260" y="135" text-anchor="middle" fill="#fff" font-family="monospace" font-size="16" font-weight="bold">❤️</text>
+  <text x="260" y="155" text-anchor="middle" fill="#ff6b6b" font-family="monospace" font-size="9" font-weight="bold">PASSION</text>
+
+  <!-- Hobby labels -->
+  <rect x="60" y="48" width="95" height="22" rx="11" fill="rgba(0,0,0,0.7)" stroke="#E74C3C" stroke-width="1"/>
+  <text x="107" y="63" text-anchor="middle" fill="#000" font-family="monospace" font-size="9" font-weight="bold">🎨 UI/UX</text>
+
+  <rect x="365" y="48" width="95" height="22" rx="11" fill="rgba(0,0,0,0.7)" stroke="#E74C3C" stroke-width="1"/>
+  <text x="412" y="63" text-anchor="middle" fill="#000" font-family="monospace" font-size="9" font-weight="bold">☕ Coffee</text>
+
+  <rect x="30" y="120" width="95" height="22" rx="11" fill="rgba(0,0,0,0.7)" stroke="#E74C3C" stroke-width="1"/>
+  <text x="77" y="135" text-anchor="middle" fill="#000" font-family="monospace" font-size="9" font-weight="bold">🎮 Gaming</text>
+
+  <rect x="395" y="120" width="95" height="22" rx="11" fill="rgba(0,0,0,0.7)" stroke="#E74C3C" stroke-width="1"/>
+  <text x="442" y="135" text-anchor="middle" fill="#000" font-family="monospace" font-size="9" font-weight="bold">📚 Blogs</text>
+
+  <rect x="80" y="200" width="100" height="22" rx="11" fill="rgba(0,0,0,0.7)" stroke="#E74C3C" stroke-width="1"/>
+  <text x="130" y="215" text-anchor="middle" fill="#000" font-family="monospace" font-size="9" font-weight="bold">🎵 Music</text>
+
+  <rect x="340" y="200" width="100" height="22" rx="11" fill="rgba(0,0,0,0.7)" stroke="#E74C3C" stroke-width="1"/>
+  <text x="390" y="215" text-anchor="middle" fill="#000" font-family="monospace" font-size="9" font-weight="bold">✈️ Travel</text>
+
+  <rect x="185" y="250" width="150" height="22" rx="11" fill="rgba(0,0,0,0.7)" stroke="#E74C3C" stroke-width="1"/>
+  <text x="260" y="265" text-anchor="middle" fill="#000" font-family="monospace" font-size="9" font-weight="bold">🌐 Open Source</text>
+
+  <text x="260" y="300" text-anchor="middle" fill="#8B949E" font-family="monospace" font-size="10">Building with passion · Living with purpose</text>
+</svg>
