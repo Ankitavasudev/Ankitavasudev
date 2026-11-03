@@ -131,11 +131,15 @@ Open To:
 
 ---
 
-# ❤️ Beyond Code — Hobbies & Interests
+# 🙏 108 × Jai Shree Ram
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Ankitavasudev/Ankitavasudev/main/heart.svg" width="520"/>
+<img src="https://raw.githubusercontent.com/Ankitavasudev/Ankitavasudev/main/jai_shree_ram.svg" width="624"/>
+
+<br>
+
+*"Har Har Mahadev · Jai Shree Ram · 108 Sacred Chants"*
 
 </div>
 
