@@ -1,18 +1,23 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=34&duration=3000&pause=1000&color=4A90D9&center=true&vCenter=true&width=1000&lines=Ankita+Salaria;CS+Student+%7C+Go+%26+Python+Developer;Kubernetes+Tooling+Builder;CNCF+Contributor+%7C+GSoC+2027+Aspirant;Building+Cool+Stuff+with+Code" />
+<!-- Animated Hero Banner -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:4A90D9,100:9B59B6&height=200&section=header&text=Ankita%20Salaria&fontSize=50&fontColor=fff&animation=fadeIn&fontAlignY=35&desc=CS%20Student%20%7C%20Go%20%26%20Python%20Dev%20%7C%20K8s%20Tooling%20Builder&descAlignY=55&descSize=16"/>
 
 <br>
 
-<img src="https://img.shields.io/badge/B.Tech-Computer_Science-4A90D9?style=flat-square&logo=graduation-cap&logoColor=white"/>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=2500&pause=800&color=4A90D9&center=true&vCenter=true&width=600&lines=Building+Kubernetes+tooling+in+Go+%26+Python;Contributing+to+CNCF+%2F+KubeArmor;GSoC+2027+Aspirant+%7C+LFX+Mentorship;Open+to+collaborations+%26+internships"/>
+
+<br>
+
+<img src="https://img.shields.io/badge/B.Tech-Computer_Science-4A90D9?style=for-the-badge&logo=graduation-cap&logoColor=white"/>
 &nbsp;
-<img src="https://img.shields.io/badge/Engineering_Student-India-9B59B6?style=flat-square"/>
+<img src="https://img.shields.io/badge/India-🇮🇳-9B59B6?style=for-the-badge"/>
 &nbsp;
-<img src="https://img.shields.io/badge/Location-India-E74C3C?style=flat-square&logo=googlemaps&logoColor=white"/>
+<img src="https://img.shields.io/badge/Open_To-Collaborations-E74C3C?style=for-the-badge&logo=handshake&logoColor=white"/>
 
 <br><br>
 
-<img src="https://komarev.com/ghpvc/?username=Ankitavasudev&color=4A90D9&style=flat-square&label=Profile+Views"/>
+<img src="https://komarev.com/ghpvc/?username=Ankitavasudev&color=4A90D9&style=for-the-badge&label=PROFILE+VIEWS"/>
 
 </div>
 
@@ -22,11 +27,7 @@
 
 ```yaml
 Name: Ankita Salaria
-
-Role:
-  - CS Student
-  - Go & Python Developer
-  - Kubernetes Tooling Builder
+Role: CS Student · Go & Python Developer · K8s Tooling Builder
 
 Interests:
   - Kubernetes & Cloud Native
@@ -35,9 +36,10 @@ Interests:
   - Open Source (CNCF)
 
 Currently Building:
-  - K8s Health Monitor
-  - K8s Pod Analyzer & Recommender
-  - Container Lint
+  - K8s Health Monitor (Python)
+  - K8s Pod Analyzer (Go)
+  - K8s Pod Recommender (Go)
+  - Container Lint (Python)
 
 Open To:
   - GSoC 2027 (CNCF/KubeArmor)
@@ -103,7 +105,8 @@ Open To:
 </td>
 </tr>
 </table>
-<br>
+
+---
 
 # 📈 GitHub Analytics
 
@@ -187,8 +190,6 @@ Open To:
 
 <div align="center">
 
-### Thanks for stopping by my corner of the internet
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:4A90D9,50:9B59B6,100:E74C3C&height=140&section=footer"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:4A90D9,50:9B59B6,100:E74C3C&height=120&section=footer"/>
 
 </div>
