@@ -121,7 +121,6 @@ Open To:
 
 <div align="center">
 
-<!-- Animated progress bars for current projects -->
 <svg width="600" height="200" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="0%">
@@ -138,13 +137,10 @@ Open To:
     </linearGradient>
   </defs>
 
-  <!-- Background -->
   <rect width="600" height="200" rx="12" fill="#0d1117" stroke="#4A90D9" stroke-width="1" opacity="0.8"/>
 
-  <!-- Title -->
   <text x="300" y="30" text-anchor="middle" fill="#4A90D9" font-family="monospace" font-size="14" font-weight="bold">⚡ ACTIVE PROJECTS</text>
 
-  <!-- Project 1: KubeArmor -->
   <text x="20" y="65" fill="#e0d4c8" font-family="monospace" font-size="12">KubeArmor Contribution</text>
   <rect x="20" y="72" width="560" height="8" rx="4" fill="#1a1f2e"/>
   <rect x="20" y="72" width="0" height="8" rx="4" fill="url(#g1)">
@@ -152,7 +148,6 @@ Open To:
   </rect>
   <text x="585" y="80" fill="#4A90D9" font-family="monospace" font-size="11" text-anchor="end">75%</text>
 
-  <!-- Project 2: K8s Pod Analyzer -->
   <text x="20" y="110" fill="#e0d4c8" font-family="monospace" font-size="12">K8s Pod Analyzer</text>
   <rect x="20" y="117" width="560" height="8" rx="4" fill="#1a1f2e"/>
   <rect x="20" y="117" width="0" height="8" rx="4" fill="url(#g2)">
@@ -160,7 +155,6 @@ Open To:
   </rect>
   <text x="585" y="125" fill="#9B59B6" font-family="monospace" font-size="11" text-anchor="end">85%</text>
 
-  <!-- Project 3: K8s Health Monitor -->
   <text x="20" y="155" fill="#e0d4c8" font-family="monospace" font-size="12">K8s Health Monitor</text>
   <rect x="20" y="162" width="560" height="8" rx="4" fill="#1a1f2e"/>
   <rect x="20" y="162" width="0" height="8" rx="4" fill="url(#g3)">
@@ -168,7 +162,6 @@ Open To:
   </rect>
   <text x="585" y="170" fill="#E74C3C" font-family="monospace" font-size="11" text-anchor="end">90%</text>
 
-  <!-- Animated pulse dot -->
   <circle cx="300" cy="190" r="3" fill="#4A90D9">
     <animate attributeName="r" values="3;6;3" dur="1.5s" repeatCount="indefinite" />
     <animate attributeName="opacity" values="1;0.3;1" dur="1.5s" repeatCount="indefinite" />
@@ -177,7 +170,6 @@ Open To:
 
 <br>
 
-<!-- Skill orbit animation -->
 <svg width="400" height="120" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <radialGradient id="core" cx="50%" cy="50%" r="50%">
@@ -190,13 +182,11 @@ Open To:
 
   <text x="200" y="20" text-anchor="middle" fill="#4A90D9" font-family="monospace" font-size="12" font-weight="bold">🔄 SKILL ORBIT</text>
 
-  <!-- Center node -->
   <circle cx="200" cy="65" r="18" fill="url(#core)" stroke="#4A90D9" stroke-width="1.5">
     <animate attributeName="r" values="18;20;18" dur="2s" repeatCount="indefinite" />
   </circle>
   <text x="200" y="69" text-anchor="middle" fill="#fff" font-family="monospace" font-size="9" font-weight="bold">CORE</text>
 
-  <!-- Orbiting skill nodes -->
   <g>
     <animateTransform attributeName="transform" type="rotate" from="0 200 65" to="360 200 65" dur="12s" repeatCount="indefinite" />
     <circle cx="200" cy="30" r="12" fill="#0d1117" stroke="#9B59B6" stroke-width="1.5"/>
@@ -213,10 +203,113 @@ Open To:
     <text x="200" y="34" text-anchor="middle" fill="#2ECC71" font-family="monospace" font-size="8">Py</text>
   </g>
 
-  <!-- Orbit ring -->
   <circle cx="200" cy="65" r="35" fill="none" stroke="rgba(74,144,217,0.2)" stroke-width="1" stroke-dasharray="4 4">
     <animate attributeName="stroke-dashoffset" from="0" to="16" dur="3s" repeatCount="indefinite" />
   </circle>
+</svg>
+
+</div>
+
+---
+
+# ❤️ Beyond Code — Hobbies & Interests
+
+<div align="center">
+
+<!-- Red glowing diamond shape with hobbies -->
+<svg width="500" height="320" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="redGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#E74C3C;stop-opacity:0.9" />
+      <stop offset="50%" style="stop-color:#E74C3C;stop-opacity:0.4" />
+      <stop offset="100%" style="stop-color:#E74C3C;stop-opacity:0" />
+    </radialGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="500" height="320" rx="12" fill="#0d1117" stroke="#E74C3C" stroke-width="1" opacity="0.7"/>
+
+  <text x="250" y="30" text-anchor="middle" fill="#E74C3C" font-family="monospace" font-size="14" font-weight="bold" filter="url(#glow)">❤️ BEYOND CODE</text>
+
+  <!-- Glowing diamond -->
+  <polygon points="250,55 310,110 250,165 190,110" fill="none" stroke="#E74C3C" stroke-width="2" filter="url(#glow)">
+    <animate attributeName="stroke-opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite" />
+    <animate attributeName="stroke-width" values="2;3;2" dur="2s" repeatCount="indefinite" />
+  </polygon>
+
+  <!-- Inner glow diamond -->
+  <polygon points="250,70 290,110 250,150 210,110" fill="url(#redGlow)" opacity="0.3">
+    <animate attributeName="opacity" values="0.2;0.5;0.2" dur="2.5s" repeatCount="indefinite" />
+  </polygon>
+
+  <!-- Center icon -->
+  <text x="250" y="118" text-anchor="middle" fill="#fff" font-family="monospace" font-size="20" filter="url(#glow)">❤️</text>
+
+  <!-- Hobby items orbiting around diamond -->
+  <!-- Top -->
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="0,0; 0,-3; 0,0" dur="2s" repeatCount="indefinite" />
+    <rect x="175" y="42" width="150" height="24" rx="12" fill="rgba(231,76,60,0.1)" stroke="#E74C3C" stroke-width="1" opacity="0.8"/>
+    <text x="250" y="58" text-anchor="middle" fill="#E74C3C" font-family="monospace" font-size="10">🎨 UI/UX Design</text>
+  </g>
+
+  <!-- Right -->
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="0,0; 3,0; 0,0" dur="2.2s" repeatCount="indefinite" />
+    <rect x="320" y="98" width="150" height="24" rx="12" fill="rgba(231,76,60,0.1)" stroke="#E74C3C" stroke-width="1" opacity="0.8"/>
+    <text x="395" y="114" text-anchor="middle" fill="#E74C3C" font-family="monospace" font-size="10">☕ Coffee &amp; Code</text>
+  </g>
+
+  <!-- Bottom -->
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="0,0; 0,3; 0,0" dur="2.4s" repeatCount="indefinite" />
+    <rect x="175" y="172" width="150" height="24" rx="12" fill="rgba(231,76,60,0.1)" stroke="#E74C3C" stroke-width="1" opacity="0.8"/>
+    <text x="250" y="188" text-anchor="middle" fill="#E74C3C" font-family="monospace" font-size="10">📚 Tech Blogs</text>
+  </g>
+
+  <!-- Left -->
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="0,0; -3,0; 0,0" dur="2.6s" repeatCount="indefinite" />
+    <rect x="30" y="98" width="150" height="24" rx="12" fill="rgba(231,76,60,0.1)" stroke="#E74C3C" stroke-width="1" opacity="0.8"/>
+    <text x="105" y="114" text-anchor="middle" fill="#E74C3C" font-family="monospace" font-size="10">🎮 Gaming</text>
+  </g>
+
+  <!-- Additional hobbies at bottom -->
+  <text x="250" y="220" text-anchor="middle" fill="#8B949E" font-family="monospace" font-size="10">Also loves: Music · Travel · Anime · Open Source</text>
+
+  <!-- Animated pulse rings -->
+  <circle cx="250" cy="110" r="60" fill="none" stroke="rgba(231,76,60,0.15)" stroke-width="1">
+    <animate attributeName="r" values="60;75;60" dur="3s" repeatCount="indefinite" />
+    <animate attributeName="opacity" values="0.3;0;0.3" dur="3s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="250" cy="110" r="45" fill="none" stroke="rgba(231,76,60,0.2)" stroke-width="1">
+    <animate attributeName="r" values="45;60;45" dur="3s" repeatCount="indefinite" begin="0.5s" />
+    <animate attributeName="opacity" values="0.4;0;0.4" dur="3s" repeatCount="indefinite" begin="0.5s" />
+  </circle>
+
+  <!-- Floating hearts -->
+  <text x="60" y="260" font-size="14" opacity="0.4">
+    <animate attributeName="y" values="260;240;260" dur="3s" repeatCount="indefinite" />
+    ❤️
+  </text>
+  <text x="180" y="275" font-size="12" opacity="0.3">
+    <animate attributeName="y" values="275;255;275" dur="3.5s" repeatCount="indefinite" begin="0.5s" />
+    💜
+  </text>
+  <text x="300" y="265" font-size="14" opacity="0.4">
+    <animate attributeName="y" values="265;245;265" dur="3.2s" repeatCount="indefinite" begin="1s" />
+    💙
+  </text>
+  <text x="420" y="270" font-size="12" opacity="0.3">
+    <animate attributeName="y" values="270;250;270" dur="3.8s" repeatCount="indefinite" begin="1.5s" />
+    🧡
+  </text>
 </svg>
 
 </div>
