@@ -1,4 +1,8 @@
 <div align="center">
+<img src="https://raw.githubusercontent.com/Ankitavasudev/Ankitavasudev/main/banner.gif" width="880" alt="terminal beside an illustration"/>
+</div>
+
+<div align="center">
 
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=34&duration=3000&pause=1000&color=4A90D9&center=true&vCenter=true&width=1000&lines=Ankita+Salaria;CS+Student+%7C+Go+%26+Python+Developer;Kubernetes+Tooling+Builder;CNCF+Contributor+%7C+GSoC+2027+Aspirant;Building+Cool+Stuff+with+Code" />
 
@@ -45,10 +49,6 @@ Open To:
   - Open Source Collaborations
   - Internships
 ```
-
-<div align="center">
-<img src="https://raw.githubusercontent.com/Ankitavasudev/Ankitavasudev/main/banner.gif" width="880" alt="terminal beside an illustration"/>
-</div>
 
 ---
 
