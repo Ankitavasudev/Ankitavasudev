@@ -47,7 +47,7 @@ Open To:
 ```
 
 <div align="center">
-<img src="https://user-images.githubusercontent.com/74038190/216120974-24a76b31-7f39-41f1-a38f-b3c1377cc612.png" width="120"/>
+<img src="https://raw.githubusercontent.com/Ankitavasudev/Ankitavasudev/main/terminal-girl.png" width="640" alt="terminal beside an illustration"/>
 </div>
 
 ---
