@@ -50,6 +50,10 @@ Open To:
   - Internships
 ```
 
+<div align="center">
+<img src="https://raw.githubusercontent.com/Ankitavasudev/Ankitavasudev/main/terminal-girl.png" width="640" alt="terminal beside an illustration"/>
+</div>
+
 ---
 
 ## ⚡ Tech Stack
