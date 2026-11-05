@@ -1,5 +1,5 @@
 <div align="center">
-<img src="https://raw.githubusercontent.com/Ankitavasudev/Ankitavasudev/main/banner.gif" width="880" alt="terminal beside an illustration"/>
+<img src="https://raw.githubusercontent.com/Ankitavasudev/Ankitavasudev/main/banner-loop.gif" width="880" alt="terminal beside an illustration"/>
 </div>
 
 <div align="center">
