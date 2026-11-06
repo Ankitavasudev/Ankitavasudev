@@ -1,115 +1,79 @@
 <div align="center">
-<img src="https://raw.githubusercontent.com/Ankitavasudev/Ankitavasudev/main/banner-loop.gif" width="880" alt="terminal beside an illustration"/>
+<img src="https://raw.githubusercontent.com/Ankitavasudev/Ankitavasudev/main/banner-loop.gif" width="880" alt="Ankita Salaria - terminal"/>
 </div>
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=34&duration=3000&pause=1000&color=4A90D9&center=true&vCenter=true&width=1000&lines=Ankita+Salaria;CS+Student+%7C+Go+%26+Python+Developer;Kubernetes+Tooling+Builder;CNCF+Contributor+%7C+GSoC+2027+Aspirant;Building+Cool+Stuff+with+Code" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=32&duration=3000&pause=1200&color=4A90D9&center=true&vCenter=true&width=760&lines=Ankita+Salaria;Go+%26+Python+%C2%B7+Kubernetes+Tooling;Open+Source+%C2%B7+CNCF" alt="Ankita Salaria"/>
 
-<br>
-
-<img src="https://img.shields.io/badge/B.Tech-Computer_Science-4A90D9?style=flat-square&logo=graduation-cap&logoColor=white"/>
-&nbsp;
-<img src="https://img.shields.io/badge/Engineering_Student-India-9B59B6?style=flat-square"/>
-&nbsp;
-<img src="https://img.shields.io/badge/Location-India-E74C3C?style=flat-square&logo=googlemaps&logoColor=white"/>
-
-<br><br>
-
-<img src="https://komarev.com/ghpvc/?username=Ankitavasudev&color=4A90D9&style=flat-square&label=Profile+Views"/>
+<sub>CS undergraduate · India · open to internships &amp; GSoC 2027 (CNCF)</sub>
 
 </div>
 
 ---
 
-# 💙 About Me
+## About
 
 ```yaml
 Name: Ankita Salaria
-
-Role:
-  - CS Student
-  - Go & Python Developer
-  - Kubernetes Tooling Builder
-
-Interests:
-  - Kubernetes & Cloud Native
-  - Runtime Security (KubeArmor)
-  - Observability & Dev Tooling
-  - Open Source (CNCF)
-
-Currently Building:
-  - K8s Health Monitor
-  - K8s Pod Analyzer & Recommender
-  - Container Lint
-
-Open To:
-  - GSoC 2027 (CNCF/KubeArmor)
-  - LFX Mentorship
-  - Open Source Collaborations
-  - Internships
+Role: CS Undergraduate · Go & Python Developer
+Focus:
+  - Kubernetes & cloud-native tooling
+  - Runtime security (KubeArmor) and observability
+  - Developer tooling with real test coverage and CI
+Building: k8s-health-monitor · container-lint · k8s-pod-recommender
+Open to:  Internships · LFX Mentorship · GSoC 2027 (CNCF)
 ```
 
 <div align="center">
-<img src="https://user-images.githubusercontent.com/74038190/216120974-24a76b31-7f39-41f1-a38f-b3c1377cc612.png" width="120"/>
+<img src="https://user-images.githubusercontent.com/74038190/216120974-24a76b31-7f39-41f1-a38f-b3c1377cc612.png" width="120" alt="coffee mug"/>
 </div>
 
 ---
 
-## ⚡ Tech Stack
+## Tech Stack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=go,python,cpp,javascript,typescript&theme=dark"/>
+  <img src="https://skillicons.dev/icons?i=go,python,cpp,js,ts,bash" alt="languages"/>
+  <br>
+  <img src="https://skillicons.dev/icons?i=kubernetes,docker,linux,githubactions,git,fastapi,react" alt="platform and tools"/>
 </p>
 
-<table align="center">
-<tr>
-<td valign="top" width="50%">
+**Go** · **Python** · **Kubernetes** · **Docker** · **Linux** · **Prometheus** · **FastAPI** · **React** · **CI/CD**
 
-### Backend & Systems
+---
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=go,python,fastapi,nodejs&theme=dark"/>
-</p>
+## Featured Work
 
-</td>
+Tools built end to end — not tutorials, not forks.
 
-<td valign="top" width="50%">
+| Project | What it does | Stack |
+| :--- | :--- | :--- |
+| **[k8s-health-monitor](https://github.com/Ankitavasudev/k8s-health-monitor)** | Terminal dashboard for a cluster: node capacity, pod and deployment health, security findings, resource accounting, namespace diffing. Reports `UNKNOWN` instead of `HEALTHY` when it cannot reach the cluster; `--output prometheus` for scraping. | `Python` `kubectl` `Rich` `Prometheus` `pytest` `CI` |
+| **[container-lint](https://github.com/Ankitavasudev/container-lint)** | Lints Dockerfiles and compose files with no Docker daemon. 14 hadolint-style rules, `--format json`, `--fail-on` severity, pipeline-safe exit codes. | `Python` `PyYAML` `pytest` `CI` |
+| **[k8s-pod-recommender](https://github.com/Ankitavasudev/k8s-pod-recommender)** | Reads `kubectl get pods -o json` and gives each pod one verdict: `fix`, `set`, `tighten`, `investigate`, `watch` or `keep`. Refuses to invent numbers it cannot measure. | `Go` `Cobra` `kubectl` `CI` |
+| **[k8s-pod-analyzer](https://github.com/Ankitavasudev/k8s-pod-analyzer)** | Ranks container log errors by frequency, buckets them by minute, reads from file, stdin or `kubectl logs`. Text, JSON or stable CSV. | `Go` `Cobra` `kubectl` `CI` |
+| **[go-task-cli](https://github.com/Ankitavasudev/go-task-cli)** | Project-aware todo list in one JSON file: filters by project/status/priority/tag, due dates, stats, real CSV import/export. | `Go` `Cobra` `encoding/csv` `CI` |
 
-### Frontend
+Live demos: **[SolarSystem](https://ankitavasudev.github.io/SolarSystem/)** · **[VoxNote](https://ankitavasudev.github.io/VoxNote/)** · **[NexusBoard](https://ankitavasudev.github.io/NexusBoard/)** · **[DevPulse](https://ankitavasudev.github.io/DevPulse/)**
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=react,javascript,html,css,tailwind&theme=dark"/>
-</p>
+---
 
-</td>
-</tr>
+## Open Source
 
-<tr>
-<td valign="top" width="50%">
+Pull requests sent to projects I don't own — status shown as it actually is.
 
-### DevOps & Cloud
+| Project | Contribution |
+| :--- | :--- |
+| [kubeedge/kubeedge](https://github.com/kubeedge/kubeedge) | `govulncheck` CI; replaced `klog.Exit` with `panic` |
+| [volcano-sh/volcano](https://github.com/volcano-sh/volcano) | Builder helpers for test pods |
+| [jaegertracing/jaeger](https://github.com/jaegertracing/jaeger) | Sort span events by timestamp |
+| [Project-HAMi/HAMi](https://github.com/Project-HAMi/HAMi) · [prometheus/prometheus](https://github.com/prometheus/prometheus) | Docs, bug-template coverage, scheduler cleanup, TSDB label-sort validation |
+| [kubernetes/kubernetes](https://github.com/kubernetes/kubernetes) · [containerd/containerd](https://github.com/containerd/containerd) · [helm/helm](https://github.com/helm/helm) | Pod-condition analyzer utility, image analyzer, chart validation helpers |
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=kubernetes,docker,linux,github&theme=dark"/>
-</p>
+---
 
-</td>
-
-<td valign="top" width="50%">
-
-### Tools & AI
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=git,vscode,tensorflow,pytorch&theme=dark"/>
-</p>
-
-</td>
-</tr>
-</table>
-<br>
-
-# 📈 GitHub Analytics
+## GitHub Analytics
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/Ankitavasudev/Ankitavasudev/main/assets/divider.gif" width="100%" alt=""/>
@@ -117,92 +81,30 @@ Open To:
 
 <div align="center">
 
-<img width="96%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Ankitavasudev&theme=tokyonight"/>
+<img width="96%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Ankitavasudev&theme=tokyonight" alt="profile summary"/>
 
 <br>
 
-<img width="48%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Ankitavasudev&theme=tokyonight"/>
+<img width="48%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Ankitavasudev&theme=tokyonight" alt="stats"/>
 
-<img width="48%" src="https://streak-stats.demolab.com?user=Ankitavasudev&theme=tokyonight&hide_border=true"/>
-
-</div>
-
----
-
-# 🎲 Skill Cube
-
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/Ankitavasudev/Ankitavasudev/main/cube.gif" width="300"/>
-
-<br>
-
-**Go** · **Python** · **Kubernetes** · **React** · **Docker** · **Linux**
+<img width="48%" src="https://streak-stats.demolab.com?user=Ankitavasudev&theme=tokyonight&hide_border=true" alt="streak"/>
 
 </div>
 
 ---
 
-# 🎯 Currently Building
+## Contact
 
 <div align="center">
-
-<img src="https://raw.githubusercontent.com/Ankitavasudev/Ankitavasudev/main/heart.svg" width="520"/>
-
-<br><br>
-
-**KubeArmor Contribution** · **K8s Pod Analyzer** · **K8s Health Monitor**
-
-</div>
-
----
-
-# 🙏 108 × Jai Shree Ram
-
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/Ankitavasudev/Ankitavasudev/main/jai_shree_ram.svg" width="624"/>
-
-<br>
-
-*"Har Har Mahadev · Jai Shree Ram · 108 Sacred Chants"*
-
-</div>
-
----
-
-# 🐍 Contribution Snake
-
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake-dark.svg"/>
-
-</div>
-
----
-
-# 🌐 Connect
-
-<div align="center">
-
-<a href="https://github.com/Ankitavasudev">
-<img src="https://img.shields.io/badge/GitHub-Follow-4A90D9?style=for-the-badge&logo=github&logoColor=white"/>
-</a>
 
 <a href="https://linkedin.com/in/ankitasalaria21">
-<img src="https://img.shields.io/badge/LinkedIn-Ankita_Salaria-9B59B6?style=for-the-badge&logo=linkedin&logoColor=white"/>
+<img src="https://img.shields.io/badge/LinkedIn-Ankita_Salaria-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
 </a>
-
-<a href="mailto:ankita@users.noreply.github.com">
-<img src="https://img.shields.io/badge/Email-Contact-E74C3C?style=for-the-badge&logo=gmail&logoColor=white"/>
+<a href="mailto:ankitasalaria21@gmail.com">
+<img src="https://img.shields.io/badge/Email-ankitasalaria21@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
 </a>
-
-</div>
-
-<br>
-
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/Ankitavasudev/Ankitavasudev/main/rustic_banner.svg" width="800"/>
+<a href="https://github.com/Ankitavasudev">
+<img src="https://img.shields.io/badge/GitHub-Ankitavasudev-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+</a>
 
 </div>
