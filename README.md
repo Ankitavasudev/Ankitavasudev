@@ -111,11 +111,19 @@ Open To:
 
 # 📈 GitHub Analytics
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Ankitavasudev/Ankitavasudev/main/assets/divider.gif" width="100%" alt=""/>
+</p>
+
 <div align="center">
 
-<img width="48%" src="https://github-readme-stats.vercel.app/api?username=Ankitavasudev&show_icons=true&theme=tokyonight&hide_border=true&hide=issues&include_all_commits=true&count_private=true"/>
+<img width="96%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Ankitavasudev&theme=tokyonight"/>
 
-<img width="48%" src="https://github-readme-streak-stats.herokuapp.com/?user=Ankitavasudev&theme=tokyonight&hide_border=true"/>
+<br>
+
+<img width="48%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Ankitavasudev&theme=tokyonight"/>
+
+<img width="48%" src="https://streak-stats.demolab.com?user=Ankitavasudev&theme=tokyonight&hide_border=true"/>
 
 </div>
 
