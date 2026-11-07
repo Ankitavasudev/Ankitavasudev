@@ -76,7 +76,7 @@ Live demos: **[SolarSystem](https://ankitavasudev.github.io/SolarSystem/)** · *
 Coursework alongside hands-on work in Kubernetes, distributed systems and developer tooling.
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/Ankitavasudev/Ankitavasudev/main/assets/education-sticker.svg" width="140" alt="animated graduation cap on a stack of books"/>
+<img src="https://raw.githubusercontent.com/Ankitavasudev/Ankitavasudev/main/assets/education-sticker.svg?v=2" width="132" alt="cute animated graduation cap sticker"/>
 </div>
 
 ---
