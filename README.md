@@ -59,6 +59,24 @@ Live demos: **[SolarSystem](https://ankitavasudev.github.io/SolarSystem/)** · *
 
 ---
 
+## Experience
+
+| Role | Organization | Notes |
+| :--- | :--- | :--- |
+| Research Assistant | **Moonshot (YC S26)** | remote applied research with an early-stage YC team |
+| Product Apprentice | **DoraDAO** — GWY Fellowship 2.0 | AI product building sessions with a shipping-first cohort |
+| Scholar | **SheFi** — Season 17 | selected SheFi Scholar, 2026 |
+
+---
+
+## Education
+
+**University of Jammu** · Computer Science undergraduate
+
+Coursework alongside hands-on work in Kubernetes, distributed systems and developer tooling.
+
+---
+
 ## GitHub Analytics
 
 <p align="center">
