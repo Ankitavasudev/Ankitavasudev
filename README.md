@@ -41,6 +41,10 @@ Open to:  Internships · LFX Mentorship · GSoC 2027 (CNCF)
 
 **Go** · **Python** · **Kubernetes** · **Docker** · **Linux** · **Prometheus** · **FastAPI** · **React** · **CI/CD**
 
+<div align="center">
+<img src="https://raw.githubusercontent.com/Ankitavasudev/Ankitavasudev/main/assets/code-card.svg" width="560" alt="animated terminal running a small Go snippet"/>
+</div>
+
 ---
 
 ## Featured Work
