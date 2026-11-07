@@ -89,13 +89,13 @@ Coursework alongside hands-on work in Kubernetes, distributed systems and develo
 
 <div align="center">
 
-<img width="96%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Ankitavasudev&theme=tokyonight" alt="profile summary"/>
+<img width="96%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Ankitavasudev&theme=tokyonight&v=20261107" alt="profile summary"/>
 
 <br>
 
-<img width="48%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Ankitavasudev&theme=tokyonight" alt="stats"/>
+<img width="48%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Ankitavasudev&theme=tokyonight&v=20261107" alt="stats"/>
 
-<img width="48%" src="https://streak-stats.demolab.com?user=Ankitavasudev&theme=tokyonight&hide_border=true" alt="streak"/>
+<img width="48%" src="https://streak-stats.demolab.com?user=Ankitavasudev&theme=tokyonight&hide_border=true&v=20261107" alt="streak"/>
 
 </div>
 
