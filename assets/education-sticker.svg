@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="160" viewBox="0 0 160 160" role="img" aria-label="Animated graduation cap on a stack of books">
+  <defs>
+    <style>
+      .cap {
+        animation: bob 3.6s ease-in-out infinite;
+        transform-origin: 80px 96px;
+      }
+      .tassel {
+        animation: sway 2.6s ease-in-out infinite alternate;
+        transform-origin: 80px 60px;
+      }
+      .sparkle {
+        transform-box: fill-box;
+        transform-origin: center;
+        animation: twinkle 2.2s ease-in-out infinite;
+      }
+      .s1 { animation-delay: 0s; }
+      .s2 { animation-delay: 0.7s; }
+      .s3 { animation-delay: 1.3s; }
+      @keyframes bob {
+        0%, 100% { transform: translateY(0); }
+        50%      { transform: translateY(-4px); }
+      }
+      @keyframes sway {
+        from { transform: rotate(-6deg); }
+        to   { transform: rotate(7deg); }
+      }
+      @keyframes twinkle {
+        0%, 100% { opacity: 0.25; transform: scale(0.7); }
+        50%      { opacity: 1;    transform: scale(1.15); }
+      }
+      @media (prefers-reduced-motion: reduce) {
+        .cap, .tassel, .sparkle { animation: none; }
+      }
+    </style>
+  </defs>
+
+  <ellipse cx="80" cy="149" rx="47" ry="5" fill="#4a1f42" opacity="0.16"/>
+
+  <!-- book stack -->
+  <g stroke="#4a1f42" stroke-width="2.5" stroke-linejoin="round">
+    <rect x="24" y="128" width="112" height="14" rx="4" fill="#f79cc4"/>
+    <rect x="32" y="113" width="96" height="14" rx="4" fill="#ffc4dc"/>
+    <rect x="40" y="98" width="80" height="14" rx="4" fill="#ffe3ef"/>
+  </g>
+  <g stroke="#4a1f42" stroke-width="1.6" opacity="0.55">
+    <line x1="122" y1="131.5" x2="122" y2="138.5"/>
+    <line x1="114" y1="116.5" x2="114" y2="123.5"/>
+    <line x1="106" y1="101.5" x2="106" y2="108.5"/>
+  </g>
+
+  <!-- bookmark ribbon -->
+  <path d="M92 98 L92 120 L97 115 L102 120 L102 98 Z" fill="#ff98cc" stroke="#4a1f42" stroke-width="2.2" stroke-linejoin="round"/>
+
+  <g class="cap">
+    <!-- cap body -->
+    <path d="M52 70 Q80 80 108 70 L108 82 Q80 96 52 82 Z" fill="#ec7fb2" stroke="#4a1f42" stroke-width="2.8" stroke-linejoin="round"/>
+
+    <!-- mortarboard -->
+    <path d="M80 30 L140 60 L80 90 L20 60 Z" fill="#ffb3d3" stroke="#4a1f42" stroke-width="2.8" stroke-linejoin="round"/>
+    <path d="M80 37 L128 60" fill="none" stroke="#ffe3ef" stroke-width="2.4" stroke-linecap="round" opacity="0.85"/>
+
+    <!-- button -->
+    <circle cx="80" cy="60" r="3.4" fill="#4a1f42"/>
+
+    <!-- tassel -->
+    <g class="tassel" fill="none" stroke="#f2b45e" stroke-width="2.6" stroke-linecap="round">
+      <path d="M80 60 C98 62 112 70 117 82 L119 92"/>
+      <path d="M115 96 L111 110"/>
+      <path d="M119 96 L119 112"/>
+      <path d="M123 96 L127 110"/>
+    </g>
+    <g class="tassel">
+      <circle cx="119" cy="93" r="4" fill="#f2b45e" stroke="#4a1f42" stroke-width="1.8"/>
+    </g>
+  </g>
+
+  <!-- sparkles -->
+  <g fill="#ff98cc">
+    <path class="sparkle s1" d="M24 34 L26.2 39.8 L32 42 L26.2 44.2 L24 50 L21.8 44.2 L16 42 L21.8 39.8 Z"/>
+    <path class="sparkle s2" d="M138 30 L139.8 34.7 L144.5 36.5 L139.8 38.3 L138 43 L136.2 38.3 L131.5 36.5 L136.2 34.7 Z"/>
+    <path class="sparkle s3" d="M142 104 L143.8 108.7 L148.5 110.5 L143.8 112.3 L142 117 L140.2 112.3 L135.5 110.5 L140.2 108.7 Z"/>
+  </g>
+  <g fill="#ffd9ea">
+    <circle class="sparkle s2" cx="18" cy="102" r="2.6"/>
+    <circle class="sparkle s3" cx="128" cy="22" r="2"/>
+  </g>
+</svg>

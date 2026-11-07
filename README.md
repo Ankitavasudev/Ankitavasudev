@@ -41,10 +41,6 @@ Open to:  Internships · LFX Mentorship · GSoC 2027 (CNCF)
 
 **Go** · **Python** · **Kubernetes** · **Docker** · **Linux** · **Prometheus** · **FastAPI** · **React** · **CI/CD**
 
-<div align="center">
-<img src="https://raw.githubusercontent.com/Ankitavasudev/Ankitavasudev/main/assets/code-card.svg" width="560" alt="animated terminal running a small Go snippet"/>
-</div>
-
 ---
 
 ## Featured Work
@@ -78,6 +74,10 @@ Live demos: **[SolarSystem](https://ankitavasudev.github.io/SolarSystem/)** · *
 **University of Jammu** · Computer Science undergraduate
 
 Coursework alongside hands-on work in Kubernetes, distributed systems and developer tooling.
+
+<div align="center">
+<img src="https://raw.githubusercontent.com/Ankitavasudev/Ankitavasudev/main/assets/education-sticker.svg" width="140" alt="animated graduation cap on a stack of books"/>
+</div>
 
 ---
 
