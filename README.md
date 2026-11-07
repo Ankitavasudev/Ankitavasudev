@@ -6,7 +6,7 @@
 
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=32&duration=3000&pause=1200&color=4A90D9&center=true&vCenter=true&width=760&lines=Ankita+Salaria;Go+%26+Python+%C2%B7+Kubernetes+Tooling;Open+Source+%C2%B7+CNCF" alt="Ankita Salaria"/>
 
-<sub>CS undergraduate · India · open to internships &amp; GSoC 2027 (CNCF)</sub>
+<sub>CS undergraduate · India · building Kubernetes tooling in Go &amp; Python</sub>
 
 </div>
 
@@ -22,7 +22,7 @@ Focus:
   - Runtime security (KubeArmor) and observability
   - Developer tooling with real test coverage and CI
 Building: k8s-health-monitor · container-lint · k8s-pod-recommender
-Open to:  Internships · LFX Mentorship · GSoC 2027 (CNCF)
+Open to:  Internships · Open source collaborations
 ```
 
 <div align="center">
