@@ -59,20 +59,6 @@ Live demos: **[SolarSystem](https://ankitavasudev.github.io/SolarSystem/)** · *
 
 ---
 
-## Open Source
-
-Pull requests sent to projects I don't own — status shown as it actually is.
-
-| Project | Contribution |
-| :--- | :--- |
-| [kubeedge/kubeedge](https://github.com/kubeedge/kubeedge) | `govulncheck` CI; replaced `klog.Exit` with `panic` |
-| [volcano-sh/volcano](https://github.com/volcano-sh/volcano) | Builder helpers for test pods |
-| [jaegertracing/jaeger](https://github.com/jaegertracing/jaeger) | Sort span events by timestamp |
-| [Project-HAMi/HAMi](https://github.com/Project-HAMi/HAMi) · [prometheus/prometheus](https://github.com/prometheus/prometheus) | Docs, bug-template coverage, scheduler cleanup, TSDB label-sort validation |
-| [kubernetes/kubernetes](https://github.com/kubernetes/kubernetes) · [containerd/containerd](https://github.com/containerd/containerd) · [helm/helm](https://github.com/helm/helm) | Pod-condition analyzer utility, image analyzer, chart validation helpers |
-
----
-
 ## GitHub Analytics
 
 <p align="center">
