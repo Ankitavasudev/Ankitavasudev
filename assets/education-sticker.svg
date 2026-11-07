@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="160" viewBox="0 0 160 160" role="img" aria-label="Cute baby-pink graduation cap sticker with a dark pink glow">
+  <defs>
+    <linearGradient id="board" x1="0.1" y1="0" x2="0.35" y2="1">
+      <stop offset="0" stop-color="#fff5fa"/>
+      <stop offset="0.42" stop-color="#ffdce9"/>
+      <stop offset="1" stop-color="#f9b8d4"/>
+    </linearGradient>
+    <linearGradient id="boardEdge" x1="0" y1="0" x2="0.2" y2="1">
+      <stop offset="0" stop-color="#e89ab8"/>
+      <stop offset="1" stop-color="#d47fa3"/>
+    </linearGradient>
+    <linearGradient id="capBody" x1="0.2" y1="0" x2="0.8" y2="1">
+      <stop offset="0" stop-color="#ffeef5"/>
+      <stop offset="0.45" stop-color="#fbc9dd"/>
+      <stop offset="1" stop-color="#f0a3c4"/>
+    </linearGradient>
+    <linearGradient id="book" x1="0.1" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#fff0f6"/>
+      <stop offset="0.4" stop-color="#f6d3e4"/>
+      <stop offset="1" stop-color="#e8a8c6"/>
+    </linearGradient>
+    <linearGradient id="bookSide" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d99ab8"/>
+      <stop offset="1" stop-color="#c47fa3"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="0.55" y2="1">
+      <stop offset="0" stop-color="#ffe6bd"/>
+      <stop offset="0.5" stop-color="#efb96f"/>
+      <stop offset="1" stop-color="#d0913f"/>
+    </linearGradient>
+    <radialGradient id="ground" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#b84a7a" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#b84a7a" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="capShadow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#b84a7a" stop-opacity="0.26"/>
+      <stop offset="1" stop-color="#b84a7a" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- dark pink glow behind the whole sticker -->
+  <circle cx="80" cy="80" r="74" fill="#b84a7a" opacity="0.08"/>
+  <circle cx="80" cy="80" r="62" fill="#b84a7a" opacity="0.14"/>
+  <circle cx="80" cy="80" r="52" fill="#b84a7a" opacity="0.22"/>
+  <circle cx="80" cy="80" r="44" fill="#d96ba0" opacity="0.18"/>
+
+  <!-- ground shadow -->
+  <ellipse cx="80" cy="137" rx="50" ry="9" fill="url(#ground)"/>
+
+  <!-- book base -->
+  <g>
+    <rect x="21" y="120" width="118" height="17" rx="8.5" fill="url(#bookSide)"/>
+    <rect x="21" y="112" width="118" height="17" rx="8.5" fill="url(#book)"/>
+    <rect x="27" y="115" width="60" height="4" rx="2" fill="#ffffff" opacity="0.6"/>
+    <ellipse cx="112" cy="120" rx="20" ry="6" fill="#ffffff" opacity="0.16"/>
+  </g>
+
+  <!-- soft contact shadow under cap -->
+  <ellipse cx="80" cy="113" rx="28" ry="6" fill="url(#capShadow)"/>
+
+  <!-- cap body -->
+  <path d="M54 68 C54 90 58 107 66 112 L94 112 C102 107 106 90 106 68 Z" fill="url(#capBody)" stroke="#b84a7a" stroke-width="1.2" stroke-opacity="0.35"/>
+  <path d="M59 78 C59 94 62 105 67 110 L76 110 C70 102 68 90 68 78 Z" fill="#ffffff" opacity="0.32"/>
+  <ellipse cx="80" cy="72" rx="26" ry="7" fill="#b84a7a" opacity="0.12"/>
+
+  <!-- mortarboard thickness -->
+  <path d="M31 57 L75 36 Q80 33.5 85 36 L129 57 Q140 62.5 129 68 L85 83 Q80 85.5 75 83 L31 68 Q19 62.5 31 57 Z" fill="url(#boardEdge)" stroke="#b84a7a" stroke-width="1.2" stroke-opacity="0.4"/>
+  <!-- mortarboard top -->
+  <path d="M31 52 L75 31 Q80 28.5 85 31 L129 52 Q140 57.5 129 63 L85 78 Q80 80.5 75 78 L31 63 Q19 57.5 31 52 Z" fill="url(#board)" stroke="#b84a7a" stroke-width="1.2" stroke-opacity="0.4"/>
+  <path d="M41 50 Q61 40 79 34" fill="none" stroke="#ffffff" stroke-width="3.2" stroke-linecap="round" opacity="0.62"/>
+  <path d="M119 58 Q126 60 130 62" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" opacity="0.22"/>
+
+  <!-- tassel -->
+  <g fill="none" stroke="url(#gold)" stroke-width="3" stroke-linecap="round">
+    <path d="M80 52 C94 53 105 57 111 64 C114 68 115.5 73 115.5 76"/>
+    <path d="M109 81 L106.5 94"/>
+    <path d="M115.5 82 L115.5 96"/>
+    <path d="M121.5 81 L124 94"/>
+  </g>
+  <circle cx="115.5" cy="78" r="4.8" fill="url(#gold)" stroke="#b84a7a" stroke-width="1" stroke-opacity="0.5"/>
+  <circle cx="113.9" cy="76.5" r="1.5" fill="#ffffff" opacity="0.8"/>
+
+  <!-- button -->
+  <circle cx="80" cy="52" r="4.4" fill="#c78fac" stroke="#b84a7a" stroke-width="1" stroke-opacity="0.5"/>
+  <circle cx="79.2" cy="51" r="2.2" fill="#f7c0d9"/>
+  <circle cx="78.4" cy="50.2" r="1.1" fill="#ffffff" opacity="0.8"/>
+
+  <!-- sparkles (dark pink) -->
+  <g fill="#d96ba0">
+    <path d="M26 36 Q27.8 42.2 34 44 Q27.8 45.8 26 52 Q24.2 45.8 18 44 Q24.2 42.2 26 36 Z" opacity="0.7"/>
+    <path d="M136 48 Q137.4 52.6 142 54 Q137.4 55.4 136 60 Q134.6 55.4 130 54 Q134.6 52.6 136 48 Z" opacity="0.7"/>
+  </g>
+</svg>
