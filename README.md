@@ -21,7 +21,7 @@ Focus:
   - Kubernetes tooling: health checks, pod analysis, resource sizing (Go, Python)
   - Runtime security & observability (KubeArmor)
   - Developer CLIs with real test coverage and CI
-Building: k8s-health-monitor · container-lint · k8s-pod-recommender
+Building: quota-guard (k8s operator) · k8s-health-monitor · container-lint · k8s-pod-recommender
 Open to:  Internships · Open source collaborations
 ```
 
@@ -52,6 +52,7 @@ Tools built end to end — not tutorials, not forks.
 
 | Project | What it does | Stack |
 | :--- | :--- | :--- |
+| **[quota-guard](https://github.com/Ankitavasudev/quota-guard)** | Kubernetes operator for per-namespace CPU/memory request budgets: a `ResourceBudget` CRD reconciled against pod requests, writes status conditions + events, exposes Prometheus metrics; distroless image, RBAC, CRD manifest, CI.  | `Go` `controller-runtime` `CRD` `Prometheus` `CI` |
 | **[k8s-health-monitor](https://github.com/Ankitavasudev/k8s-health-monitor)** | Terminal dashboard for a cluster: node capacity, pod and deployment health, security findings, resource accounting, namespace diffing. Reports `UNKNOWN` instead of `HEALTHY` when it cannot reach the cluster; `--output prometheus` for scraping. | `Python` `kubectl` `Rich` `Prometheus` `pytest` `CI` |
 | **[container-lint](https://github.com/Ankitavasudev/container-lint)** | Lints Dockerfiles and compose files with no Docker daemon. 14 hadolint-style rules, `--format json`, `--fail-on` severity, pipeline-safe exit codes. | `Python` `PyYAML` `pytest` `CI` |
 | **[k8s-pod-recommender](https://github.com/Ankitavasudev/k8s-pod-recommender)** | Reads `kubectl get pods -o json` and gives each pod one verdict: `fix`, `set`, `tighten`, `investigate`, `watch` or `keep`. Refuses to invent numbers it cannot measure. | `Go` `Cobra` `kubectl` `CI` |
