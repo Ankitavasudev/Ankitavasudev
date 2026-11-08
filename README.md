@@ -34,12 +34,15 @@ Open to:  Internships · Open source collaborations
 ## Tech Stack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=go,python,cpp,js,ts,bash" alt="languages"/>
+  <img src="https://skillicons.dev/icons?i=go,python,js,ts,cpp,bash" alt="languages"/>
   <br>
-  <img src="https://skillicons.dev/icons?i=kubernetes,docker,linux,githubactions,git,fastapi,react" alt="platform and tools"/>
+  <img src="https://skillicons.dev/icons?i=kubernetes,docker,linux,fastapi,react,threejs,git,githubactions" alt="platform and tools"/>
 </p>
 
-**Go** · **Python** · **Kubernetes** · **Docker** · **Linux** · **Prometheus** · **FastAPI** · **React** · **CI/CD**
+**Languages** — Go · Python · JavaScript · TypeScript · C++ · Bash
+**Frameworks** — FastAPI · React · Three.js · Cobra · Rich · pytest
+**Platform** — Kubernetes · Docker · Linux · Prometheus · GitHub Actions · CI/CD
+**Every project ships** — tests · CI · docs · a live build you can click
 
 ---
 
@@ -55,7 +58,7 @@ Tools built end to end — not tutorials, not forks.
 | **[k8s-pod-analyzer](https://github.com/Ankitavasudev/k8s-pod-analyzer)** | Ranks container log errors by frequency, buckets them by minute, reads from file, stdin or `kubectl logs`. Text, JSON or stable CSV. | `Go` `Cobra` `kubectl` `CI` |
 | **[go-task-cli](https://github.com/Ankitavasudev/go-task-cli)** | Project-aware todo list in one JSON file: filters by project/status/priority/tag, due dates, stats, real CSV import/export. | `Go` `Cobra` `encoding/csv` `CI` |
 
-Live demos: **[SolarSystem](https://ankitavasudev.github.io/SolarSystem/)** · **[VoxNote](https://ankitavasudev.github.io/VoxNote/)** · **[NexusBoard](https://ankitavasudev.github.io/NexusBoard/)** · **[DevPulse](https://ankitavasudev.github.io/DevPulse/)**
+Live demos (all interactive): **[k8s-health-monitor](https://ankitavasudev.github.io/k8s-health-monitor/)** · **[container-lint](https://ankitavasudev.github.io/container-lint/)** · **[k8s-pod-recommender](https://ankitavasudev.github.io/k8s-pod-recommender/)** · **[k8s-pod-analyzer](https://ankitavasudev.github.io/k8s-pod-analyzer/)** · **[go-task-cli](https://ankitavasudev.github.io/go-task-cli/)** · **[SolarSystem](https://ankitavasudev.github.io/SolarSystem/)** · **[VoxNote](https://ankitavasudev.github.io/VoxNote/)** · **[NexusBoard](https://ankitavasudev.github.io/NexusBoard/)** · **[DevPulse](https://ankitavasudev.github.io/DevPulse/)**
 
 ---
 
