@@ -4,7 +4,7 @@
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=32&duration=3000&pause=1200&color=4A90D9&center=true&vCenter=true&width=760&lines=Ankita+Salaria;Go+%26+Python+%C2%B7+Kubernetes+Tooling;Open+Source+%C2%B7+CNCF" alt="Ankita Salaria"/>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=32&duration=3000&pause=1200&color=4A90D9&center=true&vCenter=true&width=760&lines=Ankita+Salaria;Go+%26+Python+%C2%B7+Kubernetes+Tooling;Open+Source+%C2%B7+Developer+Tooling" alt="Ankita Salaria"/>
 
 <sub>CS undergraduate · India · building Kubernetes tooling in Go &amp; Python</sub>
 
@@ -18,9 +18,9 @@
 Name: Ankita Salaria
 Role: CS Undergraduate · Go & Python Developer
 Focus:
-  - Kubernetes & cloud-native tooling
-  - Runtime security (KubeArmor) and observability
-  - Developer tooling with real test coverage and CI
+  - Kubernetes tooling: health checks, pod analysis, resource sizing (Go, Python)
+  - Runtime security & observability (KubeArmor)
+  - Developer CLIs with real test coverage and CI
 Building: k8s-health-monitor · container-lint · k8s-pod-recommender
 Open to:  Internships · Open source collaborations
 ```
