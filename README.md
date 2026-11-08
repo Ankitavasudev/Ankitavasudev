@@ -4,6 +4,22 @@
 
 <div align="center">
 
+<p align="center">
+  <img src="https://github-readme-cards.vercel.app/api/pin/?username=Ankitavasudev&repo=k8s-health-monitor&theme=tokyonight&hide_border=true" width="49%" alt="k8s-health-monitor"/>
+  <img src="https://github-readme-cards.vercel.app/api/pin/?username=Ankitavasudev&repo=k8s-pod-recommender&theme=tokyonight&hide_border=true" width="49%" alt="k8s-pod-recommender"/>
+</p>
+<p align="center">
+  <img src="https://github-readme-cards.vercel.app/api/pin/?username=Ankitavasudev&repo=k8s-pod-analyzer&theme=tokyonight&hide_border=true" width="49%" alt="k8s-pod-analyzer"/>
+  <img src="https://github-readme-cards.vercel.app/api/pin/?username=Ankitavasudev&repo=container-lint&theme=tokyonight&hide_border=true" width="49%" alt="container-lint"/>
+</p>
+<p align="center">
+  <img src="https://github-readme-cards.vercel.app/api/pin/?username=Ankitavasudev&repo=go-task-cli&theme=tokyonight&hide_border=true" width="49%" alt="go-task-cli"/>
+  <img src="https://github-readme-cards.vercel.app/api/pin/?username=Ankitavasudev&repo=SolarSystem&theme=tokyonight&hide_border=true" width="49%" alt="SolarSystem"/>
+</p>
+
+</div>
+
+<div align="center">
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=32&duration=3000&pause=1200&color=4A90D9&center=true&vCenter=true&width=760&lines=Ankita+Salaria;Go+%26+Python+%C2%B7+Kubernetes+Tooling;Open+Source+%C2%B7+Developer+Tooling" alt="Ankita Salaria"/>
 
 <sub>CS undergraduate · India · building Kubernetes tooling in Go &amp; Python</sub>
