@@ -6,14 +6,14 @@
 
 <p align="center">
   <img src="https://github-readme-cards.vercel.app/api/pin/?username=Ankitavasudev&repo=k8s-health-monitor&theme=tokyonight&hide_border=true" width="49%" alt="k8s-health-monitor"/>
-  <img src="https://github-readme-cards.vercel.app/api/pin/?username=Ankitavasudev&repo=k8s-pod-recommender&theme=tokyonight&hide_border=true" width="49%" alt="k8s-pod-recommender"/>
+  <img src="https://github-readme-cards.vercel.app/api/pin/?username=Ankitavasudev&repo=podsize&theme=tokyonight&hide_border=true" width="49%" alt="podsize"/>
 </p>
 <p align="center">
-  <img src="https://github-readme-cards.vercel.app/api/pin/?username=Ankitavasudev&repo=k8s-pod-analyzer&theme=tokyonight&hide_border=true" width="49%" alt="k8s-pod-analyzer"/>
+  <img src="https://github-readme-cards.vercel.app/api/pin/?username=Ankitavasudev&repo=errtop&theme=tokyonight&hide_border=true" width="49%" alt="errtop"/>
   <img src="https://github-readme-cards.vercel.app/api/pin/?username=Ankitavasudev&repo=container-lint&theme=tokyonight&hide_border=true" width="49%" alt="container-lint"/>
 </p>
 <p align="center">
-  <img src="https://github-readme-cards.vercel.app/api/pin/?username=Ankitavasudev&repo=go-task-cli&theme=tokyonight&hide_border=true" width="49%" alt="go-task-cli"/>
+  <img src="https://github-readme-cards.vercel.app/api/pin/?username=Ankitavasudev&repo=godo&theme=tokyonight&hide_border=true" width="49%" alt="godo"/>
   <img src="https://github-readme-cards.vercel.app/api/pin/?username=Ankitavasudev&repo=SolarSystem&theme=tokyonight&hide_border=true" width="49%" alt="SolarSystem"/>
 </p>
 
@@ -37,7 +37,7 @@ Focus:
   - Kubernetes tooling: health checks, pod analysis, resource sizing (Go, Python)
   - Runtime security & observability (KubeArmor)
   - Developer CLIs with real test coverage and CI
-Building: quota-guard (k8s operator) · k8s-health-monitor · container-lint · k8s-pod-recommender
+Building: quota-guard (k8s operator) · k8s-health-monitor · container-lint · podsize
 Open to:  Internships · Open source collaborations
 ```
 
@@ -71,11 +71,11 @@ Tools built end to end — not tutorials, not forks.
 | **[quota-guard](https://github.com/Ankitavasudev/quota-guard)** | Kubernetes operator for per-namespace CPU/memory request budgets: a `ResourceBudget` CRD reconciled against pod requests, writes status conditions + events, exposes Prometheus metrics; distroless image, RBAC, CRD manifest, CI.  | `Go` `controller-runtime` `CRD` `Prometheus` `CI` |
 | **[k8s-health-monitor](https://github.com/Ankitavasudev/k8s-health-monitor)** | Terminal dashboard for a cluster: node capacity, pod and deployment health, security findings, resource accounting, namespace diffing. Reports `UNKNOWN` instead of `HEALTHY` when it cannot reach the cluster; `--output prometheus` for scraping. | `Python` `kubectl` `Rich` `Prometheus` `pytest` `CI` |
 | **[container-lint](https://github.com/Ankitavasudev/container-lint)** | Lints Dockerfiles and compose files with no Docker daemon. 14 hadolint-style rules, `--format json`, `--fail-on` severity, pipeline-safe exit codes. | `Python` `PyYAML` `pytest` `CI` |
-| **[k8s-pod-recommender](https://github.com/Ankitavasudev/k8s-pod-recommender)** | Reads `kubectl get pods -o json` and gives each pod one verdict: `fix`, `set`, `tighten`, `investigate`, `watch` or `keep`. Refuses to invent numbers it cannot measure. | `Go` `Cobra` `kubectl` `CI` |
-| **[k8s-pod-analyzer](https://github.com/Ankitavasudev/k8s-pod-analyzer)** | Ranks container log errors by frequency, buckets them by minute, reads from file, stdin or `kubectl logs`. Text, JSON or stable CSV. | `Go` `Cobra` `kubectl` `CI` |
-| **[go-task-cli](https://github.com/Ankitavasudev/go-task-cli)** | Project-aware todo list in one JSON file: filters by project/status/priority/tag, due dates, stats, real CSV import/export. | `Go` `Cobra` `encoding/csv` `CI` |
+| **[podsize](https://github.com/Ankitavasudev/podsize)** | Reads `kubectl get pods -o json` and gives each pod one verdict: `fix`, `set`, `tighten`, `investigate`, `watch` or `keep`. Refuses to invent numbers it cannot measure. | `Go` `Cobra` `kubectl` `CI` |
+| **[errtop](https://github.com/Ankitavasudev/errtop)** | Ranks container log errors by frequency, buckets them by minute, reads from file, stdin or `kubectl logs`. Text, JSON or stable CSV. | `Go` `Cobra` `kubectl` `CI` |
+| **[godo](https://github.com/Ankitavasudev/godo)** | Project-aware todo list in one JSON file: filters by project/status/priority/tag, due dates, stats, real CSV import/export. | `Go` `Cobra` `encoding/csv` `CI` |
 
-Live demos (all interactive): **[k8s-health-monitor](https://ankitavasudev.github.io/k8s-health-monitor/)** · **[container-lint](https://ankitavasudev.github.io/container-lint/)** · **[k8s-pod-recommender](https://ankitavasudev.github.io/k8s-pod-recommender/)** · **[k8s-pod-analyzer](https://ankitavasudev.github.io/k8s-pod-analyzer/)** · **[go-task-cli](https://ankitavasudev.github.io/go-task-cli/)** · **[SolarSystem](https://ankitavasudev.github.io/SolarSystem/)** · **[VoxNote](https://ankitavasudev.github.io/VoxNote/)** · **[NexusBoard](https://ankitavasudev.github.io/NexusBoard/)** · **[DevPulse](https://ankitavasudev.github.io/DevPulse/)**
+Live demos (all interactive): **[k8s-health-monitor](https://ankitavasudev.github.io/k8s-health-monitor/)** · **[container-lint](https://ankitavasudev.github.io/container-lint/)** · **[podsize](https://ankitavasudev.github.io/podsize/)** · **[errtop](https://ankitavasudev.github.io/errtop/)** · **[godo](https://ankitavasudev.github.io/godo/)** · **[SolarSystem](https://ankitavasudev.github.io/SolarSystem/)** · **[VoxNote](https://ankitavasudev.github.io/VoxNote/)** · **[NexusBoard](https://ankitavasudev.github.io/NexusBoard/)** · **[DevPulse](https://ankitavasudev.github.io/DevPulse/)**
 
 ---
 
