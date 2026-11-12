@@ -58,7 +58,7 @@ Open to:  Internships · Open source collaborations
 **Languages** — Go · Python · JavaScript · TypeScript · C++ · Bash
 **Frameworks** — FastAPI · React · Three.js · Cobra · Rich · pytest
 **Platform** — Kubernetes · Docker · Linux · Prometheus · GitHub Actions · CI/CD
-**Every project ships** — tests · CI · docs · a live build you can click
+**Every project ships** — tests · CI · docs
 
 ---
 
@@ -75,7 +75,7 @@ Tools built end to end — not tutorials, not forks.
 | **[errtop](https://github.com/Ankitavasudev/errtop)** | Ranks container log errors by frequency, buckets them by minute, reads from file, stdin or `kubectl logs`. Text, JSON or stable CSV. | `Go` `Cobra` `kubectl` `CI` |
 | **[godo](https://github.com/Ankitavasudev/godo)** | Project-aware todo list in one JSON file: filters by project/status/priority/tag, due dates, stats, real CSV import/export. | `Go` `Cobra` `encoding/csv` `CI` |
 
-Live demos (all interactive): **[k8s-health-monitor](https://ankitavasudev.github.io/k8s-health-monitor/)** · **[container-lint](https://ankitavasudev.github.io/container-lint/)** · **[podsize](https://ankitavasudev.github.io/podsize/)** · **[errtop](https://ankitavasudev.github.io/errtop/)** · **[godo](https://ankitavasudev.github.io/godo/)** · **[SolarSystem](https://ankitavasudev.github.io/SolarSystem/)** · **[VoxNote](https://ankitavasudev.github.io/VoxNote/)** · **[NexusBoard](https://ankitavasudev.github.io/NexusBoard/)** · **[DevPulse](https://ankitavasudev.github.io/DevPulse/)**
+Live demos (all interactive): **[k8s-health-monitor](https://ankitavasudev.github.io/k8s-health-monitor/)** · **[container-lint](https://ankitavasudev.github.io/container-lint/)** · **[podsize](https://ankitavasudev.github.io/podsize/)** · **[errtop](https://ankitavasudev.github.io/errtop/)** · **[godo](https://ankitavasudev.github.io/godo/)** · **[drydock](https://ankitavasudev.github.io/drydock/)** · **[jobpulse](https://ankitavasudev.github.io/jobpulse/)** · **[gpuscope](https://ankitavasudev.github.io/gpuscope/)** · **[emotion-sense](https://ankitavasudev.github.io/emotion-sense/)** · **[SolarSystem](https://ankitavasudev.github.io/SolarSystem/)** · **[VoxNote](https://ankitavasudev.github.io/VoxNote/)** · **[NexusBoard](https://ankitavasudev.github.io/NexusBoard/)** · **[DevPulse](https://ankitavasudev.github.io/DevPulse/)**
 
 ---
 
