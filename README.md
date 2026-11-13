@@ -89,6 +89,28 @@ Live demos (all interactive): **[k8s-health-monitor](https://ankitavasudev.githu
 
 ---
 
+## Open Source Contributions
+
+I contribute to cloud-native projects in the CNCF ecosystem. Merged pull requests and reviews are tracked on my [GitHub PR dashboard](https://github.com/pulls?q=is%3Apr+author%3AAnkitavasudev+is%3Amerged).
+
+| Project | Area | Link |
+| :--- | :--- | :--- |
+| [KubeArmor](https://github.com/kubearmor/KubeArmor) | Runtime security enforcement (LSM-BPF / AppArmor) | [my PRs](https://github.com/kubearmor/KubeArmor/pulls?q=is%3Apr+author%3AAnkitavasudev) |
+| [Meshery](https://github.com/meshery/meshery) | Cloud native manager | [my PRs](https://github.com/meshery/meshery/pulls?q=is%3Apr+author%3AAnkitavasudev) |
+| [konflux-ci](https://github.com/konflux-ci/konflux-ci) | Trusted builds / software factory | [my PRs](https://github.com/konflux-ci/konflux-ci/pulls?q=is%3Apr+author%3AAnkitavasudev) |
+
+> All contributions are public and reviewable. If a link shows zero PRs, that fork was exploration only — I keep those archived.
+
+---
+
+## Looking for
+
+- **Internships** in Kubernetes / platform engineering / developer tooling (Go, Python).
+- **Open source collaborations** in the CNCF ecosystem.
+- Reach me: [LinkedIn](https://linkedin.com/in/ankitasalaria21) · [email](mailto:ankitasalaria21@gmail.com).
+
+---
+
 ## Education
 
 **University of Jammu** · Computer Science undergraduate
