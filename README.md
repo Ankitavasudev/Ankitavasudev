@@ -1,160 +1,75 @@
-<div align="center">
-<img src="https://raw.githubusercontent.com/Ankitavasudev/Ankitavasudev/main/banner-loop.gif" width="880" alt="Ankita Salaria - terminal"/>
-</div>
+# Ankita Salaria — Cloud-Native & Kubernetes Tooling
 
-<div align="center">
+CS undergraduate (University of Jammu) building **Kubernetes and observability tooling in Go and Python**.
+Contributor to **Meshery (CNCF incubating)**. Open to internships, OSS collaboration, and cloud-native mentorship.
 
-<p align="center">
-  <img src="https://github-readme-cards.vercel.app/api/pin/?username=Ankitavasudev&repo=k8s-health-monitor&theme=tokyonight&hide_border=true" width="49%" alt="k8s-health-monitor"/>
-  <img src="https://github-readme-cards.vercel.app/api/pin/?username=Ankitavasudev&repo=podsize&theme=tokyonight&hide_border=true" width="49%" alt="podsize"/>
-</p>
-<p align="center">
-  <img src="https://github-readme-cards.vercel.app/api/pin/?username=Ankitavasudev&repo=errtop&theme=tokyonight&hide_border=true" width="49%" alt="errtop"/>
-  <img src="https://github-readme-cards.vercel.app/api/pin/?username=Ankitavasudev&repo=container-lint&theme=tokyonight&hide_border=true" width="49%" alt="container-lint"/>
-</p>
-<p align="center">
-  <img src="https://github-readme-cards.vercel.app/api/pin/?username=Ankitavasudev&repo=godo&theme=tokyonight&hide_border=true" width="49%" alt="godo"/>
-  <img src="https://github-readme-cards.vercel.app/api/pin/?username=Ankitavasudev&repo=SolarSystem&theme=tokyonight&hide_border=true" width="49%" alt="SolarSystem"/>
-</p>
-
-</div>
-
-<div align="center">
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=32&duration=3000&pause=1200&color=4A90D9&center=true&vCenter=true&width=760&lines=Ankita+Salaria;Go+%26+Python+%C2%B7+Kubernetes+Tooling;Open+Source+%C2%B7+Developer+Tooling" alt="Ankita Salaria"/>
-
-<sub>CS undergraduate · India · building Kubernetes tooling in Go &amp; Python</sub>
-
-</div>
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-ankitasalaria21-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ankitasalaria21)
+[![Email](https://img.shields.io/badge/Email-ankitasalaria21%40gmail.com-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:ankitasalaria21@gmail.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-ankitavasudev.github.io-181717?style=flat&logo=githubpages&logoColor=white)](https://ankitavasudev.github.io)
+[![Hireable](https://img.shields.io/badge/Hireable-yes-2ea44f?style=flat)](https://github.com/Ankitavasudev)
 
 ---
 
 ## About
 
-```yaml
-Name: Ankita Salaria
-Role: CS Undergraduate · Go & Python Developer
-Focus:
-  - Kubernetes tooling: health checks, pod analysis, resource sizing (Go, Python)
-  - Runtime security & observability (KubeArmor)
-  - Developer CLIs with real test coverage and CI
-Building: quota-guard (k8s operator) · k8s-health-monitor · container-lint · podsize
-Open to:  Internships · Open source collaborations
-```
+I build small, honest CLI and operator tools for Kubernetes clusters: health checks, log triage, Dockerfile linting, pod resource sizing, and namespace budget enforcement. Every project ships with tests, CI, and docs that explain the *why* — not just the *how*.
 
-<div align="center">
-<img src="https://user-images.githubusercontent.com/74038190/216120974-24a76b31-7f39-41f1-a38f-b3c1377cc612.png" width="120" alt="coffee mug"/>
-</div>
+- **Languages:** Go, Python, (some) TypeScript/JavaScript
+- **Focus:** Kubernetes, observability, developer CLIs, container security
+- **Currently:** Research Assistant @ Moonshot (YC S26); Product Apprentice @ DoraDAO (GWY Fellowship 2.0); SheFi Scholar (Season 17)
+- **Open to:** Internships · Open-source collaboration · Cloud-native mentorship
 
 ---
 
-## Tech Stack
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=go,python,js,ts,cpp,bash" alt="languages"/>
-  <br>
-  <img src="https://skillicons.dev/icons?i=kubernetes,docker,linux,fastapi,react,threejs,git,githubactions" alt="platform and tools"/>
-</p>
-
-**Languages** — Go · Python · JavaScript · TypeScript · C++ · Bash
-**Frameworks** — FastAPI · React · Three.js · Cobra · Rich · pytest
-**Platform** — Kubernetes · Docker · Linux · Prometheus · GitHub Actions · CI/CD
-**Every project ships** — tests · CI · docs
-
----
-
-## Featured Work
-
-Tools built end to end — not tutorials, not forks.
+## Featured projects
 
 | Project | What it does | Stack |
-| :--- | :--- | :--- |
-| **[quota-guard](https://github.com/Ankitavasudev/quota-guard)** | Kubernetes operator for per-namespace CPU/memory request budgets: a `ResourceBudget` CRD reconciled against pod requests, writes status conditions + events, exposes Prometheus metrics; distroless image, RBAC, CRD manifest, CI.  | `Go` `controller-runtime` `CRD` `Prometheus` `CI` |
-| **[k8s-health-monitor](https://github.com/Ankitavasudev/k8s-health-monitor)** | Terminal dashboard for a cluster: node capacity, pod and deployment health, security findings, resource accounting, namespace diffing. Reports `UNKNOWN` instead of `HEALTHY` when it cannot reach the cluster; `--output prometheus` for scraping. | `Python` `kubectl` `Rich` `Prometheus` `pytest` `CI` |
-| **[container-lint](https://github.com/Ankitavasudev/container-lint)** | Lints Dockerfiles and compose files with no Docker daemon. 14 hadolint-style rules, `--format json`, `--fail-on` severity, pipeline-safe exit codes. | `Python` `PyYAML` `pytest` `CI` |
-| **[podsize](https://github.com/Ankitavasudev/podsize)** | Reads `kubectl get pods -o json` and gives each pod one verdict: `fix`, `set`, `tighten`, `investigate`, `watch` or `keep`. Refuses to invent numbers it cannot measure. | `Go` `Cobra` `kubectl` `CI` |
-| **[errtop](https://github.com/Ankitavasudev/errtop)** | Ranks container log errors by frequency, buckets them by minute, reads from file, stdin or `kubectl logs`. Text, JSON or stable CSV. | `Go` `Cobra` `kubectl` `CI` |
-| **[godo](https://github.com/Ankitavasudev/godo)** | Project-aware todo list in one JSON file: filters by project/status/priority/tag, due dates, stats, real CSV import/export. | `Go` `Cobra` `encoding/csv` `CI` |
+|---|---|---|
+| [quota-guard](https://github.com/Ankitavasudev/quota-guard) | Kubernetes operator enforcing per-namespace CPU/memory request budgets via a `ResourceBudget` CRD. Writes status conditions + events, exposes Prometheus metrics. Distroless image, RBAC, CI. | Go · controller-runtime · CRD · Prometheus |
+| [k8s-health-monitor](https://github.com/Ankitavasudev/k8s-health-monitor) | Terminal + browser cluster health: nodes, pods, deployments, resource accounting, security findings, Prometheus endpoint. Reports `UNKNOWN` instead of `HEALTHY` when it can't reach the cluster. | Python · kubectl · Rich · pytest |
+| [container-lint](https://github.com/Ankitavasudev/container-lint) | Lints Dockerfiles and compose files without a Docker daemon. 14 hadolint-style rules, JSON/SARIF output, CI-safe exit codes. | Python · PyYAML · pytest |
+| [podsize](https://github.com/Ankitavasudev/podsize) | Reads `kubectl get pods -o json` and gives each pod one verdict: `fix` / `set` / `tighten` / `investigate` / `watch` / `keep`. Refuses to invent numbers it can't measure. | Go · Cobra · kubectl |
+| [errtop](https://github.com/Ankitavasudev/errtop) | Ranks container log errors by frequency, buckets by minute, reads from file/stdin/`kubectl logs`. Text, JSON, stable CSV. | Go · Cobra · kubectl |
+| [godo](https://github.com/Ankitavasudev/godo) | Project-aware terminal task manager in one JSON file: filters by project/status/priority/tag, due dates, stats, CSV import/export. | Go · Cobra · encoding/csv |
 
-Live demos (all interactive): **[k8s-health-monitor](https://ankitavasudev.github.io/k8s-health-monitor/)** · **[container-lint](https://ankitavasudev.github.io/container-lint/)** · **[podsize](https://ankitavasudev.github.io/podsize/)** · **[errtop](https://ankitavasudev.github.io/errtop/)** · **[godo](https://ankitavasudev.github.io/godo/)** · **[drydock](https://ankitavasudev.github.io/drydock/)** · **[jobpulse](https://ankitavasudev.github.io/jobpulse/)** · **[gpuscope](https://ankitavasudev.github.io/gpuscope/)** · **[emotion-sense](https://ankitavasudev.github.io/emotion-sense/)** · **[SolarSystem](https://ankitavasudev.github.io/SolarSystem/)** · **[VoxNote](https://ankitavasudev.github.io/VoxNote/)** · **[NexusBoard](https://ankitavasudev.github.io/NexusBoard/)** · **[DevPulse](https://ankitavasudev.github.io/DevPulse/)**
-
----
-
-## Experience
-
-| Role | Organization | Notes |
-| :--- | :--- | :--- |
-| Research Assistant | **Moonshot (YC S26)** | remote applied research with an early-stage YC team |
-| Product Apprentice | **DoraDAO** — GWY Fellowship 2.0 | AI product building sessions with a shipping-first cohort |
-| Scholar | **SheFi** — Season 17 | selected SheFi Scholar, 2026 |
+Live demos (GitHub Pages): [k8s-health-monitor](https://ankitavasudev.github.io/k8s-health-monitor/) · [container-lint](https://ankitavasudev.github.io/container-lint/) · [podsize](https://ankitavasudev.github.io/podsize/) · [errtop](https://ankitavasudev.github.io/errtop/) · [godo](https://ankitavasudev.github.io/godo/)
 
 ---
 
-## Open Source Contributions
+## Open source (Meshery — CNCF incubating)
 
-I contribute to cloud-native projects in the CNCF ecosystem. Merged pull requests and reviews are tracked on my [GitHub PR dashboard](https://github.com/pulls?q=is%3Apr+author%3AAnkitavasudev+is%3Amerged).
+- [#22893 — close the gzip reader in TarXZ](https://github.com/meshery/meshery/pull/22893) · merged
+- [#22777 — fix "Everytime" typo in build & release guide](https://github.com/meshery/meshery/pull/22777) · merged
+- [#22961 — close scaffolded files per iteration instead of deferring](https://github.com/meshery/meshery/pull/22961) · open, all checks passing
+- [#22959 — close pod log streams per container](https://github.com/meshery/meshery/pull/22959) · merged
 
-| Project | Area | Link |
-| :--- | :--- | :--- |
-| [KubeArmor](https://github.com/kubearmor/KubeArmor) | Runtime security enforcement (LSM-BPF / AppArmor) | [my PRs](https://github.com/kubearmor/KubeArmor/pulls?q=is%3Apr+author%3AAnkitavasudev) |
-| [Meshery](https://github.com/meshery/meshery) | Cloud native manager | [my PRs](https://github.com/meshery/meshery/pulls?q=is%3Apr+author%3AAnkitavasudev) |
-| [konflux-ci](https://github.com/konflux-ci/konflux-ci) | Trusted builds / software factory | [my PRs](https://github.com/konflux-ci/konflux-ci/pulls?q=is%3Apr+author%3AAnkitavasudev) |
-
-> All contributions are public and reviewable. If a link shows zero PRs, that fork was exploration only — I keep those archived.
+Also merged fixes to [konflux-ci](https://github.com/konflux-ci/konflux-ci) (#9959, #9960) and [gslider-blocks](https://github.com/noruzzamans/gslider-blocks/pull/699).
 
 ---
 
-## Looking for
+## Stack
 
-- **Internships** in Kubernetes / platform engineering / developer tooling (Go, Python).
-- **Open source collaborations** in the CNCF ecosystem.
-- Reach me: [LinkedIn](https://linkedin.com/in/ankitasalaria21) · [email](mailto:ankitasalaria21@gmail.com).
+**Languages** — Go · Python · Bash
+**Frameworks / libs** — controller-runtime · Cobra · Rich · FastAPI · pytest
+**Platform** — Kubernetes · Docker · Linux · Prometheus · GitHub Actions
+**Every project ships** — tests · CI · docs · (Go projects) goreleaser releases
 
 ---
 
 ## Education
 
-**University of Jammu** · Computer Science undergraduate
-
-Coursework alongside hands-on work in Kubernetes, distributed systems and developer tooling.
-
-<div align="center">
-<img src="https://raw.githubusercontent.com/Ankitavasudev/Ankitavasudev/main/assets/education-cap.gif?v=2" width="120" alt="animated 3D graduation cap"/>
-</div>
-
----
-
-## GitHub Analytics
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Ankitavasudev/Ankitavasudev/main/assets/divider.gif" width="100%" alt=""/>
-</p>
-
-<div align="center">
-
-<img width="96%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Ankitavasudev&theme=tokyonight&v=20261107" alt="profile summary"/>
-
-<br>
-
-<img width="48%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Ankitavasudev&theme=tokyonight&v=20261107" alt="stats"/>
-
-<img width="48%" src="https://streak-stats.demolab.com?user=Ankitavasudev&theme=tokyonight&hide_border=true&v=20261107" alt="streak"/>
-
-</div>
+**University of Jammu** — B.Sc. Computer Science (undergraduate)
+Coursework alongside hands-on work in Kubernetes, distributed systems, and developer tooling.
 
 ---
 
 ## Contact
 
-<div align="center">
+- 📧 [ankitasalaria21@gmail.com](mailto:ankitasalaria21@gmail.com)
+- 💼 [linkedin.com/in/ankitasalaria21](https://www.linkedin.com/in/ankitasalaria21)
+- 🌐 [ankitavasudev.github.io](https://ankitavasudev.github.io)
+- 🐙 [github.com/Ankitavasudev](https://github.com/Ankitavasudev)
 
-<a href="https://linkedin.com/in/ankitasalaria21">
-<img src="https://img.shields.io/badge/LinkedIn-Ankita_Salaria-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-</a>
-<a href="mailto:ankitasalaria21@gmail.com">
-<img src="https://img.shields.io/badge/Email-ankitasalaria21@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
-</a>
-<a href="https://github.com/Ankitavasudev">
-<img src="https://img.shields.io/badge/GitHub-Ankitavasudev-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
-</a>
+---
 
-</div>
+> I don't list projects I can't explain line-by-line. If something here interests you, email me and I'll walk you through it.
